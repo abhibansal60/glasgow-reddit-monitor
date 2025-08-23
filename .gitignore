@@ -7,8 +7,6 @@
 # Keep requirements.txt (dependency specification)
 !requirements.txt
 
-# Runtime data
-seen_posts.json
 
 # Python cache files
 **/__pycache__/
