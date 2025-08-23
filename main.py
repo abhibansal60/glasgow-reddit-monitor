@@ -14,6 +14,7 @@ from datetime import datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from typing import List, Dict, Set
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import praw
 import requests
@@ -36,7 +37,7 @@ class RedditMonitor:
     def __init__(self):
         self.reddit = None
         self.seen_posts_file = 'seen_posts.json'
-        self.seen_posts: Set[str] = self.load_seen_posts()
+        self.seen_posts: Dict[str, str] = self.load_seen_posts()
         
         # Configuration from environment variables
         self.subreddits = ['glasgow', 'glasgowmarket']
@@ -106,23 +107,63 @@ class RedditMonitor:
             logger.error(f"Failed to initialize Reddit API: {e}")
             raise
     
-    def load_seen_posts(self) -> Set[str]:
-        """Load previously seen post IDs from file"""
+    def cleanup_old_posts(self, days: int = 7):
+        """Remove posts older than specified days to keep storage efficient"""
+        try:
+            cutoff_time = datetime.now() - timedelta(days=days)
+            cutoff_iso = cutoff_time.isoformat()
+            
+            initial_count = len(self.seen_posts)
+            
+            # Filter out old posts
+            self.seen_posts = {
+                post_id: timestamp 
+                for post_id, timestamp in self.seen_posts.items()
+                if timestamp > cutoff_iso
+            }
+            
+            removed_count = initial_count - len(self.seen_posts)
+            if removed_count > 0:
+                logger.info(f"Cleaned up {removed_count} posts older than {days} days")
+                self.save_seen_posts()
+            
+        except Exception as e:
+            logger.warning(f"Error during cleanup: {e}")
+    
+    def load_seen_posts(self) -> Dict[str, str]:
+        """Load previously seen post IDs with timestamps from file"""
         try:
             if os.path.exists(self.seen_posts_file):
                 with open(self.seen_posts_file, 'r') as f:
                     data = json.load(f)
-                    return set(data.get('seen_posts', []))
+                    
+                    # Handle old format (list of post IDs)
+                    if 'seen_posts' in data and isinstance(data['seen_posts'], list):
+                        logger.info("Converting old format seen_posts.json to new timestamped format")
+                        current_time = datetime.now().isoformat()
+                        # Convert old format to new format with current timestamp
+                        return {post_id: current_time for post_id in data['seen_posts']}
+                    
+                    # Handle new format (dict with timestamps)
+                    elif 'seen_posts' in data and isinstance(data['seen_posts'], dict):
+                        return data['seen_posts']
+                    
+                    # Fallback for unexpected format
+                    else:
+                        logger.warning("Unexpected seen_posts.json format, starting fresh")
+                        return {}
+                        
         except Exception as e:
             logger.warning(f"Could not load seen posts: {e}")
-        return set()
+        return {}
     
     def save_seen_posts(self):
-        """Save seen post IDs to file"""
+        """Save seen post IDs with timestamps to file"""
         try:
             data = {
-                'seen_posts': list(self.seen_posts),
-                'last_updated': datetime.now().isoformat()
+                'seen_posts': self.seen_posts,  # Now a dict with timestamps
+                'last_updated': datetime.now().isoformat(),
+                'total_posts': len(self.seen_posts)
             }
             with open(self.seen_posts_file, 'w') as f:
                 json.dump(data, f, indent=2)
@@ -177,7 +218,7 @@ class RedditMonitor:
                     'match_type': 'flair_priority'
                 }
                 flair_posts.append(post_info)
-                self.seen_posts.add(submission.id)
+                self.seen_posts[submission.id] = datetime.now().isoformat()
                 logger.info(f"Found flair post: {submission.title[:50]}...")
                 
         except Exception as e:
@@ -446,7 +487,7 @@ class RedditMonitor:
                     matching_posts.append(post_info)
                     logger.info(f"Found matching post: {submission.title[:50]}...")
                 
-                self.seen_posts.add(submission.id)
+                self.seen_posts[submission.id] = datetime.now().isoformat()
             
             logger.info(f"Checked {posts_checked} posts in r/{subreddit_name}")
             
@@ -476,6 +517,9 @@ class RedditMonitor:
     def run_single_check(self):
         """Run a single check of all subreddits"""
         logger.info("Starting Reddit check...")
+        
+        # Cleanup old posts to keep storage efficient
+        self.cleanup_old_posts()
         all_matching_posts = []
         
         for subreddit_name in self.subreddits:
