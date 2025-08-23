@@ -225,17 +225,23 @@ class RedditMonitor:
             content_type = 'html' if is_html else 'plain'
             msg.attach(MIMEText(body, content_type))
             
-            server = smtplib.SMTP(self.smtp_server, self.smtp_port)
+            server = smtplib.SMTP()
             try:
+                logger.debug(f"Connecting to SMTP server {self.smtp_server}:{self.smtp_port}")
+                server.connect(self.smtp_server, self.smtp_port)
                 server.starttls()
                 server.login(self.email_user, self.email_password)
                 server.send_message(msg)
             finally:
-                server.quit()
+                try:
+                    server.quit()
+                except:
+                    pass  # Ignore quit errors
             
             logger.info(f"Email sent successfully: {subject}")
         except Exception as e:
             logger.error(f"Failed to send email: {e}")
+            logger.error(f"SMTP Config: server={self.smtp_server}, port={self.smtp_port}, user={self.email_user}")
             raise
 
     def send_telegram_message(self, message: str):
