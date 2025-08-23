@@ -32,12 +32,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Download previous seen posts
-        uses: actions/download-artifact@v4
-        with:
-          name: seen-posts
-          path: .
-        continue-on-error: true # Don't fail if artifact doesn't exist yet
+      - name: Configure git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
 
       - name: Run Reddit monitor
         env:
@@ -57,18 +55,25 @@ jobs:
           GITHUB_ACTIONS: true
         run: python main.py
 
-      - name: Upload seen posts
-        uses: actions/upload-artifact@v4
-        with:
-          name: seen-posts
-          path: seen_posts.json
-          retention-days: 30 # Keep for 30 days
-        if: always() # Upload even if the script fails
+      - name: Commit updated seen posts
+        run: |
+          if [ -f seen_posts.json ]; then
+            if git diff --quiet seen_posts.json; then
+              echo "No changes to seen_posts.json"
+            else
+              git add seen_posts.json
+              git commit -m "Update seen posts - $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
+              git push
+            fi
+          else
+            echo "seen_posts.json not found"
+          fi
+        if: always()
 
-      - name: Upload logs
+      - name: Upload logs (for debugging)
         uses: actions/upload-artifact@v4
         with:
           name: logs-${{ github.run_number }}
           path: reddit_monitor.log
-          retention-days: 7 # Keep logs for 7 days
-        if: always() # Upload even if the script fails
+          retention-days: 7
+        if: failure() # Only upload logs on failure
