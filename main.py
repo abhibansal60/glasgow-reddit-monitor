@@ -9,6 +9,7 @@ import json
 import time
 import logging
 import smtplib
+import ssl
 from datetime import datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -52,7 +53,7 @@ class RedditMonitor:
         self.lenient_subreddits = ['glasgowmarket']
         
         # Email configuration
-        self.smtp_server = os.getenv('SMTP_SERVER', 'smtp.gmail.com')
+        self.smtp_server = os.getenv('SMTP_SERVER', 'smtp.gmail.com') or 'smtp.gmail.com'
         self.smtp_port = int(os.getenv('SMTP_PORT', '587') or '587')
         self.email_user = os.getenv('EMAIL_USER')
         self.email_password = os.getenv('EMAIL_PASSWORD')
@@ -225,10 +226,9 @@ class RedditMonitor:
             content_type = 'html' if is_html else 'plain'
             msg.attach(MIMEText(body, content_type))
             
-            server = smtplib.SMTP()
             try:
                 logger.debug(f"Connecting to SMTP server {self.smtp_server}:{self.smtp_port}")
-                server.connect(self.smtp_server, self.smtp_port)
+                server = smtplib.SMTP(self.smtp_server, self.smtp_port)
                 server.starttls()
                 server.login(self.email_user, self.email_password)
                 server.send_message(msg)
