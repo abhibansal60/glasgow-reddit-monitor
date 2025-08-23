@@ -225,10 +225,13 @@ class RedditMonitor:
             content_type = 'html' if is_html else 'plain'
             msg.attach(MIMEText(body, content_type))
             
-            with smtplib.SMTP(self.smtp_server, self.smtp_port) as server:
+            server = smtplib.SMTP(self.smtp_server, self.smtp_port)
+            try:
                 server.starttls()
                 server.login(self.email_user, self.email_password)
                 server.send_message(msg)
+            finally:
+                server.quit()
             
             logger.info(f"Email sent successfully: {subject}")
         except Exception as e:
@@ -250,9 +253,24 @@ class RedditMonitor:
                 'disable_web_page_preview': False
             }
             
-            response = requests.post(url, data=data, timeout=10)
-            response.raise_for_status()
+            # Validate message length and HTML tags
+            if len(message) > 4096:
+                message = message[:4090] + "..."
+                data['text'] = message
             
+            response = requests.post(url, data=data, timeout=10)
+            
+            if response.status_code != 200:
+                logger.error(f"Telegram API error {response.status_code}: {response.text}")
+                # Try with plain text if HTML fails
+                if response.status_code == 400 and 'parse_mode' in data:
+                    data['parse_mode'] = 'Markdown'  # Fallback to Markdown
+                    response = requests.post(url, data=data, timeout=10)
+                    if response.status_code != 200:
+                        data.pop('parse_mode', None)  # Try plain text
+                        response = requests.post(url, data=data, timeout=10)
+                        
+            response.raise_for_status()
             logger.info("Telegram notification sent successfully")
         except Exception as e:
             logger.error(f"Failed to send Telegram notification: {e}")
