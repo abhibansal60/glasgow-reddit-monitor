@@ -43,13 +43,14 @@ class RedditMonitor:
         self.keywords = self._parse_keywords(os.getenv('KEYWORDS', 'free ticket,cheap ticket,giveaway,free entry,discount'))
         self.check_interval = int(os.getenv('CHECK_INTERVAL_MINUTES', '15') or '15') * 60
         self.max_posts_per_run = int(os.getenv('MAX_POSTS_PER_RUN', '50') or '50')
+        self.days_to_check = int(os.getenv('DAYS_TO_CHECK', '7') or '7')
         
         # Flair configuration for priority monitoring
         self.flair_priority = {
             'glasgow': 'Ticket share. No adverts, free tickets only'
         }
         
-        # Lenient mode for less active subreddits
+        # Lenient mode for less active subreddits (uses 2x time window)
         self.lenient_subreddits = ['glasgowmarket']
         
         # Email configuration
@@ -129,11 +130,16 @@ class RedditMonitor:
             logger.error(f"Could not save seen posts: {e}")
     
     def contains_keywords(self, text: str) -> List[str]:
-        """Check if text contains any keywords and return matches"""
+        """Check if text contains any keywords and return matches (improved word-boundary matching)"""
+        import re
         text_lower = text.lower()
         matches = []
+        
         for keyword in self.keywords:
-            if keyword in text_lower:
+            # Create regex pattern for word boundary matching
+            # This handles both exact word matches and partial word matches better
+            pattern = re.compile(re.escape(keyword.lower()), re.IGNORECASE)
+            if pattern.search(text):
                 matches.append(keyword)
         return matches
 
@@ -154,9 +160,10 @@ class RedditMonitor:
                 if submission.id in self.seen_posts:
                     continue
                     
-                # Check if post is from last 24 hours
+                # Check if post is within configured time window
                 post_age_hours = (datetime.now().timestamp() - submission.created_utc) / 3600
-                if post_age_hours > 24:
+                max_hours = self.days_to_check * 24
+                if post_age_hours > max_hours:
                     continue
                 
                 post_info = {
@@ -403,7 +410,8 @@ class RedditMonitor:
             
             posts_checked = 0
             # Adjust time filter based on subreddit activity (lenient mode)
-            time_filter_hours = 48 if subreddit_name in self.lenient_subreddits else 24
+            base_hours = self.days_to_check * 24
+            time_filter_hours = base_hours * 2 if subreddit_name in self.lenient_subreddits else base_hours
             
             for submission in subreddit.new(limit=self.max_posts_per_run):
                 posts_checked += 1
@@ -419,6 +427,10 @@ class RedditMonitor:
                 # Check title and selftext for keywords
                 search_text = f"{submission.title} {submission.selftext}"
                 matched_keywords = self.contains_keywords(search_text)
+                
+                # Debug logging for troubleshooting
+                if any(keyword.lower() in search_text.lower() for keyword in ['glasgow', 'love']):
+                    logger.info(f"DEBUG: Post with glasgow/love found: '{submission.title[:50]}...' Age: {post_age_hours:.1f}h Matches: {matched_keywords}")
                 
                 if matched_keywords:
                     post_info = {
