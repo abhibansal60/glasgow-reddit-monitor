@@ -40,8 +40,8 @@ class RedditMonitor:
         # Configuration from environment variables
         self.subreddits = ['glasgow', 'glasgowmarket']
         self.keywords = self._parse_keywords(os.getenv('KEYWORDS', 'free ticket,cheap ticket,giveaway,free entry,discount'))
-        self.check_interval = int(os.getenv('CHECK_INTERVAL_MINUTES', '15')) * 60
-        self.max_posts_per_run = int(os.getenv('MAX_POSTS_PER_RUN', '50'))
+        self.check_interval = int(os.getenv('CHECK_INTERVAL_MINUTES', '15') or '15') * 60
+        self.max_posts_per_run = int(os.getenv('MAX_POSTS_PER_RUN', '50') or '50')
         
         # Flair configuration for priority monitoring
         self.flair_priority = {
@@ -53,7 +53,7 @@ class RedditMonitor:
         
         # Email configuration
         self.smtp_server = os.getenv('SMTP_SERVER', 'smtp.gmail.com')
-        self.smtp_port = int(os.getenv('SMTP_PORT', '587'))
+        self.smtp_port = int(os.getenv('SMTP_PORT', '587') or '587')
         self.email_user = os.getenv('EMAIL_USER')
         self.email_password = os.getenv('EMAIL_PASSWORD')
         self.notification_email = os.getenv('NOTIFICATION_EMAIL')
