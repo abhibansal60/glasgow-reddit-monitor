@@ -5,6 +5,17 @@ on:
     # Run every 15 minutes (GitHub Actions free tier minimum)
     - cron: '*/15 * * * *'
   workflow_dispatch: # Allow manual triggering
+    inputs:
+      test_notifications:
+        description: 'Send test notifications (both/email/telegram/none)'
+        required: false
+        default: 'none'
+        type: choice
+        options:
+        - none
+        - both
+        - email
+        - telegram
 
 jobs:
   monitor:
@@ -56,7 +67,14 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_ACTIONS: true
-        run: python main.py
+        run: |
+          if [ "${{ github.event.inputs.test_notifications }}" != "none" ] && [ "${{ github.event.inputs.test_notifications }}" != "" ]; then
+            echo "Running test notifications: ${{ github.event.inputs.test_notifications }}"
+            python main.py test ${{ github.event.inputs.test_notifications }}
+          else
+            echo "Running normal Reddit monitoring"
+            python main.py
+          fi
 
       - name: Commit updated seen posts
         run: |
