@@ -1,2 +1,8 @@
-praw==7.7.1
-python-dotenv==1.0.0
+# Reddit API
+praw>=7.7.0
+
+# HTTP requests for Telegram API
+requests>=2.31.0
+
+# Environment variable management
+python-dotenv>=1.0.0

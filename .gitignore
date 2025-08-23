@@ -1,0 +1,41 @@
+# Environment variables and secrets
+.env
+
+# Log files
+*.log
+
+# Keep requirements.txt (dependency specification)
+!requirements.txt
+
+# Runtime data
+seen_posts.json
+
+# Python cache files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Development files
+prompt-prep.md
+debug.py
+test_*.py
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
