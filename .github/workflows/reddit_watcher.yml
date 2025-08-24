@@ -76,20 +76,40 @@ jobs:
             python main.py
           fi
 
-      - name: Commit updated seen posts
+      - name: Commit updated files
         run: |
-          if [ -f seen_posts.json ]; then
-            if git diff --quiet seen_posts.json; then
-              echo "No changes to seen_posts.json"
-            else
-              git add seen_posts.json
-              git commit -m "Update seen posts - $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
-              git push
-            fi
+          # Check for changes in tracked files
+          CHANGES=""
+          if [ -f seen_posts.json ] && ! git diff --quiet seen_posts.json; then
+            git add seen_posts.json
+            CHANGES="$CHANGES seen_posts.json"
+          fi
+          if [ -f analytics.json ] && ! git diff --quiet analytics.json; then
+            git add analytics.json  
+            CHANGES="$CHANGES analytics.json"
+          fi
+          if [ -f docs/index.html ] && ! git diff --quiet docs/index.html; then
+            git add docs/index.html
+            CHANGES="$CHANGES dashboard"
+          fi
+          
+          if [ -n "$CHANGES" ]; then
+            git commit -m "Update monitoring data:$CHANGES - $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
+            git push
+            echo "Committed changes:$CHANGES"
           else
-            echo "seen_posts.json not found"
+            echo "No changes to commit"
           fi
         if: always()
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: success()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          keep_files: false
+          commit_message: "Update analytics dashboard"
 
       - name: Upload logs (for debugging)
         uses: actions/upload-artifact@v4
