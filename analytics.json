@@ -9,12 +9,12 @@
   "subreddit_stats": {},
   "user_stats": {},
   "filter_stats": {
-    "total_posts_checked": 2600,
+    "total_posts_checked": 2700,
     "keyword_matches": 1,
-    "excluded_by_keywords": 2,
-    "excluded_by_user_quality": 10,
+    "excluded_by_keywords": 3,
+    "excluded_by_user_quality": 12,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 0
   },
-  "last_updated": "2025-08-24T15:49:39.550695"
+  "last_updated": "2025-08-24T16:18:53.874402"
 }
