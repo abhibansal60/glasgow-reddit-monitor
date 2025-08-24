@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Monitor Analytics Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .empty-state {
+            text-align: center;
+            background: white;
+            padding: 60px 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            max-width: 500px;
+        }
+        .empty-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        .empty-title {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .empty-description {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="empty-state">
+        <div class="empty-icon">📊</div>
+        <div class="empty-title">No Data Available</div>
+        <div class="empty-description">
+            The Reddit Monitor is running but hasn't found any matches yet.<br>
+            Check back after the system has been monitoring for a while.
+        </div>
+        <p><small>Last updated: 2025-08-24 07:40:46</small></p>
+    </div>
+</body>
+</html>

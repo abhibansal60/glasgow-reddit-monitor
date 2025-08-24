@@ -1,0 +1,20 @@
+title: "Reddit Monitor Analytics"
+description: "Real-time analytics for Glasgow Reddit monitoring"
+theme: minima
+url: "https://your-username.github.io"
+baseurl: "/glasgow-reddit-monitor"
+
+# GitHub Pages settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# Site settings
+show_excerpts: true
