@@ -12,6 +12,19 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1mzx8hb/why_are_scotrail_so_shitty_and_rude/"
+    },
+    {
+      "timestamp": "2025-08-25T19:13:22.328362",
+      "post_id": "1mzzihf",
+      "subreddit": "glasgow",
+      "title": "Glasgow airport parking discount",
+      "author": "WarmFlamingo9310",
+      "score": 0,
+      "created_utc": 1756148748.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1mzzihf/glasgow_airport_parking_discount/"
     }
   ],
   "keywords_stats": {
@@ -20,29 +33,33 @@
       "last_match": "2025-08-24T08:09:15.033457"
     },
     "discount": {
-      "count": 1,
-      "last_match": "2025-08-25T17:49:44.699718"
+      "count": 2,
+      "last_match": "2025-08-25T19:13:22.328066"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 1,
-      "last_match": "2025-08-25T17:49:44.700027"
+      "count": 2,
+      "last_match": "2025-08-25T19:13:22.328367"
     }
   },
   "user_stats": {
     "Lopsided-Abalone-373": {
       "count": 1,
       "last_post": "2025-08-25T17:49:44.700031"
+    },
+    "WarmFlamingo9310": {
+      "count": 1,
+      "last_post": "2025-08-25T19:13:22.328370"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 9300,
-    "keyword_matches": 2,
+    "total_posts_checked": 9400,
+    "keyword_matches": 3,
     "excluded_by_keywords": 9,
-    "excluded_by_user_quality": 322,
+    "excluded_by_user_quality": 329,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 0
   },
-  "last_updated": "2025-08-25T18:49:34.965272"
+  "last_updated": "2025-08-25T19:13:24.499291"
 }
