@@ -5,49 +5,328 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reddit Monitor Analytics Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             margin: 0;
             padding: 20px;
             background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
         }
-        .empty-state {
-            text-align: center;
-            background: white;
-            padding: 60px 40px;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
-            max-width: 500px;
+            margin-bottom: 30px;
+            text-align: center;
         }
-        .empty-icon {
-            font-size: 4em;
-            margin-bottom: 20px;
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
         }
-        .empty-title {
-            font-size: 1.5em;
-            color: #333;
-            margin-bottom: 10px;
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
         }
-        .empty-description {
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
             color: #666;
-            line-height: 1.6;
+            margin-top: 5px;
+        }
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .chart-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: center;
+            color: #333;
+        }
+        .recent-matches {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .recent-matches h3 {
+            background: #667eea;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            font-size: 1.1em;
+        }
+        .match-item {
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .match-item:last-child {
+            border-bottom: none;
+        }
+        .match-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .match-meta {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .match-keywords {
+            background: #e3f2fd;
+            color: #1565c0;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin: 5px 5px 0 0;
+            display: inline-block;
+        }
+        .footer {
+            text-align: center;
+            color: #666;
+            margin-top: 30px;
+            padding: 20px;
+        }
+        @media (max-width: 768px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
     </style>
 </head>
 <body>
-    <div class="empty-state">
-        <div class="empty-icon">📊</div>
-        <div class="empty-title">No Data Available</div>
-        <div class="empty-description">
-            The Reddit Monitor is running but hasn't found any matches yet.<br>
-            Check back after the system has been monitoring for a while.
+    <div class="container">
+        <div class="header">
+            <h1>🎫 Reddit Monitor Analytics</h1>
+            <p>Monitoring r/glasgow & r/glasgowmarket for tickets and giveaways</p>
+            <p><small>Last updated: 2025-08-25 17:49:47</small></p>
         </div>
-        <p><small>Last updated: 2025-08-25 17:31:15</small></p>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Total Matches</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Last 7 Days</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">0.0%</div>
+                <div class="stat-label">Filter Efficiency</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">0.1</div>
+                <div class="stat-label">Daily Average</div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-container">
+                <div class="chart-title">Matches Over Time</div>
+                <canvas id="timeChart" width="400" height="200"></canvas>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">Top Keywords</div>
+                <canvas id="keywordsChart" width="400" height="200"></canvas>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">Subreddit Distribution</div>
+                <canvas id="subredditChart" width="400" height="200"></canvas>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">Filtering Statistics</div>
+                <canvas id="filterChart" width="400" height="200"></canvas>
+            </div>
+        </div>
+
+        <div class="recent-matches">
+            <h3>Recent Matches (Last 10)</h3>
+            
+            <div class="match-item">
+                <div class="match-title">
+                    <a href="https://reddit.com/r/glasgow/comments/1mzx8hb/why_are_scotrail_so_shitty_and_rude/" target="_blank" style="text-decoration: none; color: inherit;">
+                        Why are Scotrail so shitty and rude?
+                    </a>
+                </div>
+                <div class="match-meta">
+                    r/glasgow • Lopsided-Abalone-373 • Score: 0 • 
+                    2025-08-25 17:49
+                </div>
+                <div><span class="match-keywords">discount</span></div>
+            </div>
+            
+        </div>
+
+        <div class="footer">
+            <p>Generated by Reddit Monitor v2.0 | Zero-cost analytics on GitHub Pages</p>
+        </div>
     </div>
+
+    <script>
+        // Chart.js configuration
+        Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+        Chart.defaults.color = '#666';
+
+        // Time chart
+        
+        const timeCtx = document.getElementById('timeChart').getContext('2d');
+        new Chart(timeCtx, {
+            type: 'line',
+            data: {
+                labels: ["07/27", "07/28", "07/29", "07/30", "07/31", "08/01", "08/02", "08/03", "08/04", "08/05", "08/06", "08/07", "08/08", "08/09", "08/10", "08/11", "08/12", "08/13", "08/14", "08/15", "08/16", "08/17", "08/18", "08/19", "08/20", "08/21", "08/22", "08/23", "08/24", "08/25"],
+                datasets: [{
+                    label: 'Matches',
+                    data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+                    borderColor: '#667eea',
+                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                    tension: 0.4,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+
+        // Keywords chart  
+        
+        const keywordsCtx = document.getElementById('keywordsChart').getContext('2d');
+        new Chart(keywordsCtx, {
+            type: 'bar',
+            data: {
+                labels: ["free ticket", "discount"],
+                datasets: [{
+                    label: 'Matches',
+                    data: [1, 1],
+                    backgroundColor: 'rgba(102, 126, 234, 0.6)',
+                    borderColor: '#667eea',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+
+        // Subreddit chart
+        
+        const subredditCtx = document.getElementById('subredditChart').getContext('2d');
+        new Chart(subredditCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ["r/glasgow"],
+                datasets: [{
+                    data: [1],
+                    backgroundColor: ["#667eea"],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+
+        // Filter chart
+        
+        const filterCtx = document.getElementById('filterChart').getContext('2d');
+        new Chart(filterCtx, {
+            type: 'bar',
+            data: {
+                labels: ["Keywords Matched", "Excluded by Keywords", "Excluded by User Quality", "Excluded by Score", "Excluded by Deduplication"],
+                datasets: [{
+                    label: 'Count',
+                    data: [2, 9, 310, 0, 0],
+                    backgroundColor: [
+                        'rgba(76, 175, 80, 0.6)',   // Keywords Matched - green
+                        'rgba(255, 152, 0, 0.6)',   // Excluded by Keywords - orange  
+                        'rgba(244, 67, 54, 0.6)',   // Excluded by User Quality - red
+                        'rgba(156, 39, 176, 0.6)',  // Excluded by Score - purple
+                        'rgba(33, 150, 243, 0.6)'   // Excluded by Deduplication - blue
+                    ],
+                    borderColor: [
+                        '#4caf50', '#ff9800', '#f44336', '#9c27b0', '#2196f3'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 </html>
