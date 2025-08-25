@@ -1,20 +1,48 @@
 {
-  "matches": [],
+  "matches": [
+    {
+      "timestamp": "2025-08-25T17:49:44.700019",
+      "post_id": "1mzx8hb",
+      "subreddit": "glasgow",
+      "title": "Why are Scotrail so shitty and rude?",
+      "author": "Lopsided-Abalone-373",
+      "score": 0,
+      "created_utc": 1756143676.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1mzx8hb/why_are_scotrail_so_shitty_and_rude/"
+    }
+  ],
   "keywords_stats": {
     "free ticket": {
       "count": 1,
       "last_match": "2025-08-24T08:09:15.033457"
+    },
+    "discount": {
+      "count": 1,
+      "last_match": "2025-08-25T17:49:44.699718"
     }
   },
-  "subreddit_stats": {},
-  "user_stats": {},
+  "subreddit_stats": {
+    "glasgow": {
+      "count": 1,
+      "last_match": "2025-08-25T17:49:44.700027"
+    }
+  },
+  "user_stats": {
+    "Lopsided-Abalone-373": {
+      "count": 1,
+      "last_post": "2025-08-25T17:49:44.700031"
+    }
+  },
   "filter_stats": {
-    "total_posts_checked": 9000,
-    "keyword_matches": 1,
-    "excluded_by_keywords": 8,
-    "excluded_by_user_quality": 304,
+    "total_posts_checked": 9100,
+    "keyword_matches": 2,
+    "excluded_by_keywords": 9,
+    "excluded_by_user_quality": 310,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 0
   },
-  "last_updated": "2025-08-25T17:31:15.251617"
+  "last_updated": "2025-08-25T17:49:47.000994"
 }
