@@ -25,12 +25,25 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1mzzihf/glasgow_airport_parking_discount/"
+    },
+    {
+      "timestamp": "2025-08-28T18:23:24.099915",
+      "post_id": "1n2jv1y",
+      "subreddit": "glasgow",
+      "title": "FREE TICKET TO FATHER JOHN MISTY TONIGHT BARROWLANDS",
+      "author": "ThisIsFitz",
+      "score": 2,
+      "created_utc": 1756404960.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1n2jv1y/free_ticket_to_father_john_misty_tonight/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 1,
-      "last_match": "2025-08-24T08:09:15.033457"
+      "count": 2,
+      "last_match": "2025-08-28T18:23:24.099609"
     },
     "discount": {
       "count": 2,
@@ -39,8 +52,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 2,
-      "last_match": "2025-08-25T19:13:22.328367"
+      "count": 3,
+      "last_match": "2025-08-28T18:23:24.099920"
     }
   },
   "user_stats": {
@@ -51,15 +64,19 @@
     "WarmFlamingo9310": {
       "count": 1,
       "last_post": "2025-08-25T19:13:22.328370"
+    },
+    "ThisIsFitz": {
+      "count": 1,
+      "last_post": "2025-08-28T18:23:24.099923"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 27100,
-    "keyword_matches": 3,
-    "excluded_by_keywords": 12,
-    "excluded_by_user_quality": 1286,
+    "total_posts_checked": 27200,
+    "keyword_matches": 4,
+    "excluded_by_keywords": 13,
+    "excluded_by_user_quality": 1291,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 35
+    "excluded_by_deduplication": 36
   },
-  "last_updated": "2025-08-28T17:49:41.440778"
+  "last_updated": "2025-08-28T18:23:26.543449"
 }
