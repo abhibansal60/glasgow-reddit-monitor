@@ -38,12 +38,25 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1n2jv1y/free_ticket_to_father_john_misty_tonight/"
+    },
+    {
+      "timestamp": "2025-08-31T13:04:21.441649",
+      "post_id": "1n4qfgj",
+      "subreddit": "glasgow",
+      "title": "Free Ticket to see Inoha at The Poetry Club tonight",
+      "author": "ScottishG",
+      "score": 3,
+      "created_utc": 1756632766.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1n4qfgj/free_ticket_to_see_inoha_at_the_poetry_club/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 2,
-      "last_match": "2025-08-28T18:23:24.099609"
+      "count": 3,
+      "last_match": "2025-08-31T13:04:21.441569"
     },
     "discount": {
       "count": 2,
@@ -52,8 +65,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 3,
-      "last_match": "2025-08-28T18:23:24.099920"
+      "count": 4,
+      "last_match": "2025-08-31T13:04:21.441654"
     }
   },
   "user_stats": {
@@ -68,15 +81,19 @@
     "ThisIsFitz": {
       "count": 1,
       "last_post": "2025-08-28T18:23:24.099923"
+    },
+    "ScottishG": {
+      "count": 1,
+      "last_post": "2025-08-31T13:04:21.441657"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 45900,
-    "keyword_matches": 4,
+    "total_posts_checked": 46000,
+    "keyword_matches": 5,
     "excluded_by_keywords": 19,
-    "excluded_by_user_quality": 3006,
+    "excluded_by_user_quality": 3012,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 108
   },
-  "last_updated": "2025-08-31T12:30:45.398740"
+  "last_updated": "2025-08-31T13:04:24.326757"
 }
