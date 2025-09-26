@@ -109,12 +109,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 215750,
+    "total_posts_checked": 215850,
     "keyword_matches": 6,
     "excluded_by_keywords": 93,
-    "excluded_by_user_quality": 17663,
+    "excluded_by_user_quality": 17672,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 765
+    "excluded_by_deduplication": 769
   },
-  "last_updated": "2025-09-26T03:45:54.373030"
+  "last_updated": "2025-09-26T04:19:23.052642"
 }
