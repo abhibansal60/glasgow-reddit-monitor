@@ -1,32 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-08-25T17:49:44.700019",
-      "post_id": "1mzx8hb",
-      "subreddit": "glasgow",
-      "title": "Why are Scotrail so shitty and rude?",
-      "author": "Lopsided-Abalone-373",
-      "score": 0,
-      "created_utc": 1756143676.0,
-      "matched_keywords": [
-        "discount"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1mzx8hb/why_are_scotrail_so_shitty_and_rude/"
-    },
-    {
-      "timestamp": "2025-08-25T19:13:22.328362",
-      "post_id": "1mzzihf",
-      "subreddit": "glasgow",
-      "title": "Glasgow airport parking discount",
-      "author": "WarmFlamingo9310",
-      "score": 0,
-      "created_utc": 1756148748.0,
-      "matched_keywords": [
-        "discount"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1mzzihf/glasgow_airport_parking_discount/"
-    },
-    {
       "timestamp": "2025-08-28T18:23:24.099915",
       "post_id": "1n2jv1y",
       "subreddit": "glasgow",
@@ -64,6 +38,19 @@
         "voucher"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1nnu0os/voucher_for_cubatas_going/"
+    },
+    {
+      "timestamp": "2025-09-27T17:27:30.985352",
+      "post_id": "1ns0qz2",
+      "subreddit": "glasgow",
+      "title": "Fogharach Spare ticket for free",
+      "author": "RingKisser",
+      "score": 1,
+      "created_utc": 1758993443.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1ns0qz2/fogharach_spare_ticket_for_free/"
     }
   ],
   "keywords_stats": {
@@ -78,12 +65,16 @@
     "voucher": {
       "count": 1,
       "last_match": "2025-09-22T18:23:01.123685"
+    },
+    "spare ticket": {
+      "count": 1,
+      "last_match": "2025-09-27T17:27:30.985246"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 5,
-      "last_match": "2025-09-22T18:23:01.123741"
+      "count": 6,
+      "last_match": "2025-09-27T17:27:30.985357"
     }
   },
   "user_stats": {
@@ -106,15 +97,19 @@
     "Celestialghosty": {
       "count": 1,
       "last_post": "2025-09-22T18:23:01.123744"
+    },
+    "RingKisser": {
+      "count": 1,
+      "last_post": "2025-09-27T17:27:30.985360"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 226550,
-    "keyword_matches": 6,
+    "total_posts_checked": 226650,
+    "keyword_matches": 7,
     "excluded_by_keywords": 97,
-    "excluded_by_user_quality": 18468,
+    "excluded_by_user_quality": 18475,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 1249
+    "excluded_by_deduplication": 1252
   },
-  "last_updated": "2025-09-27T17:12:13.963430"
+  "last_updated": "2025-09-27T17:27:34.458584"
 }
