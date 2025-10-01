@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-08-31T13:04:21.441649",
-      "post_id": "1n4qfgj",
-      "subreddit": "glasgow",
-      "title": "Free Ticket to see Inoha at The Poetry Club tonight",
-      "author": "ScottishG",
-      "score": 3,
-      "created_utc": 1756632766.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1n4qfgj/free_ticket_to_see_inoha_at_the_poetry_club/"
-    },
-    {
       "timestamp": "2025-09-22T18:23:01.123736",
       "post_id": "1nnu0os",
       "subreddit": "glasgow",
@@ -51,6 +38,19 @@
         "voucher"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1nsswqa/massage_voucher_as_a_gift/"
+    },
+    {
+      "timestamp": "2025-10-01T13:18:20.597980",
+      "post_id": "1nv7i0p",
+      "subreddit": "glasgowmarket",
+      "title": "1x Refused ticket (standing) tonight 1 October at SWG3",
+      "author": "misteramos",
+      "score": 1,
+      "created_utc": 1759323500.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1nv7i0p/1x_refused_ticket_standing_tonight_1_october_at/"
     }
   ],
   "keywords_stats": {
@@ -67,14 +67,18 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 1,
-      "last_match": "2025-09-27T17:27:30.985246"
+      "count": 2,
+      "last_match": "2025-10-01T13:18:20.597934"
     }
   },
   "subreddit_stats": {
     "glasgow": {
       "count": 7,
       "last_match": "2025-09-28T16:39:38.784024"
+    },
+    "glasgowmarket": {
+      "count": 1,
+      "last_match": "2025-10-01T13:18:20.597986"
     }
   },
   "user_stats": {
@@ -105,15 +109,19 @@
     "OldManAndTheSea93": {
       "count": 1,
       "last_post": "2025-09-28T16:39:38.784027"
+    },
+    "misteramos": {
+      "count": 1,
+      "last_post": "2025-10-01T13:18:20.597988"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 251650,
-    "keyword_matches": 8,
-    "excluded_by_keywords": 105,
-    "excluded_by_user_quality": 20043,
+    "total_posts_checked": 251750,
+    "keyword_matches": 9,
+    "excluded_by_keywords": 106,
+    "excluded_by_user_quality": 20050,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 2053
+    "excluded_by_deduplication": 2057
   },
-  "last_updated": "2025-10-01T12:36:34.886054"
+  "last_updated": "2025-10-01T13:18:21.997428"
 }
