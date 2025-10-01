@@ -125,7 +125,7 @@
         <div class="header">
             <h1>🎫 Reddit Monitor Analytics</h1>
             <p>Monitoring r/glasgow & r/glasgowmarket for tickets and giveaways</p>
-            <p><small>Last updated: 2025-10-01 12:36:34</small></p>
+            <p><small>Last updated: 2025-10-01 13:18:22</small></p>
         </div>
 
         <div class="stats-grid">
@@ -134,7 +134,7 @@
                 <div class="stat-label">Total Matches</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">2</div>
+                <div class="stat-number">3</div>
                 <div class="stat-label">Last 7 Days</div>
             </div>
             <div class="stat-card">
@@ -142,7 +142,7 @@
                 <div class="stat-label">Filter Efficiency</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">0.3</div>
+                <div class="stat-number">0.4</div>
                 <div class="stat-label">Daily Average</div>
             </div>
         </div>
@@ -171,6 +171,19 @@
 
         <div class="recent-matches">
             <h3>Recent Matches (Last 10)</h3>
+            
+            <div class="match-item">
+                <div class="match-title">
+                    <a href="https://reddit.com/r/glasgowmarket/comments/1nv7i0p/1x_refused_ticket_standing_tonight_1_october_at/" target="_blank" style="text-decoration: none; color: inherit;">
+                        1x Refused ticket (standing) tonight 1 October at SWG3
+                    </a>
+                </div>
+                <div class="match-meta">
+                    r/glasgowmarket • misteramos • Score: 1 • 
+                    2025-10-01 13:18
+                </div>
+                <div><span class="match-keywords">spare ticket</span></div>
+            </div>
             
             <div class="match-item">
                 <div class="match-title">
@@ -211,19 +224,6 @@
                 <div><span class="match-keywords">voucher</span></div>
             </div>
             
-            <div class="match-item">
-                <div class="match-title">
-                    <a href="https://reddit.com/r/glasgow/comments/1n4qfgj/free_ticket_to_see_inoha_at_the_poetry_club/" target="_blank" style="text-decoration: none; color: inherit;">
-                        Free Ticket to see Inoha at The Poetry Club tonight
-                    </a>
-                </div>
-                <div class="match-meta">
-                    r/glasgow • ScottishG • Score: 3 • 
-                    2025-08-31 13:04
-                </div>
-                <div><span class="match-keywords">free ticket</span></div>
-            </div>
-            
         </div>
 
         <div class="footer">
@@ -245,7 +245,7 @@
                 labels: ["09/02", "09/03", "09/04", "09/05", "09/06", "09/07", "09/08", "09/09", "09/10", "09/11", "09/12", "09/13", "09/14", "09/15", "09/16", "09/17", "09/18", "09/19", "09/20", "09/21", "09/22", "09/23", "09/24", "09/25", "09/26", "09/27", "09/28", "09/29", "09/30", "10/01"],
                 datasets: [{
                     label: 'Matches',
-                    data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+                    data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1],
                     borderColor: '#667eea',
                     backgroundColor: 'rgba(102, 126, 234, 0.1)',
                     tension: 0.4,
@@ -279,7 +279,7 @@
                 labels: ["free ticket", "discount", "voucher", "spare ticket"],
                 datasets: [{
                     label: 'Matches',
-                    data: [3, 2, 2, 1],
+                    data: [3, 2, 2, 2],
                     backgroundColor: 'rgba(102, 126, 234, 0.6)',
                     borderColor: '#667eea',
                     borderWidth: 1
@@ -309,10 +309,10 @@
         new Chart(subredditCtx, {
             type: 'doughnut',
             data: {
-                labels: ["r/glasgow"],
+                labels: ["r/glasgow", "r/glasgowmarket"],
                 datasets: [{
-                    data: [7],
-                    backgroundColor: ["#667eea"],
+                    data: [7, 1],
+                    backgroundColor: ["#667eea", "#764ba2"],
                     borderWidth: 0
                 }]
             },
@@ -335,7 +335,7 @@
                 labels: ["Keywords Matched", "Excluded by Keywords", "Excluded by User Quality", "Excluded by Score", "Excluded by Deduplication"],
                 datasets: [{
                     label: 'Count',
-                    data: [8, 105, 20043, 0, 2053],
+                    data: [9, 106, 20050, 0, 2057],
                     backgroundColor: [
                         'rgba(76, 175, 80, 0.6)',   // Keywords Matched - green
                         'rgba(255, 152, 0, 0.6)',   // Excluded by Keywords - orange  
