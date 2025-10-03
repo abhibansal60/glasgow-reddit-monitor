@@ -51,6 +51,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1nv7i0p/1x_refused_ticket_standing_tonight_1_october_at/"
+    },
+    {
+      "timestamp": "2025-10-03T09:49:59.290319",
+      "post_id": "1nwulmr",
+      "subreddit": "glasgow",
+      "title": "Pavilion 4th Oct 25 2.30pm When We Were Young x 2 Tickets Giveaway",
+      "author": "MartyMc50",
+      "score": 1,
+      "created_utc": 1759484449.0,
+      "matched_keywords": [
+        "giveaway"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1nwulmr/pavilion_4th_oct_25_230pm_when_we_were_young_x_2/"
     }
   ],
   "keywords_stats": {
@@ -69,12 +82,16 @@
     "spare ticket": {
       "count": 2,
       "last_match": "2025-10-01T13:18:20.597934"
+    },
+    "giveaway": {
+      "count": 1,
+      "last_match": "2025-10-03T09:49:59.290100"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 7,
-      "last_match": "2025-09-28T16:39:38.784024"
+      "count": 8,
+      "last_match": "2025-10-03T09:49:59.290324"
     },
     "glasgowmarket": {
       "count": 1,
@@ -113,15 +130,19 @@
     "misteramos": {
       "count": 1,
       "last_post": "2025-10-01T13:18:20.597988"
+    },
+    "MartyMc50": {
+      "count": 1,
+      "last_post": "2025-10-03T09:49:59.290327"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 263850,
-    "keyword_matches": 9,
+    "total_posts_checked": 263950,
+    "keyword_matches": 10,
     "excluded_by_keywords": 109,
-    "excluded_by_user_quality": 21290,
+    "excluded_by_user_quality": 21303,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 2470
+    "excluded_by_deduplication": 2473
   },
-  "last_updated": "2025-10-03T09:37:33.142571"
+  "last_updated": "2025-10-03T09:50:07.624461"
 }
