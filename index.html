@@ -125,16 +125,16 @@
         <div class="header">
             <h1>🎫 Reddit Monitor Analytics</h1>
             <p>Monitoring r/glasgow & r/glasgowmarket for tickets and giveaways</p>
-            <p><small>Last updated: 2025-10-14 12:36:53</small></p>
+            <p><small>Last updated: 2025-10-14 13:18:57</small></p>
         </div>
 
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-number">10</div>
+                <div class="stat-number">11</div>
                 <div class="stat-label">Total Matches</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">5</div>
+                <div class="stat-number">6</div>
                 <div class="stat-label">Last 7 Days</div>
             </div>
             <div class="stat-card">
@@ -142,7 +142,7 @@
                 <div class="stat-label">Filter Efficiency</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">0.7</div>
+                <div class="stat-number">0.9</div>
                 <div class="stat-label">Daily Average</div>
             </div>
         </div>
@@ -171,6 +171,19 @@
 
         <div class="recent-matches">
             <h3>Recent Matches (Last 10)</h3>
+            
+            <div class="match-item">
+                <div class="match-title">
+                    <a href="https://reddit.com/r/glasgow/comments/1o6etoi/looks_like_glasgow_estate_agents_have_discovered/" target="_blank" style="text-decoration: none; color: inherit;">
+                        Looks like Glasgow Estate Agents have discovered AI
+                    </a>
+                </div>
+                <div class="match-meta">
+                    r/glasgow • supermonkey93 • Score: 39 • 
+                    2025-10-14 13:18
+                </div>
+                <div><span class="match-keywords">giveaway</span></div>
+            </div>
             
             <div class="match-item">
                 <div class="match-title">
@@ -289,19 +302,6 @@
                 <div><span class="match-keywords">spare ticket</span></div>
             </div>
             
-            <div class="match-item">
-                <div class="match-title">
-                    <a href="https://reddit.com/r/glasgow/comments/1nnu0os/voucher_for_cubatas_going/" target="_blank" style="text-decoration: none; color: inherit;">
-                        Voucher for Cubatas going
-                    </a>
-                </div>
-                <div class="match-meta">
-                    r/glasgow • Celestialghosty • Score: 1 • 
-                    2025-09-22 18:23
-                </div>
-                <div><span class="match-keywords">voucher</span></div>
-            </div>
-            
         </div>
 
         <div class="footer">
@@ -323,7 +323,7 @@
                 labels: ["09/15", "09/16", "09/17", "09/18", "09/19", "09/20", "09/21", "09/22", "09/23", "09/24", "09/25", "09/26", "09/27", "09/28", "09/29", "09/30", "10/01", "10/02", "10/03", "10/04", "10/05", "10/06", "10/07", "10/08", "10/09", "10/10", "10/11", "10/12", "10/13", "10/14"],
                 datasets: [{
                     label: 'Matches',
-                    data: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2],
+                    data: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 3],
                     borderColor: '#667eea',
                     backgroundColor: 'rgba(102, 126, 234, 0.1)',
                     tension: 0.4,
@@ -357,7 +357,7 @@
                 labels: ["spare ticket", "free ticket", "discount", "voucher", "giveaway"],
                 datasets: [{
                     label: 'Matches',
-                    data: [5, 4, 3, 2, 1],
+                    data: [5, 4, 3, 2, 2],
                     backgroundColor: 'rgba(102, 126, 234, 0.6)',
                     borderColor: '#667eea',
                     borderWidth: 1
@@ -389,7 +389,7 @@
             data: {
                 labels: ["r/glasgow", "r/glasgowmarket"],
                 datasets: [{
-                    data: [11, 3],
+                    data: [12, 3],
                     backgroundColor: ["#667eea", "#764ba2"],
                     borderWidth: 0
                 }]
@@ -413,7 +413,7 @@
                 labels: ["Keywords Matched", "Excluded by Keywords", "Excluded by User Quality", "Excluded by Score", "Excluded by Deduplication"],
                 datasets: [{
                     label: 'Count',
-                    data: [15, 144, 31139, 0, 5067],
+                    data: [16, 144, 31150, 0, 5069],
                     backgroundColor: [
                         'rgba(76, 175, 80, 0.6)',   // Keywords Matched - green
                         'rgba(255, 152, 0, 0.6)',   // Excluded by Keywords - orange  
