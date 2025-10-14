@@ -103,6 +103,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1o5g6u0/cate_le_bon_glasgow_tonight_1310_spare_ticket_free/"
+    },
+    {
+      "timestamp": "2025-10-14T04:19:55.520294",
+      "post_id": "1o65r0l",
+      "subreddit": "glasgow",
+      "title": "Mounjaro discount code",
+      "author": "clarwa1",
+      "score": 1,
+      "created_utc": 1760415262.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1o65r0l/mounjaro_discount_code/"
     }
   ],
   "keywords_stats": {
@@ -111,8 +124,8 @@
       "last_match": "2025-10-12T18:20:37.492616"
     },
     "discount": {
-      "count": 2,
-      "last_match": "2025-08-25T19:13:22.328066"
+      "count": 3,
+      "last_match": "2025-10-14T04:19:55.520157"
     },
     "voucher": {
       "count": 2,
@@ -129,8 +142,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 9,
-      "last_match": "2025-10-12T18:20:37.492901"
+      "count": 10,
+      "last_match": "2025-10-14T04:19:55.520299"
     },
     "glasgowmarket": {
       "count": 3,
@@ -181,15 +194,19 @@
     "-Top-Service-": {
       "count": 1,
       "last_post": "2025-10-13T10:43:42.152845"
+    },
+    "clarwa1": {
+      "count": 1,
+      "last_post": "2025-10-14T04:19:55.520301"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 335350,
-    "keyword_matches": 13,
+    "total_posts_checked": 335450,
+    "keyword_matches": 14,
     "excluded_by_keywords": 141,
-    "excluded_by_user_quality": 30816,
+    "excluded_by_user_quality": 30829,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5017
+    "excluded_by_deduplication": 5019
   },
-  "last_updated": "2025-10-14T03:46:58.357760"
+  "last_updated": "2025-10-14T04:19:59.513684"
 }
