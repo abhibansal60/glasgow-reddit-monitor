@@ -116,6 +116,19 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1o65r0l/mounjaro_discount_code/"
+    },
+    {
+      "timestamp": "2025-10-14T05:15:51.446708",
+      "post_id": "1o66l0y",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Tuesday 14 October 2025",
+      "author": "SteamieBot",
+      "score": 1,
+      "created_utc": 1760418022.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1o66l0y/the_steamie_tuesday_14_october_2025/"
     }
   ],
   "keywords_stats": {
@@ -132,8 +145,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 4,
-      "last_match": "2025-10-13T10:43:42.152635"
+      "count": 5,
+      "last_match": "2025-10-14T05:15:51.446414"
     },
     "giveaway": {
       "count": 1,
@@ -142,8 +155,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 10,
-      "last_match": "2025-10-14T04:19:55.520299"
+      "count": 11,
+      "last_match": "2025-10-14T05:15:51.446716"
     },
     "glasgowmarket": {
       "count": 3,
@@ -198,15 +211,19 @@
     "clarwa1": {
       "count": 1,
       "last_post": "2025-10-14T04:19:55.520301"
+    },
+    "SteamieBot": {
+      "count": 1,
+      "last_post": "2025-10-14T05:15:51.446721"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 335650,
-    "keyword_matches": 14,
+    "total_posts_checked": 335750,
+    "keyword_matches": 15,
     "excluded_by_keywords": 141,
-    "excluded_by_user_quality": 30855,
+    "excluded_by_user_quality": 30868,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5023
+    "excluded_by_deduplication": 5025
   },
-  "last_updated": "2025-10-14T04:51:28.315075"
+  "last_updated": "2025-10-14T05:15:56.431051"
 }
