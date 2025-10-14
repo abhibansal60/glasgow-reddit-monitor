@@ -129,6 +129,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1o66l0y/the_steamie_tuesday_14_october_2025/"
+    },
+    {
+      "timestamp": "2025-10-14T13:18:54.051139",
+      "post_id": "1o6etoi",
+      "subreddit": "glasgow",
+      "title": "Looks like Glasgow Estate Agents have discovered AI",
+      "author": "supermonkey93",
+      "score": 39,
+      "created_utc": 1760446775.0,
+      "matched_keywords": [
+        "giveaway"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1o6etoi/looks_like_glasgow_estate_agents_have_discovered/"
     }
   ],
   "keywords_stats": {
@@ -149,14 +162,14 @@
       "last_match": "2025-10-14T05:15:51.446414"
     },
     "giveaway": {
-      "count": 1,
-      "last_match": "2025-10-03T09:49:59.290100"
+      "count": 2,
+      "last_match": "2025-10-14T13:18:54.050898"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 11,
-      "last_match": "2025-10-14T05:15:51.446716"
+      "count": 12,
+      "last_match": "2025-10-14T13:18:54.051144"
     },
     "glasgowmarket": {
       "count": 3,
@@ -215,15 +228,19 @@
     "SteamieBot": {
       "count": 1,
       "last_post": "2025-10-14T05:15:51.446721"
+    },
+    "supermonkey93": {
+      "count": 1,
+      "last_post": "2025-10-14T13:18:54.051147"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 337850,
-    "keyword_matches": 15,
+    "total_posts_checked": 337950,
+    "keyword_matches": 16,
     "excluded_by_keywords": 144,
-    "excluded_by_user_quality": 31139,
+    "excluded_by_user_quality": 31150,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5067
+    "excluded_by_deduplication": 5069
   },
-  "last_updated": "2025-10-14T12:36:53.624790"
+  "last_updated": "2025-10-14T13:18:57.370584"
 }
