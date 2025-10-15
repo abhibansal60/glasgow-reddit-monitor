@@ -155,6 +155,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1o724af/the_steamie_wednesday_15_october_2025/"
+    },
+    {
+      "timestamp": "2025-10-15T16:18:32.225104",
+      "post_id": "1o7erys",
+      "subreddit": "glasgow",
+      "title": "Extra tickets for My Bloody Valentine Concert on 27 november",
+      "author": "Labaporu",
+      "score": 0,
+      "created_utc": 1760543486.0,
+      "matched_keywords": [
+        "extra ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1o7erys/extra_tickets_for_my_bloody_valentine_concert_on/"
     }
   ],
   "keywords_stats": {
@@ -177,12 +190,16 @@
     "giveaway": {
       "count": 2,
       "last_match": "2025-10-14T13:18:54.050898"
+    },
+    "extra ticket": {
+      "count": 1,
+      "last_match": "2025-10-15T16:18:32.225012"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 13,
-      "last_match": "2025-10-15T05:16:16.500291"
+      "count": 14,
+      "last_match": "2025-10-15T16:18:32.225109"
     },
     "glasgowmarket": {
       "count": 3,
@@ -245,15 +262,19 @@
     "supermonkey93": {
       "count": 1,
       "last_post": "2025-10-14T13:18:54.051147"
+    },
+    "Labaporu": {
+      "count": 1,
+      "last_post": "2025-10-15T16:18:32.225113"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 344850,
-    "keyword_matches": 17,
+    "total_posts_checked": 344950,
+    "keyword_matches": 18,
     "excluded_by_keywords": 147,
-    "excluded_by_user_quality": 32091,
+    "excluded_by_user_quality": 32104,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5259
+    "excluded_by_deduplication": 5262
   },
-  "last_updated": "2025-10-15T15:49:40.972552"
+  "last_updated": "2025-10-15T16:18:35.437217"
 }
