@@ -168,6 +168,19 @@
         "extra ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1o7erys/extra_tickets_for_my_bloody_valentine_concert_on/"
+    },
+    {
+      "timestamp": "2025-10-16T10:19:20.704114",
+      "post_id": "1o7xfm5",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Thursday 16 October 2025",
+      "author": "SteamieBot",
+      "score": 4,
+      "created_utc": 1760590823.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1o7xfm5/the_steamie_thursday_16_october_2025/"
     }
   ],
   "keywords_stats": {
@@ -184,8 +197,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 6,
-      "last_match": "2025-10-15T05:16:16.499994"
+      "count": 7,
+      "last_match": "2025-10-16T10:19:20.703911"
     },
     "giveaway": {
       "count": 2,
@@ -198,8 +211,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 14,
-      "last_match": "2025-10-15T16:18:32.225109"
+      "count": 15,
+      "last_match": "2025-10-16T10:19:20.704119"
     },
     "glasgowmarket": {
       "count": 3,
@@ -256,8 +269,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 2,
-      "last_post": "2025-10-15T05:16:16.500296"
+      "count": 3,
+      "last_post": "2025-10-16T10:19:20.704122"
     },
     "supermonkey93": {
       "count": 1,
@@ -269,12 +282,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 349450,
-    "keyword_matches": 18,
+    "total_posts_checked": 349550,
+    "keyword_matches": 19,
     "excluded_by_keywords": 150,
-    "excluded_by_user_quality": 32727,
+    "excluded_by_user_quality": 32741,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5410
+    "excluded_by_deduplication": 5413
   },
-  "last_updated": "2025-10-16T09:50:41.651451"
+  "last_updated": "2025-10-16T10:19:25.003567"
 }
