@@ -181,12 +181,26 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1o7xfm5/the_steamie_thursday_16_october_2025/"
+    },
+    {
+      "timestamp": "2025-10-17T08:46:01.651257",
+      "post_id": "1o8vvme",
+      "subreddit": "glasgow",
+      "title": "Mckinley Dixon Free Ticket @ Stereo",
+      "author": "NighthawksBailey",
+      "score": 1,
+      "created_utc": 1760690063.0,
+      "matched_keywords": [
+        "free ticket",
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1o8vvme/mckinley_dixon_free_ticket_stereo/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 4,
-      "last_match": "2025-10-12T18:20:37.492616"
+      "count": 5,
+      "last_match": "2025-10-17T08:46:01.650949"
     },
     "discount": {
       "count": 3,
@@ -197,8 +211,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 7,
-      "last_match": "2025-10-16T10:19:20.703911"
+      "count": 8,
+      "last_match": "2025-10-17T08:46:01.651143"
     },
     "giveaway": {
       "count": 2,
@@ -211,8 +225,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 15,
-      "last_match": "2025-10-16T10:19:20.704119"
+      "count": 16,
+      "last_match": "2025-10-17T08:46:01.651262"
     },
     "glasgowmarket": {
       "count": 3,
@@ -279,15 +293,19 @@
     "Labaporu": {
       "count": 1,
       "last_post": "2025-10-15T16:18:32.225113"
+    },
+    "NighthawksBailey": {
+      "count": 1,
+      "last_post": "2025-10-17T08:46:01.651265"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 355250,
-    "keyword_matches": 19,
+    "total_posts_checked": 355350,
+    "keyword_matches": 20,
     "excluded_by_keywords": 153,
-    "excluded_by_user_quality": 33502,
+    "excluded_by_user_quality": 33515,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5548
+    "excluded_by_deduplication": 5550
   },
-  "last_updated": "2025-10-17T08:23:01.949142"
+  "last_updated": "2025-10-17T08:46:04.553552"
 }
