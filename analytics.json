@@ -195,6 +195,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1o8vvme/mckinley_dixon_free_ticket_stereo/"
+    },
+    {
+      "timestamp": "2025-10-18T05:15:05.013952",
+      "post_id": "1o9n0qw",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Saturday 18 October 2025",
+      "author": "SteamieBot",
+      "score": 2,
+      "created_utc": 1760763621.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1o9n0qw/the_steamie_saturday_18_october_2025/"
     }
   ],
   "keywords_stats": {
@@ -211,8 +224,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 8,
-      "last_match": "2025-10-17T08:46:01.651143"
+      "count": 9,
+      "last_match": "2025-10-18T05:15:05.013711"
     },
     "giveaway": {
       "count": 2,
@@ -225,8 +238,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 16,
-      "last_match": "2025-10-17T08:46:01.651262"
+      "count": 17,
+      "last_match": "2025-10-18T05:15:05.013960"
     },
     "glasgowmarket": {
       "count": 3,
@@ -283,8 +296,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 3,
-      "last_post": "2025-10-16T10:19:20.704122"
+      "count": 4,
+      "last_post": "2025-10-18T05:15:05.013964"
     },
     "supermonkey93": {
       "count": 1,
@@ -300,12 +313,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 360850,
-    "keyword_matches": 20,
+    "total_posts_checked": 360950,
+    "keyword_matches": 21,
     "excluded_by_keywords": 154,
-    "excluded_by_user_quality": 34033,
+    "excluded_by_user_quality": 34042,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5630
+    "excluded_by_deduplication": 5631
   },
-  "last_updated": "2025-10-18T04:50:06.971710"
+  "last_updated": "2025-10-18T05:15:07.517772"
 }
