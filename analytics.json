@@ -221,12 +221,25 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1oah2ix/the_steamie_sunday_19_october_2025/"
+    },
+    {
+      "timestamp": "2025-10-19T14:30:26.126346",
+      "post_id": "1oaqtn0",
+      "subreddit": "glasgowmarket",
+      "title": "Free Ticket - Vieuz Farka Tour\u00e9 (+ India Blue) @ The Garage tonight 19/10 @7pm",
+      "author": "SpaceExpression",
+      "score": 1,
+      "created_utc": 1760883576.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1oaqtn0/free_ticket_vieuz_farka_tour\u00e9_india_blue_the/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 5,
-      "last_match": "2025-10-17T08:46:01.650949"
+      "count": 6,
+      "last_match": "2025-10-19T14:30:26.126164"
     },
     "discount": {
       "count": 3,
@@ -255,8 +268,8 @@
       "last_match": "2025-10-19T09:15:08.608028"
     },
     "glasgowmarket": {
-      "count": 3,
-      "last_match": "2025-10-13T10:43:42.152842"
+      "count": 4,
+      "last_match": "2025-10-19T14:30:26.126351"
     }
   },
   "user_stats": {
@@ -323,15 +336,19 @@
     "NighthawksBailey": {
       "count": 1,
       "last_post": "2025-10-17T08:46:01.651265"
+    },
+    "SpaceExpression": {
+      "count": 1,
+      "last_post": "2025-10-19T14:30:26.126354"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 370550,
-    "keyword_matches": 22,
+    "total_posts_checked": 370650,
+    "keyword_matches": 23,
     "excluded_by_keywords": 157,
-    "excluded_by_user_quality": 35080,
+    "excluded_by_user_quality": 35091,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5750
+    "excluded_by_deduplication": 5751
   },
-  "last_updated": "2025-10-19T14:13:41.533321"
+  "last_updated": "2025-10-19T14:30:28.299115"
 }
