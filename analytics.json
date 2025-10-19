@@ -208,6 +208,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1o9n0qw/the_steamie_saturday_18_october_2025/"
+    },
+    {
+      "timestamp": "2025-10-19T09:15:08.608021",
+      "post_id": "1oah2ix",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Sunday 19 October 2025",
+      "author": "SteamieBot",
+      "score": 3,
+      "created_utc": 1760850020.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1oah2ix/the_steamie_sunday_19_october_2025/"
     }
   ],
   "keywords_stats": {
@@ -224,8 +237,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 9,
-      "last_match": "2025-10-18T05:15:05.013711"
+      "count": 10,
+      "last_match": "2025-10-19T09:15:08.607623"
     },
     "giveaway": {
       "count": 2,
@@ -238,8 +251,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 17,
-      "last_match": "2025-10-18T05:15:05.013960"
+      "count": 18,
+      "last_match": "2025-10-19T09:15:08.608028"
     },
     "glasgowmarket": {
       "count": 3,
@@ -296,8 +309,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 4,
-      "last_post": "2025-10-18T05:15:05.013964"
+      "count": 5,
+      "last_post": "2025-10-19T09:15:08.608032"
     },
     "supermonkey93": {
       "count": 1,
@@ -313,12 +326,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 368950,
-    "keyword_matches": 21,
+    "total_posts_checked": 369050,
+    "keyword_matches": 22,
     "excluded_by_keywords": 156,
-    "excluded_by_user_quality": 34904,
+    "excluded_by_user_quality": 34915,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5734
+    "excluded_by_deduplication": 5735
   },
-  "last_updated": "2025-10-19T08:50:13.812935"
+  "last_updated": "2025-10-19T09:15:11.085467"
 }
