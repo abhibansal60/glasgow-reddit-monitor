@@ -234,6 +234,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1oaqtn0/free_ticket_vieuz_farka_tour\u00e9_india_blue_the/"
+    },
+    {
+      "timestamp": "2025-10-20T05:17:27.413562",
+      "post_id": "1obb7m3",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Monday 20 October 2025",
+      "author": "SteamieBot",
+      "score": 1,
+      "created_utc": 1760936424.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1obb7m3/the_steamie_monday_20_october_2025/"
     }
   ],
   "keywords_stats": {
@@ -250,8 +263,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 10,
-      "last_match": "2025-10-19T09:15:08.607623"
+      "count": 11,
+      "last_match": "2025-10-20T05:17:27.413267"
     },
     "giveaway": {
       "count": 2,
@@ -264,8 +277,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 18,
-      "last_match": "2025-10-19T09:15:08.608028"
+      "count": 19,
+      "last_match": "2025-10-20T05:17:27.413570"
     },
     "glasgowmarket": {
       "count": 4,
@@ -322,8 +335,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 5,
-      "last_post": "2025-10-19T09:15:08.608032"
+      "count": 6,
+      "last_post": "2025-10-20T05:17:27.413574"
     },
     "supermonkey93": {
       "count": 1,
@@ -343,12 +356,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 374650,
-    "keyword_matches": 23,
+    "total_posts_checked": 374750,
+    "keyword_matches": 24,
     "excluded_by_keywords": 160,
-    "excluded_by_user_quality": 35557,
+    "excluded_by_user_quality": 35570,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 5768
   },
-  "last_updated": "2025-10-20T04:53:20.251536"
+  "last_updated": "2025-10-20T05:17:30.744358"
 }
