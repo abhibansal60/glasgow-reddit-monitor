@@ -247,12 +247,25 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1obb7m3/the_steamie_monday_20_october_2025/"
+    },
+    {
+      "timestamp": "2025-10-22T15:17:06.022492",
+      "post_id": "1odaut1",
+      "subreddit": "glasgow",
+      "title": "Free ticket for Hot water music @ SWG tonight!",
+      "author": "torkidd",
+      "score": 1,
+      "created_utc": 1761145645.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1odaut1/free_ticket_for_hot_water_music_swg_tonight/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 6,
-      "last_match": "2025-10-19T14:30:26.126164"
+      "count": 7,
+      "last_match": "2025-10-22T15:17:06.022191"
     },
     "discount": {
       "count": 3,
@@ -277,8 +290,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 19,
-      "last_match": "2025-10-20T05:17:27.413570"
+      "count": 20,
+      "last_match": "2025-10-22T15:17:06.022497"
     },
     "glasgowmarket": {
       "count": 4,
@@ -353,15 +366,19 @@
     "SpaceExpression": {
       "count": 1,
       "last_post": "2025-10-19T14:30:26.126354"
+    },
+    "torkidd": {
+      "count": 1,
+      "last_post": "2025-10-22T15:17:06.022500"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 389050,
-    "keyword_matches": 24,
+    "total_posts_checked": 389150,
+    "keyword_matches": 25,
     "excluded_by_keywords": 167,
-    "excluded_by_user_quality": 37290,
+    "excluded_by_user_quality": 37302,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5958
+    "excluded_by_deduplication": 5960
   },
-  "last_updated": "2025-10-22T14:46:15.635532"
+  "last_updated": "2025-10-22T15:17:09.065113"
 }
