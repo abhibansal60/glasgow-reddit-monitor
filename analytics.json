@@ -260,6 +260,32 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1odaut1/free_ticket_for_hot_water_music_swg_tonight/"
+    },
+    {
+      "timestamp": "2025-10-22T16:22:14.990250",
+      "post_id": "1odc364",
+      "subreddit": "glasgow",
+      "title": "Biffy Clyro Album Launch Gig - SWG3",
+      "author": "googoogirl26",
+      "score": 0,
+      "created_utc": 1761148371.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1odc364/biffy_clyro_album_launch_gig_swg3/"
+    },
+    {
+      "timestamp": "2025-10-22T16:22:15.115675",
+      "post_id": "1odc0zw",
+      "subreddit": "glasgow",
+      "title": "I have a spare ticket to Hot Water Music at SWG3 tonight. Free to anyone who wants it. Can transfer via ticketmaster.",
+      "author": "RealFakeOwls",
+      "score": 3,
+      "created_utc": 1761148233.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1odc0zw/i_have_a_spare_ticket_to_hot_water_music_at_swg3/"
     }
   ],
   "keywords_stats": {
@@ -276,8 +302,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 11,
-      "last_match": "2025-10-20T05:17:27.413267"
+      "count": 13,
+      "last_match": "2025-10-22T16:22:15.115630"
     },
     "giveaway": {
       "count": 2,
@@ -290,8 +316,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 20,
-      "last_match": "2025-10-22T15:17:06.022497"
+      "count": 22,
+      "last_match": "2025-10-22T16:22:15.115680"
     },
     "glasgowmarket": {
       "count": 4,
@@ -370,15 +396,23 @@
     "torkidd": {
       "count": 1,
       "last_post": "2025-10-22T15:17:06.022500"
+    },
+    "googoogirl26": {
+      "count": 1,
+      "last_post": "2025-10-22T16:22:14.990272"
+    },
+    "RealFakeOwls": {
+      "count": 1,
+      "last_post": "2025-10-22T16:22:15.115683"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 389350,
-    "keyword_matches": 25,
+    "total_posts_checked": 389450,
+    "keyword_matches": 27,
     "excluded_by_keywords": 167,
-    "excluded_by_user_quality": 37326,
+    "excluded_by_user_quality": 37337,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 5964
+    "excluded_by_deduplication": 5966
   },
-  "last_updated": "2025-10-22T15:50:37.028938"
+  "last_updated": "2025-10-22T16:22:18.138175"
 }
