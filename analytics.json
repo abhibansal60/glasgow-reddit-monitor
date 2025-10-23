@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-09-22T18:23:01.123736",
-      "post_id": "1nnu0os",
-      "subreddit": "glasgow",
-      "title": "Voucher for Cubatas going",
-      "author": "Celestialghosty",
-      "score": 1,
-      "created_utc": 1758564729.0,
-      "matched_keywords": [
-        "voucher"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1nnu0os/voucher_for_cubatas_going/"
-    },
-    {
       "timestamp": "2025-09-27T17:27:30.985352",
       "post_id": "1ns0qz2",
       "subreddit": "glasgow",
@@ -286,6 +273,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1odc0zw/i_have_a_spare_ticket_to_hot_water_music_at_swg3/"
+    },
+    {
+      "timestamp": "2025-10-23T16:21:07.302848",
+      "post_id": "1oe7ecp",
+      "subreddit": "glasgow",
+      "title": "1x JOYCE MANOR TICKET",
+      "author": "ObjectivePatience647",
+      "score": 0,
+      "created_utc": 1761235725.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1oe7ecp/1x_joyce_manor_ticket/"
     }
   ],
   "keywords_stats": {
@@ -302,8 +302,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 13,
-      "last_match": "2025-10-22T16:22:15.115630"
+      "count": 14,
+      "last_match": "2025-10-23T16:21:07.302798"
     },
     "giveaway": {
       "count": 2,
@@ -316,8 +316,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 22,
-      "last_match": "2025-10-22T16:22:15.115680"
+      "count": 23,
+      "last_match": "2025-10-23T16:21:07.302853"
     },
     "glasgowmarket": {
       "count": 4,
@@ -404,15 +404,19 @@
     "RealFakeOwls": {
       "count": 1,
       "last_post": "2025-10-22T16:22:15.115683"
+    },
+    "ObjectivePatience647": {
+      "count": 1,
+      "last_post": "2025-10-23T16:21:07.302856"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 395550,
-    "keyword_matches": 27,
+    "total_posts_checked": 395650,
+    "keyword_matches": 28,
     "excluded_by_keywords": 172,
-    "excluded_by_user_quality": 38298,
+    "excluded_by_user_quality": 38312,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 6088
+    "excluded_by_deduplication": 6090
   },
-  "last_updated": "2025-10-23T15:49:47.192732"
+  "last_updated": "2025-10-23T16:21:11.199192"
 }
