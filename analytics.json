@@ -299,6 +299,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1oeiy93/free_ticket_frankly_the_smiths/"
+    },
+    {
+      "timestamp": "2025-10-27T11:15:33.003491",
+      "post_id": "1ohbjxl",
+      "subreddit": "glasgow",
+      "title": "How to get discounts on ScotRail tickets?",
+      "author": "blacknwhitelife02",
+      "score": 1,
+      "created_utc": 1761563471.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1ohbjxl/how_to_get_discounts_on_scotrail_tickets/"
     }
   ],
   "keywords_stats": {
@@ -307,8 +320,8 @@
       "last_match": "2025-10-23T23:49:56.836558"
     },
     "discount": {
-      "count": 3,
-      "last_match": "2025-10-14T04:19:55.520157"
+      "count": 4,
+      "last_match": "2025-10-27T11:15:33.003321"
     },
     "voucher": {
       "count": 2,
@@ -329,8 +342,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 24,
-      "last_match": "2025-10-23T23:49:56.836876"
+      "count": 25,
+      "last_match": "2025-10-27T11:15:33.003495"
     },
     "glasgowmarket": {
       "count": 4,
@@ -425,15 +438,19 @@
     "Regular_Guidance830": {
       "count": 1,
       "last_post": "2025-10-23T23:49:56.836880"
+    },
+    "blacknwhitelife02": {
+      "count": 1,
+      "last_post": "2025-10-27T11:15:33.003498"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 419950,
-    "keyword_matches": 29,
+    "total_posts_checked": 420050,
+    "keyword_matches": 30,
     "excluded_by_keywords": 175,
-    "excluded_by_user_quality": 41753,
+    "excluded_by_user_quality": 41770,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 6672
+    "excluded_by_deduplication": 6676
   },
-  "last_updated": "2025-10-27T10:54:53.862657"
+  "last_updated": "2025-10-27T11:15:37.940753"
 }
