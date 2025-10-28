@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-09-28T16:39:38.784019",
-      "post_id": "1nsswqa",
-      "subreddit": "glasgow",
-      "title": "Massage voucher as a gift",
-      "author": "OldManAndTheSea93",
-      "score": 1,
-      "created_utc": 1759077452.0,
-      "matched_keywords": [
-        "voucher"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1nsswqa/massage_voucher_as_a_gift/"
-    },
-    {
       "timestamp": "2025-10-01T13:18:20.597980",
       "post_id": "1nv7i0p",
       "subreddit": "glasgowmarket",
@@ -325,6 +312,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1ohti70/free_ticket_to_tuesdays_sqiff_lgbt_short_film/"
+    },
+    {
+      "timestamp": "2025-10-28T20:19:54.624561",
+      "post_id": "1oijtwm",
+      "subreddit": "glasgowmarket",
+      "title": "Assai Hayley Williams listening party",
+      "author": "revcn",
+      "score": 1,
+      "created_utc": 1761681824.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1oijtwm/assai_hayley_williams_listening_party/"
     }
   ],
   "keywords_stats": {
@@ -341,8 +341,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 14,
-      "last_match": "2025-10-23T16:21:07.302798"
+      "count": 15,
+      "last_match": "2025-10-28T20:19:54.624393"
     },
     "giveaway": {
       "count": 2,
@@ -359,8 +359,8 @@
       "last_match": "2025-10-27T23:14:56.571710"
     },
     "glasgowmarket": {
-      "count": 5,
-      "last_match": "2025-10-27T17:14:52.211312"
+      "count": 6,
+      "last_match": "2025-10-28T20:19:54.624567"
     }
   },
   "user_stats": {
@@ -463,15 +463,19 @@
     "Ok_Advisor_213": {
       "count": 1,
       "last_post": "2025-10-27T23:14:56.571712"
+    },
+    "revcn": {
+      "count": 1,
+      "last_post": "2025-10-28T20:19:54.624570"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 428450,
-    "keyword_matches": 32,
+    "total_posts_checked": 428550,
+    "keyword_matches": 33,
     "excluded_by_keywords": 184,
-    "excluded_by_user_quality": 43102,
+    "excluded_by_user_quality": 43116,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 7031
+    "excluded_by_deduplication": 7035
   },
-  "last_updated": "2025-10-28T19:50:00.670751"
+  "last_updated": "2025-10-28T20:19:57.701340"
 }
