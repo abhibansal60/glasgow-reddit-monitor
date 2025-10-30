@@ -339,12 +339,25 @@
         "extra ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1ojbxjg/free_ticket_for_maruja_the_garage/"
+    },
+    {
+      "timestamp": "2025-10-30T09:51:19.043671",
+      "post_id": "1ojvau1",
+      "subreddit": "glasgow",
+      "title": "1 free ticket for shame @ the garage 16/11",
+      "author": "ruleitorr",
+      "score": 1,
+      "created_utc": 1761817495.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1ojvau1/1_free_ticket_for_shame_the_garage_1611/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 11,
-      "last_match": "2025-10-29T18:25:42.960590"
+      "count": 12,
+      "last_match": "2025-10-30T09:51:19.043585"
     },
     "discount": {
       "count": 4,
@@ -369,8 +382,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 27,
-      "last_match": "2025-10-29T18:25:42.960855"
+      "count": 28,
+      "last_match": "2025-10-30T09:51:19.043677"
     },
     "glasgowmarket": {
       "count": 6,
@@ -485,15 +498,19 @@
     "NathCase": {
       "count": 1,
       "last_post": "2025-10-29T18:25:42.960858"
+    },
+    "ruleitorr": {
+      "count": 1,
+      "last_post": "2025-10-30T09:51:19.043680"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 437150,
-    "keyword_matches": 34,
+    "total_posts_checked": 437250,
+    "keyword_matches": 35,
     "excluded_by_keywords": 187,
-    "excluded_by_user_quality": 44438,
+    "excluded_by_user_quality": 44454,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 7468
+    "excluded_by_deduplication": 7474
   },
-  "last_updated": "2025-10-30T09:41:44.419133"
+  "last_updated": "2025-10-30T09:51:23.074706"
 }
