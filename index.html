@@ -125,7 +125,7 @@
         <div class="header">
             <h1>🎫 Reddit Monitor Analytics</h1>
             <p>Monitoring r/glasgow & r/glasgowmarket for tickets and giveaways</p>
-            <p><small>Last updated: 2025-11-01 12:31:23</small></p>
+            <p><small>Last updated: 2025-11-01 13:04:34</small></p>
         </div>
 
         <div class="stats-grid">
@@ -134,7 +134,7 @@
                 <div class="stat-label">Total Matches</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">6</div>
+                <div class="stat-number">7</div>
                 <div class="stat-label">Last 7 Days</div>
             </div>
             <div class="stat-card">
@@ -142,7 +142,7 @@
                 <div class="stat-label">Filter Efficiency</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">0.9</div>
+                <div class="stat-number">1.0</div>
                 <div class="stat-label">Daily Average</div>
             </div>
         </div>
@@ -171,6 +171,19 @@
 
         <div class="recent-matches">
             <h3>Recent Matches (Last 10)</h3>
+            
+            <div class="match-item">
+                <div class="match-title">
+                    <a href="https://reddit.com/r/glasgow/comments/1oln47h/2x_redline_440pm_and_2x_100_metres_750pm_tickets/" target="_blank" style="text-decoration: none; color: inherit;">
+                        2x Redline 4:40PM and 2x 100 Metres 7:50PM tickets 4 free today
+                    </a>
+                </div>
+                <div class="match-meta">
+                    r/glasgow • GreedyLeek6 • Score: 2 • 
+                    2025-11-01 13:04
+                </div>
+                <div><span class="match-keywords">spare ticket</span></div>
+            </div>
             
             <div class="match-item">
                 <div class="match-title">
@@ -289,19 +302,6 @@
                 <div><span class="match-keywords">spare ticket</span></div>
             </div>
             
-            <div class="match-item">
-                <div class="match-title">
-                    <a href="https://reddit.com/r/glasgow/comments/1odc364/biffy_clyro_album_launch_gig_swg3/" target="_blank" style="text-decoration: none; color: inherit;">
-                        Biffy Clyro Album Launch Gig - SWG3
-                    </a>
-                </div>
-                <div class="match-meta">
-                    r/glasgow • googoogirl26 • Score: 0 • 
-                    2025-10-22 16:22
-                </div>
-                <div><span class="match-keywords">spare ticket</span></div>
-            </div>
-            
         </div>
 
         <div class="footer">
@@ -323,7 +323,7 @@
                 labels: ["10/03", "10/04", "10/05", "10/06", "10/07", "10/08", "10/09", "10/10", "10/11", "10/12", "10/13", "10/14", "10/15", "10/16", "10/17", "10/18", "10/19", "10/20", "10/21", "10/22", "10/23", "10/24", "10/25", "10/26", "10/27", "10/28", "10/29", "10/30", "10/31", "11/01"],
                 datasets: [{
                     label: 'Matches',
-                    data: [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 3, 2, 1, 1, 1, 2, 1, 0, 3, 2, 0, 0, 0, 3, 1, 1, 1, 0, 0],
+                    data: [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 3, 2, 1, 1, 1, 2, 1, 0, 3, 2, 0, 0, 0, 3, 1, 1, 1, 0, 1],
                     borderColor: '#667eea',
                     backgroundColor: 'rgba(102, 126, 234, 0.1)',
                     tension: 0.4,
@@ -357,7 +357,7 @@
                 labels: ["spare ticket", "free ticket", "discount", "voucher", "giveaway", "extra ticket"],
                 datasets: [{
                     label: 'Matches',
-                    data: [15, 12, 4, 2, 2, 2],
+                    data: [16, 12, 4, 2, 2, 2],
                     backgroundColor: 'rgba(102, 126, 234, 0.6)',
                     borderColor: '#667eea',
                     borderWidth: 1
@@ -389,7 +389,7 @@
             data: {
                 labels: ["r/glasgow", "r/glasgowmarket"],
                 datasets: [{
-                    data: [28, 6],
+                    data: [29, 6],
                     backgroundColor: ["#667eea", "#764ba2"],
                     borderWidth: 0
                 }]
@@ -413,7 +413,7 @@
                 labels: ["Keywords Matched", "Excluded by Keywords", "Excluded by User Quality", "Excluded by Score", "Excluded by Deduplication"],
                 datasets: [{
                     label: 'Count',
-                    data: [35, 197, 46425, 0, 8262],
+                    data: [36, 197, 46438, 0, 8269],
                     backgroundColor: [
                         'rgba(76, 175, 80, 0.6)',   // Keywords Matched - green
                         'rgba(255, 152, 0, 0.6)',   // Excluded by Keywords - orange  
