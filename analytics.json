@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-01T13:18:20.597980",
-      "post_id": "1nv7i0p",
-      "subreddit": "glasgowmarket",
-      "title": "1x Refused ticket (standing) tonight 1 October at SWG3",
-      "author": "misteramos",
-      "score": 1,
-      "created_utc": 1759323500.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1nv7i0p/1x_refused_ticket_standing_tonight_1_october_at/"
-    },
-    {
       "timestamp": "2025-10-03T09:49:59.290319",
       "post_id": "1nwulmr",
       "subreddit": "glasgow",
@@ -352,6 +339,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1ojvau1/1_free_ticket_for_shame_the_garage_1611/"
+    },
+    {
+      "timestamp": "2025-11-01T13:04:29.627251",
+      "post_id": "1oln47h",
+      "subreddit": "glasgow",
+      "title": "2x Redline 4:40PM and 2x 100 Metres 7:50PM tickets 4 free today",
+      "author": "GreedyLeek6",
+      "score": 2,
+      "created_utc": 1762001723.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1oln47h/2x_redline_440pm_and_2x_100_metres_750pm_tickets/"
     }
   ],
   "keywords_stats": {
@@ -368,8 +368,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 15,
-      "last_match": "2025-10-28T20:19:54.624393"
+      "count": 16,
+      "last_match": "2025-11-01T13:04:29.627139"
     },
     "giveaway": {
       "count": 2,
@@ -382,8 +382,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 28,
-      "last_match": "2025-10-30T09:51:19.043677"
+      "count": 29,
+      "last_match": "2025-11-01T13:04:29.627255"
     },
     "glasgowmarket": {
       "count": 6,
@@ -502,15 +502,19 @@
     "ruleitorr": {
       "count": 1,
       "last_post": "2025-10-30T09:51:19.043680"
+    },
+    "GreedyLeek6": {
+      "count": 1,
+      "last_post": "2025-11-01T13:04:29.627258"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 450250,
-    "keyword_matches": 35,
+    "total_posts_checked": 450350,
+    "keyword_matches": 36,
     "excluded_by_keywords": 197,
-    "excluded_by_user_quality": 46425,
+    "excluded_by_user_quality": 46438,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 8262
+    "excluded_by_deduplication": 8269
   },
-  "last_updated": "2025-11-01T12:31:23.181074"
+  "last_updated": "2025-11-01T13:04:34.575939"
 }
