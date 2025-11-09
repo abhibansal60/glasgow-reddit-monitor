@@ -352,6 +352,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1osithg/free_gig_ticket_for_tonight_jane_remover/"
+    },
+    {
+      "timestamp": "2025-11-09T20:37:51.019618",
+      "post_id": "1ostjxy",
+      "subreddit": "glasgow",
+      "title": "Getdown Services spare ticket",
+      "author": "AyyWhammo",
+      "score": 1,
+      "created_utc": 1762719458.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1ostjxy/getdown_services_spare_ticket/"
     }
   ],
   "keywords_stats": {
@@ -368,8 +381,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 16,
-      "last_match": "2025-11-01T13:04:29.627139"
+      "count": 17,
+      "last_match": "2025-11-09T20:37:51.019494"
     },
     "giveaway": {
       "count": 2,
@@ -382,8 +395,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 30,
-      "last_match": "2025-11-09T13:04:52.660678"
+      "count": 31,
+      "last_match": "2025-11-09T20:37:51.019622"
     },
     "glasgowmarket": {
       "count": 6,
@@ -510,15 +523,19 @@
     "TheFryinScotsman": {
       "count": 1,
       "last_post": "2025-11-09T13:04:52.660681"
+    },
+    "AyyWhammo": {
+      "count": 1,
+      "last_post": "2025-11-09T20:37:51.019625"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 501450,
-    "keyword_matches": 37,
+    "total_posts_checked": 501550,
+    "keyword_matches": 38,
     "excluded_by_keywords": 215,
-    "excluded_by_user_quality": 54289,
+    "excluded_by_user_quality": 54302,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 10745
+    "excluded_by_deduplication": 10749
   },
-  "last_updated": "2025-11-09T20:16:43.988028"
+  "last_updated": "2025-11-09T20:37:55.469490"
 }
