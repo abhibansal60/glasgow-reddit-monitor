@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-03T09:49:59.290319",
-      "post_id": "1nwulmr",
-      "subreddit": "glasgow",
-      "title": "Pavilion 4th Oct 25 2.30pm When We Were Young x 2 Tickets Giveaway",
-      "author": "MartyMc50",
-      "score": 1,
-      "created_utc": 1759484449.0,
-      "matched_keywords": [
-        "giveaway"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1nwulmr/pavilion_4th_oct_25_230pm_when_we_were_young_x_2/"
-    },
-    {
       "timestamp": "2025-10-12T16:40:53.758598",
       "post_id": "1o4toxl",
       "subreddit": "glasgowmarket",
@@ -352,12 +339,25 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1oln47h/2x_redline_440pm_and_2x_100_metres_750pm_tickets/"
+    },
+    {
+      "timestamp": "2025-11-09T13:04:52.660672",
+      "post_id": "1osithg",
+      "subreddit": "glasgow",
+      "title": "Free gig ticket for tonight- Jane Remover",
+      "author": "TheFryinScotsman",
+      "score": 1,
+      "created_utc": 1762693344.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1osithg/free_gig_ticket_for_tonight_jane_remover/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 12,
-      "last_match": "2025-10-30T09:51:19.043585"
+      "count": 13,
+      "last_match": "2025-11-09T13:04:52.660353"
     },
     "discount": {
       "count": 4,
@@ -382,8 +382,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 29,
-      "last_match": "2025-11-01T13:04:29.627255"
+      "count": 30,
+      "last_match": "2025-11-09T13:04:52.660678"
     },
     "glasgowmarket": {
       "count": 6,
@@ -506,15 +506,19 @@
     "GreedyLeek6": {
       "count": 1,
       "last_post": "2025-11-01T13:04:29.627258"
+    },
+    "TheFryinScotsman": {
+      "count": 1,
+      "last_post": "2025-11-09T13:04:52.660681"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 498950,
-    "keyword_matches": 36,
+    "total_posts_checked": 499050,
+    "keyword_matches": 37,
     "excluded_by_keywords": 214,
-    "excluded_by_user_quality": 53993,
+    "excluded_by_user_quality": 54003,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 10645
+    "excluded_by_deduplication": 10649
   },
-  "last_updated": "2025-11-09T12:31:41.157838"
+  "last_updated": "2025-11-09T13:04:57.666473"
 }
