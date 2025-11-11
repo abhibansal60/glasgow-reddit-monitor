@@ -365,12 +365,25 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1ostjxy/getdown_services_spare_ticket/"
+    },
+    {
+      "timestamp": "2025-11-11T01:20:33.775115",
+      "post_id": "1otvoq5",
+      "subreddit": "glasgow",
+      "title": "Would anyone like a free ticket to Hans Zimmer: The Next Level concert on November 24th?",
+      "author": "PsychedelicGoat42",
+      "score": 1,
+      "created_utc": 1762822624.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1otvoq5/would_anyone_like_a_free_ticket_to_hans_zimmer/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 13,
-      "last_match": "2025-11-09T13:04:52.660353"
+      "count": 14,
+      "last_match": "2025-11-11T01:20:33.774778"
     },
     "discount": {
       "count": 4,
@@ -395,8 +408,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 31,
-      "last_match": "2025-11-09T20:37:51.019622"
+      "count": 32,
+      "last_match": "2025-11-11T01:20:33.775121"
     },
     "glasgowmarket": {
       "count": 6,
@@ -527,15 +540,19 @@
     "AyyWhammo": {
       "count": 1,
       "last_post": "2025-11-09T20:37:51.019625"
+    },
+    "PsychedelicGoat42": {
+      "count": 1,
+      "last_post": "2025-11-11T01:20:33.775124"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 508450,
-    "keyword_matches": 38,
+    "total_posts_checked": 508550,
+    "keyword_matches": 39,
     "excluded_by_keywords": 217,
-    "excluded_by_user_quality": 55111,
+    "excluded_by_user_quality": 55124,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 10927
+    "excluded_by_deduplication": 10929
   },
-  "last_updated": "2025-11-10T23:49:32.724496"
+  "last_updated": "2025-11-11T01:20:37.690445"
 }
