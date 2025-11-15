@@ -1,123 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-12T16:40:53.758598",
-      "post_id": "1o4toxl",
-      "subreddit": "glasgowmarket",
-      "title": "1x nova twins - tonight swg3",
-      "author": "misteramos",
-      "score": 1,
-      "created_utc": 1760286849.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1o4toxl/1x_nova_twins_tonight_swg3/"
-    },
-    {
-      "timestamp": "2025-10-12T18:20:37.492896",
-      "post_id": "1o4vwkh",
-      "subreddit": "glasgow",
-      "title": "anyone want a free ticket to Nova Twins tonight at swg3?",
-      "author": "duckmylifequack",
-      "score": 2,
-      "created_utc": 1760291907.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1o4vwkh/anyone_want_a_free_ticket_to_nova_twins_tonight/"
-    },
-    {
-      "timestamp": "2025-10-13T10:43:42.152836",
-      "post_id": "1o5g6u0",
-      "subreddit": "glasgowmarket",
-      "title": "Cate Le Bon Glasgow tonight 13.10 Spare ticket FREE",
-      "author": "-Top-Service-",
-      "score": 1,
-      "created_utc": 1760351808.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1o5g6u0/cate_le_bon_glasgow_tonight_1310_spare_ticket_free/"
-    },
-    {
-      "timestamp": "2025-10-14T04:19:55.520294",
-      "post_id": "1o65r0l",
-      "subreddit": "glasgow",
-      "title": "Mounjaro discount code",
-      "author": "clarwa1",
-      "score": 1,
-      "created_utc": 1760415262.0,
-      "matched_keywords": [
-        "discount"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1o65r0l/mounjaro_discount_code/"
-    },
-    {
-      "timestamp": "2025-10-14T05:15:51.446708",
-      "post_id": "1o66l0y",
-      "subreddit": "glasgow",
-      "title": "The Steamie - Tuesday 14 October 2025",
-      "author": "SteamieBot",
-      "score": 1,
-      "created_utc": 1760418022.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1o66l0y/the_steamie_tuesday_14_october_2025/"
-    },
-    {
-      "timestamp": "2025-10-14T13:18:54.051139",
-      "post_id": "1o6etoi",
-      "subreddit": "glasgow",
-      "title": "Looks like Glasgow Estate Agents have discovered AI",
-      "author": "supermonkey93",
-      "score": 39,
-      "created_utc": 1760446775.0,
-      "matched_keywords": [
-        "giveaway"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1o6etoi/looks_like_glasgow_estate_agents_have_discovered/"
-    },
-    {
-      "timestamp": "2025-10-15T05:16:16.500284",
-      "post_id": "1o724af",
-      "subreddit": "glasgow",
-      "title": "The Steamie - Wednesday 15 October 2025",
-      "author": "SteamieBot",
-      "score": 1,
-      "created_utc": 1760504423.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1o724af/the_steamie_wednesday_15_october_2025/"
-    },
-    {
-      "timestamp": "2025-10-15T16:18:32.225104",
-      "post_id": "1o7erys",
-      "subreddit": "glasgow",
-      "title": "Extra tickets for My Bloody Valentine Concert on 27 november",
-      "author": "Labaporu",
-      "score": 0,
-      "created_utc": 1760543486.0,
-      "matched_keywords": [
-        "extra ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1o7erys/extra_tickets_for_my_bloody_valentine_concert_on/"
-    },
-    {
-      "timestamp": "2025-10-16T10:19:20.704114",
-      "post_id": "1o7xfm5",
-      "subreddit": "glasgow",
-      "title": "The Steamie - Thursday 16 October 2025",
-      "author": "SteamieBot",
-      "score": 4,
-      "created_utc": 1760590823.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1o7xfm5/the_steamie_thursday_16_october_2025/"
-    },
-    {
       "timestamp": "2025-10-17T08:46:01.651257",
       "post_id": "1o8vvme",
       "subreddit": "glasgow",
@@ -378,6 +261,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1otvoq5/would_anyone_like_a_free_ticket_to_hans_zimmer/"
+    },
+    {
+      "timestamp": "2025-11-15T18:54:03.301572",
+      "post_id": "1oxzmlo",
+      "subreddit": "glasgow",
+      "title": "Extra Ticket to Water From Your Eyes @ Rum Shack, Saturday",
+      "author": "These-Ad-474",
+      "score": 1,
+      "created_utc": 1763232712.0,
+      "matched_keywords": [
+        "extra ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1oxzmlo/extra_ticket_to_water_from_your_eyes_rum_shack/"
     }
   ],
   "keywords_stats": {
@@ -402,14 +298,14 @@
       "last_match": "2025-10-14T13:18:54.050898"
     },
     "extra ticket": {
-      "count": 2,
-      "last_match": "2025-10-29T18:25:42.960784"
+      "count": 3,
+      "last_match": "2025-11-15T18:54:03.301489"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 32,
-      "last_match": "2025-11-11T01:20:33.775121"
+      "count": 33,
+      "last_match": "2025-11-15T18:54:03.301577"
     },
     "glasgowmarket": {
       "count": 6,
@@ -544,15 +440,19 @@
     "PsychedelicGoat42": {
       "count": 1,
       "last_post": "2025-11-11T01:20:33.775124"
+    },
+    "These-Ad-474": {
+      "count": 1,
+      "last_post": "2025-11-15T18:54:03.301580"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 535950,
-    "keyword_matches": 39,
+    "total_posts_checked": 536050,
+    "keyword_matches": 40,
     "excluded_by_keywords": 231,
-    "excluded_by_user_quality": 58430,
+    "excluded_by_user_quality": 58442,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 11345
+    "excluded_by_deduplication": 11346
   },
-  "last_updated": "2025-11-15T18:44:46.268993"
+  "last_updated": "2025-11-15T18:54:07.251095"
 }
