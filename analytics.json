@@ -274,6 +274,19 @@
         "extra ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1oxzmlo/extra_ticket_to_water_from_your_eyes_rum_shack/"
+    },
+    {
+      "timestamp": "2025-11-15T19:12:15.871054",
+      "post_id": "1oxzzmf",
+      "subreddit": "glasgow",
+      "title": "Extra (free for you) ticket to The Fray TONIGHT",
+      "author": "Smhmitchell",
+      "score": 1,
+      "created_utc": 1763233565.0,
+      "matched_keywords": [
+        "extra ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1oxzzmf/extra_free_for_you_ticket_to_the_fray_tonight/"
     }
   ],
   "keywords_stats": {
@@ -298,14 +311,14 @@
       "last_match": "2025-10-14T13:18:54.050898"
     },
     "extra ticket": {
-      "count": 3,
-      "last_match": "2025-11-15T18:54:03.301489"
+      "count": 4,
+      "last_match": "2025-11-15T19:12:15.870972"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 33,
-      "last_match": "2025-11-15T18:54:03.301577"
+      "count": 34,
+      "last_match": "2025-11-15T19:12:15.871059"
     },
     "glasgowmarket": {
       "count": 6,
@@ -444,15 +457,19 @@
     "These-Ad-474": {
       "count": 1,
       "last_post": "2025-11-15T18:54:03.301580"
+    },
+    "Smhmitchell": {
+      "count": 1,
+      "last_post": "2025-11-15T19:12:15.871062"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 536050,
-    "keyword_matches": 40,
+    "total_posts_checked": 536150,
+    "keyword_matches": 41,
     "excluded_by_keywords": 231,
-    "excluded_by_user_quality": 58442,
+    "excluded_by_user_quality": 58454,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 11346
+    "excluded_by_deduplication": 11347
   },
-  "last_updated": "2025-11-15T18:54:07.251095"
+  "last_updated": "2025-11-15T19:12:19.325080"
 }
