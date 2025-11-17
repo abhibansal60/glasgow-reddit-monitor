@@ -1,33 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-17T08:46:01.651257",
-      "post_id": "1o8vvme",
-      "subreddit": "glasgow",
-      "title": "Mckinley Dixon Free Ticket @ Stereo",
-      "author": "NighthawksBailey",
-      "score": 1,
-      "created_utc": 1760690063.0,
-      "matched_keywords": [
-        "free ticket",
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1o8vvme/mckinley_dixon_free_ticket_stereo/"
-    },
-    {
-      "timestamp": "2025-10-18T05:15:05.013952",
-      "post_id": "1o9n0qw",
-      "subreddit": "glasgow",
-      "title": "The Steamie - Saturday 18 October 2025",
-      "author": "SteamieBot",
-      "score": 2,
-      "created_utc": 1760763621.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1o9n0qw/the_steamie_saturday_18_october_2025/"
-    },
-    {
       "timestamp": "2025-10-19T09:15:08.608021",
       "post_id": "1oah2ix",
       "subreddit": "glasgow",
@@ -287,6 +260,19 @@
         "extra ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1oxzzmf/extra_free_for_you_ticket_to_the_fray_tonight/"
+    },
+    {
+      "timestamp": "2025-11-17T16:23:50.292763",
+      "post_id": "1ozkjm8",
+      "subreddit": "glasgow",
+      "title": "Alex g tickets",
+      "author": "Minute-Thanks2512",
+      "score": 1,
+      "created_utc": 1763396334.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1ozkjm8/alex_g_tickets/"
     }
   ],
   "keywords_stats": {
@@ -303,8 +289,8 @@
       "last_match": "2025-09-28T16:39:38.783978"
     },
     "spare ticket": {
-      "count": 17,
-      "last_match": "2025-11-09T20:37:51.019494"
+      "count": 18,
+      "last_match": "2025-11-17T16:23:50.292657"
     },
     "giveaway": {
       "count": 2,
@@ -317,8 +303,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 34,
-      "last_match": "2025-11-15T19:12:15.871059"
+      "count": 35,
+      "last_match": "2025-11-17T16:23:50.292767"
     },
     "glasgowmarket": {
       "count": 6,
@@ -461,15 +447,19 @@
     "Smhmitchell": {
       "count": 1,
       "last_post": "2025-11-15T19:12:15.871062"
+    },
+    "Minute-Thanks2512": {
+      "count": 1,
+      "last_post": "2025-11-17T16:23:50.292770"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 547450,
-    "keyword_matches": 41,
+    "total_posts_checked": 547550,
+    "keyword_matches": 42,
     "excluded_by_keywords": 237,
-    "excluded_by_user_quality": 59895,
+    "excluded_by_user_quality": 59910,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 11413
   },
-  "last_updated": "2025-11-17T15:54:11.612639"
+  "last_updated": "2025-11-17T16:23:55.683513"
 }
