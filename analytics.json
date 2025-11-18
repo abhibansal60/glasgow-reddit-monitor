@@ -286,6 +286,19 @@
         "voucher"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1ozu1j2/rock_n_roll_tattoo_voucher/"
+    },
+    {
+      "timestamp": "2025-11-18T06:26:15.148057",
+      "post_id": "1p049ba",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Tuesday 18 November 2025",
+      "author": "SteamieBot",
+      "score": 0,
+      "created_utc": 1763445622.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p049ba/the_steamie_tuesday_18_november_2025/"
     }
   ],
   "keywords_stats": {
@@ -298,8 +311,8 @@
       "last_match": "2025-10-27T11:15:33.003321"
     },
     "voucher": {
-      "count": 3,
-      "last_match": "2025-11-17T22:16:43.374031"
+      "count": 4,
+      "last_match": "2025-11-18T06:26:15.147865"
     },
     "spare ticket": {
       "count": 18,
@@ -316,8 +329,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 35,
-      "last_match": "2025-11-17T16:23:50.292767"
+      "count": 36,
+      "last_match": "2025-11-18T06:26:15.148062"
     },
     "glasgowmarket": {
       "count": 7,
@@ -374,8 +387,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 6,
-      "last_post": "2025-10-20T05:17:27.413574"
+      "count": 7,
+      "last_post": "2025-11-18T06:26:15.148064"
     },
     "supermonkey93": {
       "count": 1,
@@ -471,12 +484,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 550650,
-    "keyword_matches": 43,
+    "total_posts_checked": 550750,
+    "keyword_matches": 44,
     "excluded_by_keywords": 237,
-    "excluded_by_user_quality": 60435,
+    "excluded_by_user_quality": 60451,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 11413
   },
-  "last_updated": "2025-11-18T05:51:00.335498"
+  "last_updated": "2025-11-18T06:26:19.560517"
 }
