@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-20T05:17:27.413562",
-      "post_id": "1obb7m3",
-      "subreddit": "glasgow",
-      "title": "The Steamie - Monday 20 October 2025",
-      "author": "SteamieBot",
-      "score": 1,
-      "created_utc": 1760936424.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1obb7m3/the_steamie_monday_20_october_2025/"
-    },
-    {
       "timestamp": "2025-10-22T15:17:06.022492",
       "post_id": "1odaut1",
       "subreddit": "glasgow",
@@ -299,6 +286,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p0opvb/looking_for_potential_gig_partner/"
+    },
+    {
+      "timestamp": "2025-11-19T06:26:46.034182",
+      "post_id": "1p0zpc1",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Wednesday 19 November 2025",
+      "author": "SteamieBot",
+      "score": 2,
+      "created_utc": 1763532022.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p0zpc1/the_steamie_wednesday_19_november_2025/"
     }
   ],
   "keywords_stats": {
@@ -311,8 +311,8 @@
       "last_match": "2025-10-27T11:15:33.003321"
     },
     "voucher": {
-      "count": 4,
-      "last_match": "2025-11-18T06:26:15.147865"
+      "count": 5,
+      "last_match": "2025-11-19T06:26:46.034009"
     },
     "spare ticket": {
       "count": 20,
@@ -329,8 +329,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 38,
-      "last_match": "2025-11-18T21:50:24.548758"
+      "count": 39,
+      "last_match": "2025-11-19T06:26:46.034190"
     },
     "glasgowmarket": {
       "count": 7,
@@ -387,8 +387,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 7,
-      "last_post": "2025-11-18T06:26:15.148064"
+      "count": 8,
+      "last_post": "2025-11-19T06:26:46.034194"
     },
     "supermonkey93": {
       "count": 1,
@@ -492,12 +492,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 555850,
-    "keyword_matches": 46,
+    "total_posts_checked": 555950,
+    "keyword_matches": 47,
     "excluded_by_keywords": 240,
-    "excluded_by_user_quality": 61171,
+    "excluded_by_user_quality": 61184,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 11439
   },
-  "last_updated": "2025-11-19T05:51:13.805724"
+  "last_updated": "2025-11-19T06:26:50.097294"
 }
