@@ -299,6 +299,19 @@
         "voucher"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p0zpc1/the_steamie_wednesday_19_november_2025/"
+    },
+    {
+      "timestamp": "2025-11-19T17:49:57.074497",
+      "post_id": "1p1egfd",
+      "subreddit": "glasgow",
+      "title": "Anyone interested in watching live badminton? The Scottish Open 20th/21st November @ the Emirates Arena",
+      "author": "WhatCanIDoUFor",
+      "score": 0,
+      "created_utc": 1763574513.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p1egfd/anyone_interested_in_watching_live_badminton_the/"
     }
   ],
   "keywords_stats": {
@@ -315,8 +328,8 @@
       "last_match": "2025-11-19T06:26:46.034009"
     },
     "spare ticket": {
-      "count": 20,
-      "last_match": "2025-11-18T21:50:24.548508"
+      "count": 21,
+      "last_match": "2025-11-19T17:49:57.074357"
     },
     "giveaway": {
       "count": 2,
@@ -329,8 +342,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 39,
-      "last_match": "2025-11-19T06:26:46.034190"
+      "count": 40,
+      "last_match": "2025-11-19T17:49:57.074502"
     },
     "glasgowmarket": {
       "count": 7,
@@ -489,15 +502,19 @@
     "CreeperFagnet": {
       "count": 1,
       "last_post": "2025-11-18T21:50:24.548761"
+    },
+    "WhatCanIDoUFor": {
+      "count": 1,
+      "last_post": "2025-11-19T17:49:57.074505"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 558750,
-    "keyword_matches": 47,
+    "total_posts_checked": 558850,
+    "keyword_matches": 48,
     "excluded_by_keywords": 241,
-    "excluded_by_user_quality": 61546,
+    "excluded_by_user_quality": 61560,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 11439
   },
-  "last_updated": "2025-11-19T17:38:17.977622"
+  "last_updated": "2025-11-19T17:49:59.559260"
 }
