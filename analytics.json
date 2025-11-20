@@ -312,6 +312,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p1egfd/anyone_interested_in_watching_live_badminton_the/"
+    },
+    {
+      "timestamp": "2025-11-20T12:36:16.838494",
+      "post_id": "1p1vl5r",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Thursday 20 November 2025",
+      "author": "SteamieBot",
+      "score": 2,
+      "created_utc": 1763618423.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p1vl5r/the_steamie_thursday_20_november_2025/"
     }
   ],
   "keywords_stats": {
@@ -324,8 +337,8 @@
       "last_match": "2025-10-27T11:15:33.003321"
     },
     "voucher": {
-      "count": 5,
-      "last_match": "2025-11-19T06:26:46.034009"
+      "count": 6,
+      "last_match": "2025-11-20T12:36:16.838262"
     },
     "spare ticket": {
       "count": 21,
@@ -342,8 +355,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 40,
-      "last_match": "2025-11-19T17:49:57.074502"
+      "count": 41,
+      "last_match": "2025-11-20T12:36:16.838503"
     },
     "glasgowmarket": {
       "count": 7,
@@ -400,8 +413,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 8,
-      "last_post": "2025-11-19T06:26:46.034194"
+      "count": 9,
+      "last_post": "2025-11-20T12:36:16.838507"
     },
     "supermonkey93": {
       "count": 1,
@@ -509,12 +522,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 563250,
-    "keyword_matches": 48,
+    "total_posts_checked": 563350,
+    "keyword_matches": 49,
     "excluded_by_keywords": 243,
-    "excluded_by_user_quality": 62150,
+    "excluded_by_user_quality": 62165,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 11455
   },
-  "last_updated": "2025-11-20T11:49:35.860594"
+  "last_updated": "2025-11-20T12:36:19.495527"
 }
