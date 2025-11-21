@@ -1,45 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-22T15:17:06.022492",
-      "post_id": "1odaut1",
-      "subreddit": "glasgow",
-      "title": "Free ticket for Hot water music @ SWG tonight!",
-      "author": "torkidd",
-      "score": 1,
-      "created_utc": 1761145645.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1odaut1/free_ticket_for_hot_water_music_swg_tonight/"
-    },
-    {
-      "timestamp": "2025-10-22T16:22:14.990250",
-      "post_id": "1odc364",
-      "subreddit": "glasgow",
-      "title": "Biffy Clyro Album Launch Gig - SWG3",
-      "author": "googoogirl26",
-      "score": 0,
-      "created_utc": 1761148371.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1odc364/biffy_clyro_album_launch_gig_swg3/"
-    },
-    {
-      "timestamp": "2025-10-22T16:22:15.115675",
-      "post_id": "1odc0zw",
-      "subreddit": "glasgow",
-      "title": "I have a spare ticket to Hot Water Music at SWG3 tonight. Free to anyone who wants it. Can transfer via ticketmaster.",
-      "author": "RealFakeOwls",
-      "score": 3,
-      "created_utc": 1761148233.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1odc0zw/i_have_a_spare_ticket_to_hot_water_music_at_swg3/"
-    },
-    {
       "timestamp": "2025-10-23T16:21:07.302848",
       "post_id": "1oe7ecp",
       "subreddit": "glasgow",
@@ -325,6 +286,19 @@
         "voucher"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p1vl5r/the_steamie_thursday_20_november_2025/"
+    },
+    {
+      "timestamp": "2025-11-21T18:23:59.625556",
+      "post_id": "1p2qxuv",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Friday 21 November 2025",
+      "author": "SteamieBot",
+      "score": 5,
+      "created_utc": 1763704822.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p2qxuv/the_steamie_friday_21_november_2025/"
     }
   ],
   "keywords_stats": {
@@ -337,8 +311,8 @@
       "last_match": "2025-10-27T11:15:33.003321"
     },
     "voucher": {
-      "count": 6,
-      "last_match": "2025-11-20T12:36:16.838262"
+      "count": 7,
+      "last_match": "2025-11-21T18:23:59.625382"
     },
     "spare ticket": {
       "count": 21,
@@ -355,8 +329,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 41,
-      "last_match": "2025-11-20T12:36:16.838503"
+      "count": 42,
+      "last_match": "2025-11-21T18:23:59.625562"
     },
     "glasgowmarket": {
       "count": 7,
@@ -413,8 +387,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 9,
-      "last_post": "2025-11-20T12:36:16.838507"
+      "count": 10,
+      "last_post": "2025-11-21T18:23:59.625565"
     },
     "supermonkey93": {
       "count": 1,
@@ -522,12 +496,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 570650,
-    "keyword_matches": 49,
+    "total_posts_checked": 570750,
+    "keyword_matches": 50,
     "excluded_by_keywords": 245,
-    "excluded_by_user_quality": 63186,
+    "excluded_by_user_quality": 63198,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 11488
+    "excluded_by_deduplication": 11489
   },
-  "last_updated": "2025-11-21T17:49:33.398319"
+  "last_updated": "2025-11-21T18:24:03.470225"
 }
