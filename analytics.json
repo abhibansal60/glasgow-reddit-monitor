@@ -299,6 +299,19 @@
         "voucher"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p2qxuv/the_steamie_friday_21_november_2025/"
+    },
+    {
+      "timestamp": "2025-11-22T06:23:31.906213",
+      "post_id": "1p3lryl",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Saturday 22 November 2025",
+      "author": "SteamieBot",
+      "score": 1,
+      "created_utc": 1763791222.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p3lryl/the_steamie_saturday_22_november_2025/"
     }
   ],
   "keywords_stats": {
@@ -311,8 +324,8 @@
       "last_match": "2025-10-27T11:15:33.003321"
     },
     "voucher": {
-      "count": 7,
-      "last_match": "2025-11-21T18:23:59.625382"
+      "count": 8,
+      "last_match": "2025-11-22T06:23:31.906008"
     },
     "spare ticket": {
       "count": 21,
@@ -329,8 +342,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 42,
-      "last_match": "2025-11-21T18:23:59.625562"
+      "count": 43,
+      "last_match": "2025-11-22T06:23:31.906218"
     },
     "glasgowmarket": {
       "count": 7,
@@ -387,8 +400,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 10,
-      "last_post": "2025-11-21T18:23:59.625565"
+      "count": 11,
+      "last_post": "2025-11-22T06:23:31.906222"
     },
     "supermonkey93": {
       "count": 1,
@@ -496,12 +509,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 573450,
-    "keyword_matches": 50,
+    "total_posts_checked": 573550,
+    "keyword_matches": 51,
     "excluded_by_keywords": 245,
-    "excluded_by_user_quality": 63501,
+    "excluded_by_user_quality": 63511,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 11516
+    "excluded_by_deduplication": 11517
   },
-  "last_updated": "2025-11-22T05:49:39.344913"
+  "last_updated": "2025-11-22T06:23:34.621296"
 }
