@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-23T16:21:07.302848",
-      "post_id": "1oe7ecp",
-      "subreddit": "glasgow",
-      "title": "1x JOYCE MANOR TICKET",
-      "author": "ObjectivePatience647",
-      "score": 0,
-      "created_utc": 1761235725.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1oe7ecp/1x_joyce_manor_ticket/"
-    },
-    {
       "timestamp": "2025-10-23T23:49:56.836871",
       "post_id": "1oeiy93",
       "subreddit": "glasgow",
@@ -312,6 +299,19 @@
         "voucher"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p3lryl/the_steamie_saturday_22_november_2025/"
+    },
+    {
+      "timestamp": "2025-11-22T17:41:13.470838",
+      "post_id": "1p3z32y",
+      "subreddit": "glasgow",
+      "title": "Bad Omens at OVO Hydro give away",
+      "author": "Nika_vk",
+      "score": 3,
+      "created_utc": 1763832865.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p3z32y/bad_omens_at_ovo_hydro_give_away/"
     }
   ],
   "keywords_stats": {
@@ -328,8 +328,8 @@
       "last_match": "2025-11-22T06:23:31.906008"
     },
     "spare ticket": {
-      "count": 21,
-      "last_match": "2025-11-19T17:49:57.074357"
+      "count": 22,
+      "last_match": "2025-11-22T17:41:13.470587"
     },
     "giveaway": {
       "count": 2,
@@ -342,8 +342,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 43,
-      "last_match": "2025-11-22T06:23:31.906218"
+      "count": 44,
+      "last_match": "2025-11-22T17:41:13.470846"
     },
     "glasgowmarket": {
       "count": 7,
@@ -506,15 +506,19 @@
     "WhatCanIDoUFor": {
       "count": 1,
       "last_post": "2025-11-19T17:49:57.074505"
+    },
+    "Nika_vk": {
+      "count": 1,
+      "last_post": "2025-11-22T17:41:13.470850"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 576750,
-    "keyword_matches": 51,
+    "total_posts_checked": 576850,
+    "keyword_matches": 52,
     "excluded_by_keywords": 245,
-    "excluded_by_user_quality": 63869,
+    "excluded_by_user_quality": 63880,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 11563
+    "excluded_by_deduplication": 11565
   },
-  "last_updated": "2025-11-22T17:30:09.633525"
+  "last_updated": "2025-11-22T17:41:16.304187"
 }
