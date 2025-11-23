@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-23T23:49:56.836871",
-      "post_id": "1oeiy93",
-      "subreddit": "glasgow",
-      "title": "Free Ticket: Frankly, The Smiths",
-      "author": "Regular_Guidance830",
-      "score": 1,
-      "created_utc": 1761263307.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1oeiy93/free_ticket_frankly_the_smiths/"
-    },
-    {
       "timestamp": "2025-10-27T11:15:33.003491",
       "post_id": "1ohbjxl",
       "subreddit": "glasgow",
@@ -312,6 +299,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p3z32y/bad_omens_at_ovo_hydro_give_away/"
+    },
+    {
+      "timestamp": "2025-11-23T15:15:33.824950",
+      "post_id": "1p4osfr",
+      "subreddit": "glasgow",
+      "title": "Council tax question?",
+      "author": "throwawaydoctor999",
+      "score": 0,
+      "created_utc": 1763910065.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p4osfr/council_tax_question/"
     }
   ],
   "keywords_stats": {
@@ -320,8 +320,8 @@
       "last_match": "2025-11-11T01:20:33.774778"
     },
     "discount": {
-      "count": 4,
-      "last_match": "2025-10-27T11:15:33.003321"
+      "count": 5,
+      "last_match": "2025-11-23T15:15:33.824867"
     },
     "voucher": {
       "count": 8,
@@ -342,8 +342,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 44,
-      "last_match": "2025-11-22T17:41:13.470846"
+      "count": 45,
+      "last_match": "2025-11-23T15:15:33.824955"
     },
     "glasgowmarket": {
       "count": 7,
@@ -510,15 +510,19 @@
     "Nika_vk": {
       "count": 1,
       "last_post": "2025-11-22T17:41:13.470850"
+    },
+    "throwawaydoctor999": {
+      "count": 1,
+      "last_post": "2025-11-23T15:15:33.824958"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 582150,
-    "keyword_matches": 52,
+    "total_posts_checked": 582250,
+    "keyword_matches": 53,
     "excluded_by_keywords": 248,
-    "excluded_by_user_quality": 64644,
+    "excluded_by_user_quality": 64658,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 11671
+    "excluded_by_deduplication": 11673
   },
-  "last_updated": "2025-11-23T14:49:36.730768"
+  "last_updated": "2025-11-23T15:15:37.775905"
 }
