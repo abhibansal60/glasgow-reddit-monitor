@@ -312,6 +312,19 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p4osfr/council_tax_question/"
+    },
+    {
+      "timestamp": "2025-11-24T06:27:54.888764",
+      "post_id": "1p59bpz",
+      "subreddit": "glasgow",
+      "title": "The Steamie - Monday 24 November 2025",
+      "author": "SteamieBot",
+      "score": 1,
+      "created_utc": 1763964020.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p59bpz/the_steamie_monday_24_november_2025/"
     }
   ],
   "keywords_stats": {
@@ -324,8 +337,8 @@
       "last_match": "2025-11-23T15:15:33.824867"
     },
     "voucher": {
-      "count": 8,
-      "last_match": "2025-11-22T06:23:31.906008"
+      "count": 9,
+      "last_match": "2025-11-24T06:27:54.888553"
     },
     "spare ticket": {
       "count": 22,
@@ -342,8 +355,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 45,
-      "last_match": "2025-11-23T15:15:33.824955"
+      "count": 46,
+      "last_match": "2025-11-24T06:27:54.888770"
     },
     "glasgowmarket": {
       "count": 7,
@@ -400,8 +413,8 @@
       "last_post": "2025-10-14T04:19:55.520301"
     },
     "SteamieBot": {
-      "count": 11,
-      "last_post": "2025-11-22T06:23:31.906222"
+      "count": 12,
+      "last_post": "2025-11-24T06:27:54.888772"
     },
     "supermonkey93": {
       "count": 1,
@@ -517,12 +530,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 585550,
-    "keyword_matches": 53,
+    "total_posts_checked": 585650,
+    "keyword_matches": 54,
     "excluded_by_keywords": 248,
-    "excluded_by_user_quality": 65095,
+    "excluded_by_user_quality": 65109,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 11751
+    "excluded_by_deduplication": 11753
   },
-  "last_updated": "2025-11-24T05:52:45.122250"
+  "last_updated": "2025-11-24T06:27:57.627044"
 }
