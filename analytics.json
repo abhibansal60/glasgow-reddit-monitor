@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-27T17:14:52.211306",
-      "post_id": "1ohk7k9",
-      "subreddit": "glasgowmarket",
-      "title": "Gogol Bordello, SWG3, 28/11/2025",
-      "author": "RedArtemis10",
-      "score": 1,
-      "created_utc": 1761584972.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1ohk7k9/gogol_bordello_swg3_28112025/"
-    },
-    {
       "timestamp": "2025-10-27T23:14:56.571704",
       "post_id": "1ohti70",
       "subreddit": "glasgow",
@@ -325,12 +312,25 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p75pr4/free_ticket_to_wheatus_tonight/"
+    },
+    {
+      "timestamp": "2025-11-26T19:14:20.844204",
+      "post_id": "1p7g12e",
+      "subreddit": "glasgow",
+      "title": "Free Ticket - Glasgow Tonight",
+      "author": "sunrise-bluee",
+      "score": 1,
+      "created_utc": 1764183081.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p7g12e/free_ticket_glasgow_tonight/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 15,
-      "last_match": "2025-11-26T11:49:37.376306"
+      "count": 16,
+      "last_match": "2025-11-26T19:14:20.843792"
     },
     "discount": {
       "count": 5,
@@ -355,8 +355,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 47,
-      "last_match": "2025-11-26T11:49:37.376610"
+      "count": 48,
+      "last_match": "2025-11-26T19:14:20.844209"
     },
     "glasgowmarket": {
       "count": 7,
@@ -527,15 +527,19 @@
     "throwawaydoctor999": {
       "count": 1,
       "last_post": "2025-11-23T15:15:33.824958"
+    },
+    "sunrise-bluee": {
+      "count": 1,
+      "last_post": "2025-11-26T19:14:20.844212"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 599650,
-    "keyword_matches": 55,
+    "total_posts_checked": 599750,
+    "keyword_matches": 56,
     "excluded_by_keywords": 255,
-    "excluded_by_user_quality": 66537,
+    "excluded_by_user_quality": 66546,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 12035
+    "excluded_by_deduplication": 12037
   },
-  "last_updated": "2025-11-26T18:47:11.526219"
+  "last_updated": "2025-11-26T19:14:24.240795"
 }
