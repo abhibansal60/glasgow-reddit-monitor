@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-27T23:14:56.571704",
-      "post_id": "1ohti70",
-      "subreddit": "glasgow",
-      "title": "Free ticket to Tuesday\u2019s SQIFF lgbt short film collection - just shoot me a message and I\u2019ll transfer you my ticket",
-      "author": "Ok_Advisor_213",
-      "score": 4,
-      "created_utc": 1761606302.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1ohti70/free_ticket_to_tuesdays_sqiff_lgbt_short_film/"
-    },
-    {
       "timestamp": "2025-10-28T20:19:54.624561",
       "post_id": "1oijtwm",
       "subreddit": "glasgowmarket",
@@ -325,12 +312,25 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p7g12e/free_ticket_glasgow_tonight/"
+    },
+    {
+      "timestamp": "2025-11-27T18:24:24.085911",
+      "post_id": "1p88xlg",
+      "subreddit": "glasgow",
+      "title": "Free ticket for Pintglass @ the garage tonight",
+      "author": "BearUnknown",
+      "score": 3,
+      "created_utc": 1764266899.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1p88xlg/free_ticket_for_pintglass_the_garage_tonight/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 16,
-      "last_match": "2025-11-26T19:14:20.843792"
+      "count": 17,
+      "last_match": "2025-11-27T18:24:24.085624"
     },
     "discount": {
       "count": 5,
@@ -355,8 +355,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 48,
-      "last_match": "2025-11-26T19:14:20.844209"
+      "count": 49,
+      "last_match": "2025-11-27T18:24:24.085916"
     },
     "glasgowmarket": {
       "count": 7,
@@ -531,15 +531,19 @@
     "sunrise-bluee": {
       "count": 1,
       "last_post": "2025-11-26T19:14:20.844212"
+    },
+    "BearUnknown": {
+      "count": 1,
+      "last_post": "2025-11-27T18:24:24.085920"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 605150,
-    "keyword_matches": 56,
+    "total_posts_checked": 605250,
+    "keyword_matches": 57,
     "excluded_by_keywords": 256,
-    "excluded_by_user_quality": 67124,
+    "excluded_by_user_quality": 67139,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 12161
+    "excluded_by_deduplication": 12163
   },
-  "last_updated": "2025-11-27T17:49:45.785863"
+  "last_updated": "2025-11-27T18:24:28.423733"
 }
