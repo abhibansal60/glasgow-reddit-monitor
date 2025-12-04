@@ -1,59 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-10-28T20:19:54.624561",
-      "post_id": "1oijtwm",
-      "subreddit": "glasgowmarket",
-      "title": "Assai Hayley Williams listening party",
-      "author": "revcn",
-      "score": 1,
-      "created_utc": 1761681824.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1oijtwm/assai_hayley_williams_listening_party/"
-    },
-    {
-      "timestamp": "2025-10-29T18:25:42.960851",
-      "post_id": "1ojbxjg",
-      "subreddit": "glasgow",
-      "title": "Free Ticket for Maruja @ The Garage",
-      "author": "NathCase",
-      "score": 1,
-      "created_utc": 1761761289.0,
-      "matched_keywords": [
-        "free ticket",
-        "extra ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1ojbxjg/free_ticket_for_maruja_the_garage/"
-    },
-    {
-      "timestamp": "2025-10-30T09:51:19.043671",
-      "post_id": "1ojvau1",
-      "subreddit": "glasgow",
-      "title": "1 free ticket for shame @ the garage 16/11",
-      "author": "ruleitorr",
-      "score": 1,
-      "created_utc": 1761817495.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1ojvau1/1_free_ticket_for_shame_the_garage_1611/"
-    },
-    {
-      "timestamp": "2025-11-01T13:04:29.627251",
-      "post_id": "1oln47h",
-      "subreddit": "glasgow",
-      "title": "2x Redline 4:40PM and 2x 100 Metres 7:50PM tickets 4 free today",
-      "author": "GreedyLeek6",
-      "score": 2,
-      "created_utc": 1762001723.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1oln47h/2x_redline_440pm_and_2x_100_metres_750pm_tickets/"
-    },
-    {
       "timestamp": "2025-11-09T13:04:52.660672",
       "post_id": "1osithg",
       "subreddit": "glasgow",
@@ -325,6 +272,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1p88xlg/free_ticket_for_pintglass_the_garage_tonight/"
+    },
+    {
+      "timestamp": "2025-12-04T17:20:25.388586",
+      "post_id": "1pe58tg",
+      "subreddit": "glasgow",
+      "title": "Twin Atlantic - Barras",
+      "author": "Worried_Computer4119",
+      "score": 1,
+      "created_utc": 1764867536.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1pe58tg/twin_atlantic_barras/"
     }
   ],
   "keywords_stats": {
@@ -341,8 +301,8 @@
       "last_match": "2025-11-24T06:27:54.888553"
     },
     "spare ticket": {
-      "count": 22,
-      "last_match": "2025-11-22T17:41:13.470587"
+      "count": 23,
+      "last_match": "2025-12-04T17:20:25.388516"
     },
     "giveaway": {
       "count": 2,
@@ -355,8 +315,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 49,
-      "last_match": "2025-11-27T18:24:24.085916"
+      "count": 50,
+      "last_match": "2025-12-04T17:20:25.388591"
     },
     "glasgowmarket": {
       "count": 7,
@@ -535,15 +495,19 @@
     "BearUnknown": {
       "count": 1,
       "last_post": "2025-11-27T18:24:24.085920"
+    },
+    "Worried_Computer4119": {
+      "count": 1,
+      "last_post": "2025-12-04T17:20:25.388594"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 642950,
-    "keyword_matches": 57,
-    "excluded_by_keywords": 277,
-    "excluded_by_user_quality": 70763,
+    "total_posts_checked": 643050,
+    "keyword_matches": 58,
+    "excluded_by_keywords": 278,
+    "excluded_by_user_quality": 70769,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 12941
+    "excluded_by_deduplication": 12943
   },
-  "last_updated": "2025-12-04T16:52:54.384225"
+  "last_updated": "2025-12-04T17:20:28.555973"
 }
