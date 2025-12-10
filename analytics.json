@@ -1,32 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-11-09T13:04:52.660672",
-      "post_id": "1osithg",
-      "subreddit": "glasgow",
-      "title": "Free gig ticket for tonight- Jane Remover",
-      "author": "TheFryinScotsman",
-      "score": 1,
-      "created_utc": 1762693344.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1osithg/free_gig_ticket_for_tonight_jane_remover/"
-    },
-    {
-      "timestamp": "2025-11-09T20:37:51.019618",
-      "post_id": "1ostjxy",
-      "subreddit": "glasgow",
-      "title": "Getdown Services spare ticket",
-      "author": "AyyWhammo",
-      "score": 1,
-      "created_utc": 1762719458.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1ostjxy/getdown_services_spare_ticket/"
-    },
-    {
       "timestamp": "2025-11-11T01:20:33.775115",
       "post_id": "1otvoq5",
       "subreddit": "glasgow",
@@ -285,6 +259,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1pe58tg/twin_atlantic_barras/"
+    },
+    {
+      "timestamp": "2025-12-10T22:18:20.666963",
+      "post_id": "1pjg5b1",
+      "subreddit": "glasgow",
+      "title": "Hogmanay The Corinthian",
+      "author": "RaymondCarverFanClub",
+      "score": 0,
+      "created_utc": 1765404546.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1pjg5b1/hogmanay_the_corinthian/"
     }
   ],
   "keywords_stats": {
@@ -301,8 +288,8 @@
       "last_match": "2025-11-24T06:27:54.888553"
     },
     "spare ticket": {
-      "count": 23,
-      "last_match": "2025-12-04T17:20:25.388516"
+      "count": 24,
+      "last_match": "2025-12-10T22:18:20.666826"
     },
     "giveaway": {
       "count": 2,
@@ -315,8 +302,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 50,
-      "last_match": "2025-12-04T17:20:25.388591"
+      "count": 51,
+      "last_match": "2025-12-10T22:18:20.666968"
     },
     "glasgowmarket": {
       "count": 7,
@@ -499,15 +486,19 @@
     "Worried_Computer4119": {
       "count": 1,
       "last_post": "2025-12-04T17:20:25.388594"
+    },
+    "RaymondCarverFanClub": {
+      "count": 1,
+      "last_post": "2025-12-10T22:18:20.666971"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 677350,
-    "keyword_matches": 58,
+    "total_posts_checked": 677450,
+    "keyword_matches": 59,
     "excluded_by_keywords": 294,
-    "excluded_by_user_quality": 74073,
+    "excluded_by_user_quality": 74089,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 13377
+    "excluded_by_deduplication": 13379
   },
-  "last_updated": "2025-12-10T21:53:05.195304"
+  "last_updated": "2025-12-10T22:18:24.415349"
 }
