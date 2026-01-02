@@ -51,6 +51,19 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1q1w4iy/looking_for_restaurantbars_with_birthday_discounts/"
+    },
+    {
+      "timestamp": "2026-01-02T21:42:21.575356",
+      "post_id": "1q2bb4o",
+      "subreddit": "glasgow",
+      "title": "Moving to Glasgow: The 2026 Housing & Relocation Megathread",
+      "author": "Veloglasgow",
+      "score": 7,
+      "created_utc": 1767389556.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1q2bb4o/moving_to_glasgow_the_2026_housing_relocation/"
     }
   ],
   "keywords_stats": {
@@ -59,8 +72,8 @@
       "last_match": "2025-11-27T18:24:24.085624"
     },
     "discount": {
-      "count": 6,
-      "last_match": "2026-01-02T11:38:02.036768"
+      "count": 7,
+      "last_match": "2026-01-02T21:42:21.574855"
     },
     "voucher": {
       "count": 9,
@@ -81,8 +94,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 53,
-      "last_match": "2026-01-02T11:38:02.036831"
+      "count": 54,
+      "last_match": "2026-01-02T21:42:21.575361"
     },
     "glasgowmarket": {
       "count": 7,
@@ -277,15 +290,19 @@
     "Bobsthejob": {
       "count": 1,
       "last_post": "2026-01-02T11:38:02.036834"
+    },
+    "Veloglasgow": {
+      "count": 1,
+      "last_post": "2026-01-02T21:42:21.575365"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 797650,
-    "keyword_matches": 61,
+    "total_posts_checked": 797750,
+    "keyword_matches": 62,
     "excluded_by_keywords": 345,
-    "excluded_by_user_quality": 85819,
+    "excluded_by_user_quality": 85825,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 13938
+    "excluded_by_deduplication": 13939
   },
-  "last_updated": "2026-01-02T21:29:51.578283"
+  "last_updated": "2026-01-02T21:42:24.383335"
 }
