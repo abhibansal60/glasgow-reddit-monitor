@@ -38,6 +38,19 @@
         "extra ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1q069id/extra_flixbus_ticket_from_glasgow_to_edinburgh/"
+    },
+    {
+      "timestamp": "2026-01-02T11:38:02.036826",
+      "post_id": "1q1w4iy",
+      "subreddit": "glasgow",
+      "title": "Looking for Restaurant/bars with birthday discounts",
+      "author": "Bobsthejob",
+      "score": 0,
+      "created_utc": 1767352738.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1q1w4iy/looking_for_restaurantbars_with_birthday_discounts/"
     }
   ],
   "keywords_stats": {
@@ -46,8 +59,8 @@
       "last_match": "2025-11-27T18:24:24.085624"
     },
     "discount": {
-      "count": 5,
-      "last_match": "2025-11-23T15:15:33.824867"
+      "count": 6,
+      "last_match": "2026-01-02T11:38:02.036768"
     },
     "voucher": {
       "count": 9,
@@ -68,8 +81,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 52,
-      "last_match": "2025-12-31T06:57:42.498046"
+      "count": 53,
+      "last_match": "2026-01-02T11:38:02.036831"
     },
     "glasgowmarket": {
       "count": 7,
@@ -260,15 +273,19 @@
     "Feisty-Skirt806": {
       "count": 1,
       "last_post": "2025-12-31T06:57:42.498049"
+    },
+    "Bobsthejob": {
+      "count": 1,
+      "last_post": "2026-01-02T11:38:02.036834"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 794950,
-    "keyword_matches": 60,
+    "total_posts_checked": 795050,
+    "keyword_matches": 61,
     "excluded_by_keywords": 345,
-    "excluded_by_user_quality": 85639,
+    "excluded_by_user_quality": 85643,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 13911
+    "excluded_by_deduplication": 13912
   },
-  "last_updated": "2026-01-02T11:16:54.397746"
+  "last_updated": "2026-01-02T11:38:04.940918"
 }
