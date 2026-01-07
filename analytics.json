@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-12-04T17:20:25.388586",
-      "post_id": "1pe58tg",
-      "subreddit": "glasgow",
-      "title": "Twin Atlantic - Barras",
-      "author": "Worried_Computer4119",
-      "score": 1,
-      "created_utc": 1764867536.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1pe58tg/twin_atlantic_barras/"
-    },
-    {
       "timestamp": "2025-12-10T22:18:20.666963",
       "post_id": "1pjg5b1",
       "subreddit": "glasgow",
@@ -64,6 +51,19 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1q2bb4o/moving_to_glasgow_the_2026_housing_relocation/"
+    },
+    {
+      "timestamp": "2026-01-07T13:56:04.693969",
+      "post_id": "1q6fi0g",
+      "subreddit": "glasgow",
+      "title": "will a part-time job fund living expenses while doing a masters?",
+      "author": "shes-thunderstorms",
+      "score": 1,
+      "created_utc": 1767792897.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1q6fi0g/will_a_parttime_job_fund_living_expenses_while/"
     }
   ],
   "keywords_stats": {
@@ -72,8 +72,8 @@
       "last_match": "2025-11-27T18:24:24.085624"
     },
     "discount": {
-      "count": 7,
-      "last_match": "2026-01-02T21:42:21.574855"
+      "count": 8,
+      "last_match": "2026-01-07T13:56:04.693795"
     },
     "voucher": {
       "count": 9,
@@ -94,8 +94,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 54,
-      "last_match": "2026-01-02T21:42:21.575361"
+      "count": 55,
+      "last_match": "2026-01-07T13:56:04.693975"
     },
     "glasgowmarket": {
       "count": 7,
@@ -294,15 +294,19 @@
     "Veloglasgow": {
       "count": 1,
       "last_post": "2026-01-02T21:42:21.575365"
+    },
+    "shes-thunderstorms": {
+      "count": 1,
+      "last_post": "2026-01-07T13:56:04.693978"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 820950,
-    "keyword_matches": 62,
+    "total_posts_checked": 821050,
+    "keyword_matches": 63,
     "excluded_by_keywords": 360,
-    "excluded_by_user_quality": 86957,
+    "excluded_by_user_quality": 86960,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 14178
+    "excluded_by_deduplication": 14179
   },
-  "last_updated": "2026-01-07T13:27:00.369773"
+  "last_updated": "2026-01-07T13:56:07.613424"
 }
