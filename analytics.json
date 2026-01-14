@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-12-10T22:18:20.666963",
-      "post_id": "1pjg5b1",
-      "subreddit": "glasgow",
-      "title": "Hogmanay The Corinthian",
-      "author": "RaymondCarverFanClub",
-      "score": 0,
-      "created_utc": 1765404546.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1pjg5b1/hogmanay_the_corinthian/"
-    },
-    {
       "timestamp": "2025-12-31T06:57:42.498041",
       "post_id": "1q069id",
       "subreddit": "glasgow",
@@ -64,6 +51,19 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1q6fi0g/will_a_parttime_job_fund_living_expenses_while/"
+    },
+    {
+      "timestamp": "2026-01-14T18:58:26.917945",
+      "post_id": "1qcven7",
+      "subreddit": "glasgowmarket",
+      "title": "Got a spare ticket for Crywank if anyone is keen.",
+      "author": "sweetpicklemilk",
+      "score": 1,
+      "created_utc": 1768415871.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1qcven7/got_a_spare_ticket_for_crywank_if_anyone_is_keen/"
     }
   ],
   "keywords_stats": {
@@ -80,8 +80,8 @@
       "last_match": "2025-11-24T06:27:54.888553"
     },
     "spare ticket": {
-      "count": 24,
-      "last_match": "2025-12-10T22:18:20.666826"
+      "count": 25,
+      "last_match": "2026-01-14T18:58:26.917876"
     },
     "giveaway": {
       "count": 2,
@@ -98,8 +98,8 @@
       "last_match": "2026-01-07T13:56:04.693975"
     },
     "glasgowmarket": {
-      "count": 7,
-      "last_match": "2025-11-17T22:16:43.374078"
+      "count": 8,
+      "last_match": "2026-01-14T18:58:26.917951"
     }
   },
   "user_stats": {
@@ -298,15 +298,19 @@
     "shes-thunderstorms": {
       "count": 1,
       "last_post": "2026-01-07T13:56:04.693978"
+    },
+    "sweetpicklemilk": {
+      "count": 1,
+      "last_post": "2026-01-14T18:58:26.917954"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 855750,
-    "keyword_matches": 63,
+    "total_posts_checked": 855850,
+    "keyword_matches": 64,
     "excluded_by_keywords": 383,
-    "excluded_by_user_quality": 88390,
+    "excluded_by_user_quality": 88394,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 14526
+    "excluded_by_deduplication": 14527
   },
-  "last_updated": "2026-01-14T18:30:18.628631"
+  "last_updated": "2026-01-14T18:58:28.812710"
 }
