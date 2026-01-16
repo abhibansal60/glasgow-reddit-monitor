@@ -64,12 +64,25 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1qcven7/got_a_spare_ticket_for_crywank_if_anyone_is_keen/"
+    },
+    {
+      "timestamp": "2026-01-16T21:52:17.312798",
+      "post_id": "1qetb76",
+      "subreddit": "glasgow",
+      "title": "Watchhouse & Humbird @ The Pavilion Theatre - Sat 17th January. Free ticket",
+      "author": "derrygael",
+      "score": 1,
+      "created_utc": 1768600141.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1qetb76/watchhouse_humbird_the_pavilion_theatre_sat_17th/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 17,
-      "last_match": "2025-11-27T18:24:24.085624"
+      "count": 18,
+      "last_match": "2026-01-16T21:52:17.312493"
     },
     "discount": {
       "count": 8,
@@ -94,8 +107,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 55,
-      "last_match": "2026-01-07T13:56:04.693975"
+      "count": 56,
+      "last_match": "2026-01-16T21:52:17.312802"
     },
     "glasgowmarket": {
       "count": 8,
@@ -302,15 +315,19 @@
     "sweetpicklemilk": {
       "count": 1,
       "last_post": "2026-01-14T18:58:26.917954"
+    },
+    "derrygael": {
+      "count": 1,
+      "last_post": "2026-01-16T21:52:17.312805"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 865650,
-    "keyword_matches": 64,
+    "total_posts_checked": 865750,
+    "keyword_matches": 65,
     "excluded_by_keywords": 388,
-    "excluded_by_user_quality": 89029,
+    "excluded_by_user_quality": 89038,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 14601
+    "excluded_by_deduplication": 14602
   },
-  "last_updated": "2026-01-16T21:41:48.629710"
+  "last_updated": "2026-01-16T21:52:21.210747"
 }
