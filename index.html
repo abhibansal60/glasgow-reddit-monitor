@@ -125,16 +125,16 @@
         <div class="header">
             <h1>🎫 Reddit Monitor Analytics</h1>
             <p>Monitoring r/glasgow & r/glasgowmarket for tickets and giveaways</p>
-            <p><small>Last updated: 2026-01-16 21:41:48</small></p>
+            <p><small>Last updated: 2026-01-16 21:52:21</small></p>
         </div>
 
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-number">5</div>
+                <div class="stat-number">6</div>
                 <div class="stat-label">Total Matches</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">1</div>
+                <div class="stat-number">2</div>
                 <div class="stat-label">Last 7 Days</div>
             </div>
             <div class="stat-card">
@@ -142,7 +142,7 @@
                 <div class="stat-label">Filter Efficiency</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">0.1</div>
+                <div class="stat-number">0.3</div>
                 <div class="stat-label">Daily Average</div>
             </div>
         </div>
@@ -171,6 +171,19 @@
 
         <div class="recent-matches">
             <h3>Recent Matches (Last 10)</h3>
+            
+            <div class="match-item">
+                <div class="match-title">
+                    <a href="https://reddit.com/r/glasgow/comments/1qetb76/watchhouse_humbird_the_pavilion_theatre_sat_17th/" target="_blank" style="text-decoration: none; color: inherit;">
+                        Watchhouse & Humbird @ The Pavilion Theatre - Sat 17th January. Free ticket
+                    </a>
+                </div>
+                <div class="match-meta">
+                    r/glasgow • derrygael • Score: 1 • 
+                    2026-01-16 21:52
+                </div>
+                <div><span class="match-keywords">free ticket</span></div>
+            </div>
             
             <div class="match-item">
                 <div class="match-title">
@@ -258,7 +271,7 @@
                 labels: ["12/18", "12/19", "12/20", "12/21", "12/22", "12/23", "12/24", "12/25", "12/26", "12/27", "12/28", "12/29", "12/30", "12/31", "01/01", "01/02", "01/03", "01/04", "01/05", "01/06", "01/07", "01/08", "01/09", "01/10", "01/11", "01/12", "01/13", "01/14", "01/15", "01/16"],
                 datasets: [{
                     label: 'Matches',
-                    data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+                    data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
                     borderColor: '#667eea',
                     backgroundColor: 'rgba(102, 126, 234, 0.1)',
                     tension: 0.4,
@@ -292,7 +305,7 @@
                 labels: ["spare ticket", "free ticket", "voucher", "discount", "extra ticket", "giveaway"],
                 datasets: [{
                     label: 'Matches',
-                    data: [25, 17, 9, 8, 5, 2],
+                    data: [25, 18, 9, 8, 5, 2],
                     backgroundColor: 'rgba(102, 126, 234, 0.6)',
                     borderColor: '#667eea',
                     borderWidth: 1
@@ -324,7 +337,7 @@
             data: {
                 labels: ["r/glasgow", "r/glasgowmarket"],
                 datasets: [{
-                    data: [55, 8],
+                    data: [56, 8],
                     backgroundColor: ["#667eea", "#764ba2"],
                     borderWidth: 0
                 }]
@@ -348,7 +361,7 @@
                 labels: ["Keywords Matched", "Excluded by Keywords", "Excluded by User Quality", "Excluded by Score", "Excluded by Deduplication"],
                 datasets: [{
                     label: 'Count',
-                    data: [64, 388, 89029, 0, 14601],
+                    data: [65, 388, 89038, 0, 14602],
                     backgroundColor: [
                         'rgba(76, 175, 80, 0.6)',   // Keywords Matched - green
                         'rgba(255, 152, 0, 0.6)',   // Excluded by Keywords - orange  
