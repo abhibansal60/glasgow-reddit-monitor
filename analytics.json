@@ -77,6 +77,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1qetb76/watchhouse_humbird_the_pavilion_theatre_sat_17th/"
+    },
+    {
+      "timestamp": "2026-01-21T09:46:38.814443",
+      "post_id": "1qit66b",
+      "subreddit": "glasgow",
+      "title": "Glasgow Science Centre parking help",
+      "author": "Flaky_Principle_2458",
+      "score": 3,
+      "created_utc": 1768986745.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1qit66b/glasgow_science_centre_parking_help/"
     }
   ],
   "keywords_stats": {
@@ -89,8 +102,8 @@
       "last_match": "2026-01-07T13:56:04.693795"
     },
     "voucher": {
-      "count": 9,
-      "last_match": "2025-11-24T06:27:54.888553"
+      "count": 10,
+      "last_match": "2026-01-21T09:46:38.814202"
     },
     "spare ticket": {
       "count": 25,
@@ -107,8 +120,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 56,
-      "last_match": "2026-01-16T21:52:17.312802"
+      "count": 57,
+      "last_match": "2026-01-21T09:46:38.814451"
     },
     "glasgowmarket": {
       "count": 8,
@@ -319,15 +332,19 @@
     "derrygael": {
       "count": 1,
       "last_post": "2026-01-16T21:52:17.312805"
+    },
+    "Flaky_Principle_2458": {
+      "count": 1,
+      "last_post": "2026-01-21T09:46:38.814456"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 886950,
-    "keyword_matches": 65,
+    "total_posts_checked": 887050,
+    "keyword_matches": 66,
     "excluded_by_keywords": 400,
-    "excluded_by_user_quality": 90580,
+    "excluded_by_user_quality": 90588,
     "excluded_by_score": 0,
     "excluded_by_deduplication": 14604
   },
-  "last_updated": "2026-01-21T09:02:26.312665"
+  "last_updated": "2026-01-21T09:46:41.558609"
 }
