@@ -1,45 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2025-12-31T06:57:42.498041",
-      "post_id": "1q069id",
-      "subreddit": "glasgow",
-      "title": "Extra Flixbus ticket from Glasgow to Edinburgh and back",
-      "author": "Feisty-Skirt806",
-      "score": 2,
-      "created_utc": 1767163177.0,
-      "matched_keywords": [
-        "extra ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1q069id/extra_flixbus_ticket_from_glasgow_to_edinburgh/"
-    },
-    {
-      "timestamp": "2026-01-02T11:38:02.036826",
-      "post_id": "1q1w4iy",
-      "subreddit": "glasgow",
-      "title": "Looking for Restaurant/bars with birthday discounts",
-      "author": "Bobsthejob",
-      "score": 0,
-      "created_utc": 1767352738.0,
-      "matched_keywords": [
-        "discount"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1q1w4iy/looking_for_restaurantbars_with_birthday_discounts/"
-    },
-    {
-      "timestamp": "2026-01-02T21:42:21.575356",
-      "post_id": "1q2bb4o",
-      "subreddit": "glasgow",
-      "title": "Moving to Glasgow: The 2026 Housing & Relocation Megathread",
-      "author": "Veloglasgow",
-      "score": 7,
-      "created_utc": 1767389556.0,
-      "matched_keywords": [
-        "discount"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1q2bb4o/moving_to_glasgow_the_2026_housing_relocation/"
-    },
-    {
       "timestamp": "2026-01-07T13:56:04.693969",
       "post_id": "1q6fi0g",
       "subreddit": "glasgow",
@@ -103,6 +64,19 @@
         "extra ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1qpk54y/free_white_lies_ticket/"
+    },
+    {
+      "timestamp": "2026-02-02T17:57:43.975063",
+      "post_id": "1qu0kd5",
+      "subreddit": "glasgow",
+      "title": "Hawl, students cutting about",
+      "author": "redditacc2002",
+      "score": 17,
+      "created_utc": 1770051407.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1qu0kd5/hawl_students_cutting_about/"
     }
   ],
   "keywords_stats": {
@@ -111,8 +85,8 @@
       "last_match": "2026-01-16T21:52:17.312493"
     },
     "discount": {
-      "count": 8,
-      "last_match": "2026-01-07T13:56:04.693795"
+      "count": 9,
+      "last_match": "2026-02-02T17:57:43.974970"
     },
     "voucher": {
       "count": 10,
@@ -133,8 +107,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 58,
-      "last_match": "2026-01-28T18:49:14.728708"
+      "count": 59,
+      "last_match": "2026-02-02T17:57:43.975068"
     },
     "glasgowmarket": {
       "count": 8,
@@ -353,15 +327,19 @@
     "Flannister": {
       "count": 1,
       "last_post": "2026-01-28T18:49:14.728711"
+    },
+    "redditacc2002": {
+      "count": 1,
+      "last_post": "2026-02-02T17:57:43.975072"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 935650,
-    "keyword_matches": 67,
+    "total_posts_checked": 935750,
+    "keyword_matches": 68,
     "excluded_by_keywords": 435,
-    "excluded_by_user_quality": 97002,
+    "excluded_by_user_quality": 97015,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 15441
+    "excluded_by_deduplication": 15444
   },
-  "last_updated": "2026-02-02T17:08:43.892924"
+  "last_updated": "2026-02-02T17:57:48.100409"
 }
