@@ -77,6 +77,19 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1qu0kd5/hawl_students_cutting_about/"
+    },
+    {
+      "timestamp": "2026-02-04T18:27:06.625286",
+      "post_id": "1qvv48a",
+      "subreddit": "glasgowmarket",
+      "title": "Motionless in white 5/2/26",
+      "author": "cunnyfunt103",
+      "score": 0,
+      "created_utc": 1770226682.0,
+      "matched_keywords": [
+        "extra ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1qvv48a/motionless_in_white_5226/"
     }
   ],
   "keywords_stats": {
@@ -101,8 +114,8 @@
       "last_match": "2025-10-14T13:18:54.050898"
     },
     "extra ticket": {
-      "count": 6,
-      "last_match": "2026-01-28T18:49:14.728632"
+      "count": 7,
+      "last_match": "2026-02-04T18:27:06.625225"
     }
   },
   "subreddit_stats": {
@@ -111,8 +124,8 @@
       "last_match": "2026-02-02T17:57:43.975068"
     },
     "glasgowmarket": {
-      "count": 8,
-      "last_match": "2026-01-14T18:58:26.917951"
+      "count": 9,
+      "last_match": "2026-02-04T18:27:06.625292"
     }
   },
   "user_stats": {
@@ -331,15 +344,19 @@
     "redditacc2002": {
       "count": 1,
       "last_post": "2026-02-02T17:57:43.975072"
+    },
+    "cunnyfunt103": {
+      "count": 1,
+      "last_post": "2026-02-04T18:27:06.625295"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 940150,
-    "keyword_matches": 68,
+    "total_posts_checked": 940250,
+    "keyword_matches": 69,
     "excluded_by_keywords": 442,
-    "excluded_by_user_quality": 97500,
+    "excluded_by_user_quality": 97507,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 15543
+    "excluded_by_deduplication": 15546
   },
-  "last_updated": "2026-02-04T17:32:03.716051"
+  "last_updated": "2026-02-04T18:27:09.017570"
 }
