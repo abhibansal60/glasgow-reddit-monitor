@@ -90,6 +90,19 @@
         "extra ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1qvv48a/motionless_in_white_5226/"
+    },
+    {
+      "timestamp": "2026-02-05T11:02:12.911702",
+      "post_id": "1qwhmdu",
+      "subreddit": "glasgow",
+      "title": "Glasgow motionless in white spare ticket  Thursday 5th February 6:00pm",
+      "author": "Quietcookieok",
+      "score": 2,
+      "created_utc": 1770286751.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1qwhmdu/glasgow_motionless_in_white_spare_ticket_thursday/"
     }
   ],
   "keywords_stats": {
@@ -106,8 +119,8 @@
       "last_match": "2026-01-21T09:46:38.814202"
     },
     "spare ticket": {
-      "count": 25,
-      "last_match": "2026-01-14T18:58:26.917876"
+      "count": 26,
+      "last_match": "2026-02-05T11:02:12.911455"
     },
     "giveaway": {
       "count": 2,
@@ -120,8 +133,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 59,
-      "last_match": "2026-02-02T17:57:43.975068"
+      "count": 60,
+      "last_match": "2026-02-05T11:02:12.911708"
     },
     "glasgowmarket": {
       "count": 9,
@@ -348,15 +361,19 @@
     "cunnyfunt103": {
       "count": 1,
       "last_post": "2026-02-04T18:27:06.625295"
+    },
+    "Quietcookieok": {
+      "count": 1,
+      "last_post": "2026-02-05T11:02:12.911711"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 941950,
-    "keyword_matches": 69,
+    "total_posts_checked": 942050,
+    "keyword_matches": 70,
     "excluded_by_keywords": 444,
-    "excluded_by_user_quality": 97650,
+    "excluded_by_user_quality": 97659,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 15602
+    "excluded_by_deduplication": 15606
   },
-  "last_updated": "2026-02-05T10:01:13.407073"
+  "last_updated": "2026-02-05T11:02:17.236291"
 }
