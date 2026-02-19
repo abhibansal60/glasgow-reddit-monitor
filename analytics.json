@@ -90,12 +90,25 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1r698af/crowbar/"
+    },
+    {
+      "timestamp": "2026-02-19T19:09:09.729795",
+      "post_id": "1r977rv",
+      "subreddit": "glasgow",
+      "title": "Free ticket for The Streets tonight at Barrowlands",
+      "author": "ThisIsFitz",
+      "score": 5,
+      "created_utc": 1771525922.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1r977rv/free_ticket_for_the_streets_tonight_at_barrowlands/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 18,
-      "last_match": "2026-01-16T21:52:17.312493"
+      "count": 19,
+      "last_match": "2026-02-19T19:09:09.729458"
     },
     "discount": {
       "count": 9,
@@ -120,8 +133,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 61,
-      "last_match": "2026-02-12T20:50:27.168396"
+      "count": 62,
+      "last_match": "2026-02-19T19:09:09.729800"
     },
     "glasgowmarket": {
       "count": 10,
@@ -138,8 +151,8 @@
       "last_post": "2025-08-25T19:13:22.328370"
     },
     "ThisIsFitz": {
-      "count": 2,
-      "last_post": "2025-11-26T11:49:37.376613"
+      "count": 3,
+      "last_post": "2026-02-19T19:09:09.729803"
     },
     "ScottishG": {
       "count": 1,
@@ -363,12 +376,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 981450,
-    "keyword_matches": 72,
+    "total_posts_checked": 981550,
+    "keyword_matches": 73,
     "excluded_by_keywords": 484,
-    "excluded_by_user_quality": 101967,
+    "excluded_by_user_quality": 101980,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 16998
+    "excluded_by_deduplication": 17000
   },
-  "last_updated": "2026-02-19T18:05:27.853179"
+  "last_updated": "2026-02-19T19:09:13.297458"
 }
