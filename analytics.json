@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-01-21T09:46:38.814443",
-      "post_id": "1qit66b",
-      "subreddit": "glasgow",
-      "title": "Glasgow Science Centre parking help",
-      "author": "Flaky_Principle_2458",
-      "score": 3,
-      "created_utc": 1768986745.0,
-      "matched_keywords": [
-        "voucher"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1qit66b/glasgow_science_centre_parking_help/"
-    },
-    {
       "timestamp": "2026-01-28T18:49:14.728703",
       "post_id": "1qpk54y",
       "subreddit": "glasgow",
@@ -103,12 +90,25 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1r977rv/free_ticket_for_the_streets_tonight_at_barrowlands/"
+    },
+    {
+      "timestamp": "2026-02-21T17:40:57.393106",
+      "post_id": "1raxb0h",
+      "subreddit": "glasgow",
+      "title": "Free ticket to Kataklysm at Audio",
+      "author": "Blackplank",
+      "score": 1,
+      "created_utc": 1771695611.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1raxb0h/free_ticket_to_kataklysm_at_audio/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 19,
-      "last_match": "2026-02-19T19:09:09.729458"
+      "count": 20,
+      "last_match": "2026-02-21T17:40:57.392805"
     },
     "discount": {
       "count": 9,
@@ -133,8 +133,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 62,
-      "last_match": "2026-02-19T19:09:09.729800"
+      "count": 63,
+      "last_match": "2026-02-21T17:40:57.393111"
     },
     "glasgowmarket": {
       "count": 10,
@@ -373,15 +373,19 @@
     "Tobuildamountain92": {
       "count": 1,
       "last_post": "2026-02-16T13:38:22.670214"
+    },
+    "Blackplank": {
+      "count": 1,
+      "last_post": "2026-02-21T17:40:57.393114"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 987750,
-    "keyword_matches": 73,
+    "total_posts_checked": 987850,
+    "keyword_matches": 74,
     "excluded_by_keywords": 494,
-    "excluded_by_user_quality": 102697,
+    "excluded_by_user_quality": 102708,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 17108
+    "excluded_by_deduplication": 17109
   },
-  "last_updated": "2026-02-21T17:00:38.084283"
+  "last_updated": "2026-02-21T17:41:01.620522"
 }
