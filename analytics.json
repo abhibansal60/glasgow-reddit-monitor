@@ -103,6 +103,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1raxb0h/free_ticket_to_kataklysm_at_audio/"
+    },
+    {
+      "timestamp": "2026-02-22T22:21:33.176851",
+      "post_id": "1rbyxkk",
+      "subreddit": "glasgow",
+      "title": "Concession at Glasgow Club",
+      "author": "Unlikely_Length8600",
+      "score": 0,
+      "created_utc": 1771797340.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1rbyxkk/concession_at_glasgow_club/"
     }
   ],
   "keywords_stats": {
@@ -111,8 +124,8 @@
       "last_match": "2026-02-21T17:40:57.392805"
     },
     "discount": {
-      "count": 9,
-      "last_match": "2026-02-02T17:57:43.974970"
+      "count": 10,
+      "last_match": "2026-02-22T22:21:33.176533"
     },
     "voucher": {
       "count": 10,
@@ -133,8 +146,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 63,
-      "last_match": "2026-02-21T17:40:57.393111"
+      "count": 64,
+      "last_match": "2026-02-22T22:21:33.176856"
     },
     "glasgowmarket": {
       "count": 10,
@@ -377,15 +390,19 @@
     "Blackplank": {
       "count": 1,
       "last_post": "2026-02-21T17:40:57.393114"
+    },
+    "Unlikely_Length8600": {
+      "count": 1,
+      "last_post": "2026-02-22T22:21:33.176860"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 992550,
-    "keyword_matches": 74,
+    "total_posts_checked": 992650,
+    "keyword_matches": 75,
     "excluded_by_keywords": 496,
-    "excluded_by_user_quality": 103124,
+    "excluded_by_user_quality": 103133,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 17183
+    "excluded_by_deduplication": 17184
   },
-  "last_updated": "2026-02-22T21:46:40.275396"
+  "last_updated": "2026-02-22T22:21:36.331302"
 }
