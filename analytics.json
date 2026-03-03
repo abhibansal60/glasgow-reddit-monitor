@@ -116,6 +116,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1rhdbje/gff_nirvana_the_band_the_show_the_movie/"
+    },
+    {
+      "timestamp": "2026-03-03T14:49:59.185832",
+      "post_id": "1rjqmyz",
+      "subreddit": "glasgow",
+      "title": "Glasgow Film Fest - Carrie 8.15pm ticket",
+      "author": "Chemical-Cheek-7690",
+      "score": 1,
+      "created_utc": 1772547837.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1rjqmyz/glasgow_film_fest_carrie_815pm_ticket/"
     }
   ],
   "keywords_stats": {
@@ -132,8 +145,8 @@
       "last_match": "2026-01-21T09:46:38.814202"
     },
     "spare ticket": {
-      "count": 28,
-      "last_match": "2026-02-28T20:46:41.757348"
+      "count": 29,
+      "last_match": "2026-03-03T14:49:59.185624"
     },
     "giveaway": {
       "count": 3,
@@ -146,8 +159,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 64,
-      "last_match": "2026-02-22T22:21:33.176856"
+      "count": 65,
+      "last_match": "2026-03-03T14:49:59.185837"
     },
     "glasgowmarket": {
       "count": 11,
@@ -398,15 +411,19 @@
     "ScottishAF": {
       "count": 1,
       "last_post": "2026-02-28T20:46:41.757462"
+    },
+    "Chemical-Cheek-7690": {
+      "count": 1,
+      "last_post": "2026-03-03T14:49:59.185840"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1018050,
-    "keyword_matches": 76,
+    "total_posts_checked": 1018150,
+    "keyword_matches": 77,
     "excluded_by_keywords": 520,
-    "excluded_by_user_quality": 106206,
+    "excluded_by_user_quality": 106222,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 17754
+    "excluded_by_deduplication": 17756
   },
-  "last_updated": "2026-03-03T13:58:05.382317"
+  "last_updated": "2026-03-03T14:50:06.545100"
 }
