@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-02-02T17:57:43.975063",
-      "post_id": "1qu0kd5",
-      "subreddit": "glasgow",
-      "title": "Hawl, students cutting about",
-      "author": "redditacc2002",
-      "score": 17,
-      "created_utc": 1770051407.0,
-      "matched_keywords": [
-        "discount"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1qu0kd5/hawl_students_cutting_about/"
-    },
-    {
       "timestamp": "2026-02-04T18:27:06.625286",
       "post_id": "1qvv48a",
       "subreddit": "glasgowmarket",
@@ -129,12 +116,25 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1rjqmyz/glasgow_film_fest_carrie_815pm_ticket/"
+    },
+    {
+      "timestamp": "2026-03-06T11:26:30.756985",
+      "post_id": "1rmb0k6",
+      "subreddit": "glasgow",
+      "title": "Free ticket for Jungle Cakes tonight",
+      "author": "Bruce_Leeson",
+      "score": 3,
+      "created_utc": 1772794858.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1rmb0k6/free_ticket_for_jungle_cakes_tonight/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 20,
-      "last_match": "2026-02-21T17:40:57.392805"
+      "count": 21,
+      "last_match": "2026-03-06T11:26:30.756909"
     },
     "discount": {
       "count": 10,
@@ -159,8 +159,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 65,
-      "last_match": "2026-03-03T14:49:59.185837"
+      "count": 66,
+      "last_match": "2026-03-06T11:26:30.756990"
     },
     "glasgowmarket": {
       "count": 11,
@@ -415,15 +415,19 @@
     "Chemical-Cheek-7690": {
       "count": 1,
       "last_post": "2026-03-03T14:49:59.185840"
+    },
+    "Bruce_Leeson": {
+      "count": 1,
+      "last_post": "2026-03-06T11:26:30.756993"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1025650,
-    "keyword_matches": 77,
+    "total_posts_checked": 1025750,
+    "keyword_matches": 78,
     "excluded_by_keywords": 532,
-    "excluded_by_user_quality": 107260,
+    "excluded_by_user_quality": 107274,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 17867
+    "excluded_by_deduplication": 17869
   },
-  "last_updated": "2026-03-06T10:55:12.699457"
+  "last_updated": "2026-03-06T11:26:35.337022"
 }
