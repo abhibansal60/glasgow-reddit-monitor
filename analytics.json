@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-02-05T11:02:12.911702",
-      "post_id": "1qwhmdu",
-      "subreddit": "glasgow",
-      "title": "Glasgow motionless in white spare ticket  Thursday 5th February 6:00pm",
-      "author": "Quietcookieok",
-      "score": 2,
-      "created_utc": 1770286751.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1qwhmdu/glasgow_motionless_in_white_spare_ticket_thursday/"
-    },
-    {
       "timestamp": "2026-02-12T20:50:27.168387",
       "post_id": "1r34vxx",
       "subreddit": "glasgow",
@@ -129,6 +116,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1rmmq9w/free_ticket_for_49th_main_tonight_at_king_tuts/"
+    },
+    {
+      "timestamp": "2026-03-08T10:32:55.311321",
+      "post_id": "1ro144n",
+      "subreddit": "glasgowmarket",
+      "title": "1 Hot Mulligan ticket",
+      "author": "groznyjgrad",
+      "score": 1,
+      "created_utc": 1772964254.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1ro144n/1_hot_mulligan_ticket/"
     }
   ],
   "keywords_stats": {
@@ -145,8 +145,8 @@
       "last_match": "2026-01-21T09:46:38.814202"
     },
     "spare ticket": {
-      "count": 29,
-      "last_match": "2026-03-03T14:49:59.185624"
+      "count": 30,
+      "last_match": "2026-03-08T10:32:55.311218"
     },
     "giveaway": {
       "count": 3,
@@ -163,8 +163,8 @@
       "last_match": "2026-03-06T19:02:45.696023"
     },
     "glasgowmarket": {
-      "count": 11,
-      "last_match": "2026-02-28T20:46:41.757459"
+      "count": 12,
+      "last_match": "2026-03-08T10:32:55.311326"
     }
   },
   "user_stats": {
@@ -419,15 +419,19 @@
     "Bruce_Leeson": {
       "count": 1,
       "last_post": "2026-03-06T11:26:30.756993"
+    },
+    "groznyjgrad": {
+      "count": 1,
+      "last_post": "2026-03-08T10:32:55.311330"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1033050,
-    "keyword_matches": 79,
+    "total_posts_checked": 1033150,
+    "keyword_matches": 80,
     "excluded_by_keywords": 537,
-    "excluded_by_user_quality": 108414,
+    "excluded_by_user_quality": 108428,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 17993
+    "excluded_by_deduplication": 17995
   },
-  "last_updated": "2026-03-08T09:58:44.368121"
+  "last_updated": "2026-03-08T10:32:57.547509"
 }
