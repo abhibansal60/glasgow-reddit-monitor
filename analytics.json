@@ -142,6 +142,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1rsyz46/free_ticket_for_eden_at_swg3/"
+    },
+    {
+      "timestamp": "2026-03-14T10:25:21.642980",
+      "post_id": "1rtfejw",
+      "subreddit": "glasgowmarket",
+      "title": "Geese ticket 21st March",
+      "author": "camoletaco",
+      "score": 2,
+      "created_utc": 1773481999.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1rtfejw/geese_ticket_21st_march/"
     }
   ],
   "keywords_stats": {
@@ -158,8 +171,8 @@
       "last_match": "2026-01-21T09:46:38.814202"
     },
     "spare ticket": {
-      "count": 30,
-      "last_match": "2026-03-08T10:32:55.311218"
+      "count": 31,
+      "last_match": "2026-03-14T10:25:21.642916"
     },
     "giveaway": {
       "count": 3,
@@ -176,8 +189,8 @@
       "last_match": "2026-03-06T19:02:45.696023"
     },
     "glasgowmarket": {
-      "count": 13,
-      "last_match": "2026-03-13T21:05:14.591293"
+      "count": 14,
+      "last_match": "2026-03-14T10:25:21.642986"
     }
   },
   "user_stats": {
@@ -440,15 +453,19 @@
     "i_sharpen_crayons": {
       "count": 1,
       "last_post": "2026-03-13T21:05:14.591296"
+    },
+    "camoletaco": {
+      "count": 1,
+      "last_post": "2026-03-14T10:25:21.642990"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1050250,
-    "keyword_matches": 81,
+    "total_posts_checked": 1050350,
+    "keyword_matches": 82,
     "excluded_by_keywords": 581,
-    "excluded_by_user_quality": 110844,
+    "excluded_by_user_quality": 110860,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 18229
+    "excluded_by_deduplication": 18231
   },
-  "last_updated": "2026-03-14T09:48:42.307817"
+  "last_updated": "2026-03-14T10:25:23.397173"
 }
