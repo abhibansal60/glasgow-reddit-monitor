@@ -116,6 +116,19 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1s5w9jq/shuffle_app_discount_on_eating_out_manchester/"
+    },
+    {
+      "timestamp": "2026-03-28T16:31:01.684453",
+      "post_id": "1s64qwc",
+      "subreddit": "glasgow",
+      "title": "Mandy indiana",
+      "author": "Equivalent-Tone-8824",
+      "score": 1,
+      "created_utc": 1774714891.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1s64qwc/mandy_indiana/"
     }
   ],
   "keywords_stats": {
@@ -132,8 +145,8 @@
       "last_match": "2026-01-21T09:46:38.814202"
     },
     "spare ticket": {
-      "count": 32,
-      "last_match": "2026-03-18T14:45:20.151648"
+      "count": 33,
+      "last_match": "2026-03-28T16:31:01.684153"
     },
     "giveaway": {
       "count": 3,
@@ -146,8 +159,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 68,
-      "last_match": "2026-03-28T10:29:06.102433"
+      "count": 69,
+      "last_match": "2026-03-28T16:31:01.684462"
     },
     "glasgowmarket": {
       "count": 15,
@@ -426,15 +439,19 @@
     "plantoneonmeplease": {
       "count": 1,
       "last_post": "2026-03-28T10:29:06.102436"
+    },
+    "Equivalent-Tone-8824": {
+      "count": 1,
+      "last_post": "2026-03-28T16:31:01.684467"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1088350,
-    "keyword_matches": 84,
+    "total_posts_checked": 1088450,
+    "keyword_matches": 85,
     "excluded_by_keywords": 618,
-    "excluded_by_user_quality": 117977,
+    "excluded_by_user_quality": 117994,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 19048
+    "excluded_by_deduplication": 19051
   },
-  "last_updated": "2026-03-28T15:46:23.742150"
+  "last_updated": "2026-03-28T16:31:05.419237"
 }
