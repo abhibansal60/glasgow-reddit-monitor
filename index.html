@@ -125,16 +125,16 @@
         <div class="header">
             <h1>🎫 Reddit Monitor Analytics</h1>
             <p>Monitoring r/glasgow & r/glasgowmarket for tickets and giveaways</p>
-            <p><small>Last updated: 2026-03-28 15:46:23</small></p>
+            <p><small>Last updated: 2026-03-28 16:31:05</small></p>
         </div>
 
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-number">9</div>
+                <div class="stat-number">10</div>
                 <div class="stat-label">Total Matches</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">1</div>
+                <div class="stat-number">2</div>
                 <div class="stat-label">Last 7 Days</div>
             </div>
             <div class="stat-card">
@@ -142,7 +142,7 @@
                 <div class="stat-label">Filter Efficiency</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">0.1</div>
+                <div class="stat-number">0.3</div>
                 <div class="stat-label">Daily Average</div>
             </div>
         </div>
@@ -171,6 +171,19 @@
 
         <div class="recent-matches">
             <h3>Recent Matches (Last 10)</h3>
+            
+            <div class="match-item">
+                <div class="match-title">
+                    <a href="https://reddit.com/r/glasgow/comments/1s64qwc/mandy_indiana/" target="_blank" style="text-decoration: none; color: inherit;">
+                        Mandy indiana
+                    </a>
+                </div>
+                <div class="match-meta">
+                    r/glasgow • Equivalent-Tone-8824 • Score: 1 • 
+                    2026-03-28 16:31
+                </div>
+                <div><span class="match-keywords">spare ticket</span></div>
+            </div>
             
             <div class="match-item">
                 <div class="match-title">
@@ -310,7 +323,7 @@
                 labels: ["02/27", "02/28", "03/01", "03/02", "03/03", "03/04", "03/05", "03/06", "03/07", "03/08", "03/09", "03/10", "03/11", "03/12", "03/13", "03/14", "03/15", "03/16", "03/17", "03/18", "03/19", "03/20", "03/21", "03/22", "03/23", "03/24", "03/25", "03/26", "03/27", "03/28"],
                 datasets: [{
                     label: 'Matches',
-                    data: [0, 1, 0, 0, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+                    data: [0, 1, 0, 0, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2],
                     borderColor: '#667eea',
                     backgroundColor: 'rgba(102, 126, 234, 0.1)',
                     tension: 0.4,
@@ -344,7 +357,7 @@
                 labels: ["spare ticket", "free ticket", "discount", "voucher", "extra ticket", "giveaway"],
                 datasets: [{
                     label: 'Matches',
-                    data: [32, 23, 11, 10, 7, 3],
+                    data: [33, 23, 11, 10, 7, 3],
                     backgroundColor: 'rgba(102, 126, 234, 0.6)',
                     borderColor: '#667eea',
                     borderWidth: 1
@@ -376,7 +389,7 @@
             data: {
                 labels: ["r/glasgow", "r/glasgowmarket"],
                 datasets: [{
-                    data: [68, 15],
+                    data: [69, 15],
                     backgroundColor: ["#667eea", "#764ba2"],
                     borderWidth: 0
                 }]
@@ -400,7 +413,7 @@
                 labels: ["Keywords Matched", "Excluded by Keywords", "Excluded by User Quality", "Excluded by Score", "Excluded by Deduplication"],
                 datasets: [{
                     label: 'Count',
-                    data: [84, 618, 117977, 0, 19048],
+                    data: [85, 618, 117994, 0, 19051],
                     backgroundColor: [
                         'rgba(76, 175, 80, 0.6)',   // Keywords Matched - green
                         'rgba(255, 152, 0, 0.6)',   // Excluded by Keywords - orange  
