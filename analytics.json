@@ -1,58 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-02-28T20:46:41.757454",
-      "post_id": "1rhdbje",
-      "subreddit": "glasgowmarket",
-      "title": "GFF Nirvana the Band the Show the Movie",
-      "author": "ScottishAF",
-      "score": 1,
-      "created_utc": 1772311053.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1rhdbje/gff_nirvana_the_band_the_show_the_movie/"
-    },
-    {
-      "timestamp": "2026-03-03T14:49:59.185832",
-      "post_id": "1rjqmyz",
-      "subreddit": "glasgow",
-      "title": "Glasgow Film Fest - Carrie 8.15pm ticket",
-      "author": "Chemical-Cheek-7690",
-      "score": 1,
-      "created_utc": 1772547837.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1rjqmyz/glasgow_film_fest_carrie_815pm_ticket/"
-    },
-    {
-      "timestamp": "2026-03-06T11:26:30.756985",
-      "post_id": "1rmb0k6",
-      "subreddit": "glasgow",
-      "title": "Free ticket for Jungle Cakes tonight",
-      "author": "Bruce_Leeson",
-      "score": 3,
-      "created_utc": 1772794858.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1rmb0k6/free_ticket_for_jungle_cakes_tonight/"
-    },
-    {
-      "timestamp": "2026-03-06T19:02:45.696017",
-      "post_id": "1rmmq9w",
-      "subreddit": "glasgow",
-      "title": "Free ticket for 49th & Main tonight at King Tut's",
-      "author": "ThisIsFitz",
-      "score": 1,
-      "created_utc": 1772823413.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1rmmq9w/free_ticket_for_49th_main_tonight_at_king_tuts/"
-    },
-    {
       "timestamp": "2026-03-08T10:32:55.311321",
       "post_id": "1ro144n",
       "subreddit": "glasgowmarket",
@@ -129,6 +77,32 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1s64qwc/mandy_indiana/"
+    },
+    {
+      "timestamp": "2026-04-06T15:25:36.003536",
+      "post_id": "1se0nss",
+      "subreddit": "glasgow",
+      "title": "Searows tonight 7.00pm QMU",
+      "author": "shakingandwithdrawn",
+      "score": 2,
+      "created_utc": 1775486177.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1se0nss/searows_tonight_700pm_qmu/"
+    },
+    {
+      "timestamp": "2026-04-06T15:25:38.464803",
+      "post_id": "1se0oyu",
+      "subreddit": "glasgowmarket",
+      "title": "Searows tonight 7.00pm QMU",
+      "author": "shakingandwithdrawn",
+      "score": 1,
+      "created_utc": 1775486251.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1se0oyu/searows_tonight_700pm_qmu/"
     }
   ],
   "keywords_stats": {
@@ -145,8 +119,8 @@
       "last_match": "2026-01-21T09:46:38.814202"
     },
     "spare ticket": {
-      "count": 33,
-      "last_match": "2026-03-28T16:31:01.684153"
+      "count": 35,
+      "last_match": "2026-04-06T15:25:38.464740"
     },
     "giveaway": {
       "count": 3,
@@ -159,12 +133,12 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 69,
-      "last_match": "2026-03-28T16:31:01.684462"
+      "count": 70,
+      "last_match": "2026-04-06T15:25:36.003541"
     },
     "glasgowmarket": {
-      "count": 15,
-      "last_match": "2026-03-18T14:45:20.151718"
+      "count": 16,
+      "last_match": "2026-04-06T15:25:38.464809"
     }
   },
   "user_stats": {
@@ -443,15 +417,19 @@
     "Equivalent-Tone-8824": {
       "count": 1,
       "last_post": "2026-03-28T16:31:01.684467"
+    },
+    "shakingandwithdrawn": {
+      "count": 2,
+      "last_post": "2026-04-06T15:25:38.464812"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1109850,
-    "keyword_matches": 85,
+    "total_posts_checked": 1109950,
+    "keyword_matches": 87,
     "excluded_by_keywords": 648,
-    "excluded_by_user_quality": 120952,
+    "excluded_by_user_quality": 120969,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 19662
+    "excluded_by_deduplication": 19664
   },
-  "last_updated": "2026-04-06T14:30:13.746933"
+  "last_updated": "2026-04-06T15:25:41.182631"
 }
