@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-03-08T10:32:55.311321",
-      "post_id": "1ro144n",
-      "subreddit": "glasgowmarket",
-      "title": "1 Hot Mulligan ticket",
-      "author": "groznyjgrad",
-      "score": 1,
-      "created_utc": 1772964254.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1ro144n/1_hot_mulligan_ticket/"
-    },
-    {
       "timestamp": "2026-03-13T21:05:14.591287",
       "post_id": "1rsyz46",
       "subreddit": "glasgowmarket",
@@ -103,12 +90,25 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1se0oyu/searows_tonight_700pm_qmu/"
+    },
+    {
+      "timestamp": "2026-04-08T10:35:19.552619",
+      "post_id": "1sfomj0",
+      "subreddit": "glasgow",
+      "title": "Project Hail Mary IMAX ticket",
+      "author": "meranaamjeffhai",
+      "score": 4,
+      "created_utc": 1775642936.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1sfomj0/project_hail_mary_imax_ticket/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 23,
-      "last_match": "2026-03-13T21:05:14.590993"
+      "count": 24,
+      "last_match": "2026-04-08T10:35:19.552272"
     },
     "discount": {
       "count": 11,
@@ -133,8 +133,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 70,
-      "last_match": "2026-04-06T15:25:36.003541"
+      "count": 71,
+      "last_match": "2026-04-08T10:35:19.552625"
     },
     "glasgowmarket": {
       "count": 16,
@@ -421,15 +421,19 @@
     "shakingandwithdrawn": {
       "count": 2,
       "last_post": "2026-04-06T15:25:38.464812"
+    },
+    "meranaamjeffhai": {
+      "count": 1,
+      "last_post": "2026-04-08T10:35:19.552629"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1113450,
-    "keyword_matches": 87,
-    "excluded_by_keywords": 649,
-    "excluded_by_user_quality": 121556,
+    "total_posts_checked": 1113550,
+    "keyword_matches": 88,
+    "excluded_by_keywords": 650,
+    "excluded_by_user_quality": 121569,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 19721
+    "excluded_by_deduplication": 19722
   },
-  "last_updated": "2026-04-08T09:19:14.616911"
+  "last_updated": "2026-04-08T10:35:24.375932"
 }
