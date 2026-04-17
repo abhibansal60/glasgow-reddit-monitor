@@ -1,45 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-03-13T21:05:14.591287",
-      "post_id": "1rsyz46",
-      "subreddit": "glasgowmarket",
-      "title": "Free ticket for Eden at swg3",
-      "author": "i_sharpen_crayons",
-      "score": 1,
-      "created_utc": 1773434205.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1rsyz46/free_ticket_for_eden_at_swg3/"
-    },
-    {
-      "timestamp": "2026-03-14T10:25:21.642980",
-      "post_id": "1rtfejw",
-      "subreddit": "glasgowmarket",
-      "title": "Geese ticket 21st March",
-      "author": "camoletaco",
-      "score": 2,
-      "created_utc": 1773481999.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1rtfejw/geese_ticket_21st_march/"
-    },
-    {
-      "timestamp": "2026-03-18T14:45:20.151712",
-      "post_id": "1rx40qb",
-      "subreddit": "glasgowmarket",
-      "title": "Madra Salach ticket",
-      "author": "LocksmithOne5475",
-      "score": 2,
-      "created_utc": 1773840801.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1rx40qb/madra_salach_ticket/"
-    },
-    {
       "timestamp": "2026-03-28T10:29:06.102428",
       "post_id": "1s5w9jq",
       "subreddit": "glasgow",
@@ -103,6 +64,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1sfomj0/project_hail_mary_imax_ticket/"
+    },
+    {
+      "timestamp": "2026-04-17T18:35:31.378219",
+      "post_id": "1sk669e",
+      "subreddit": "glasgowmarket",
+      "title": "Geese Tickets",
+      "author": "Ok_Hunt5353",
+      "score": 0,
+      "created_utc": 1776073935.0,
+      "matched_keywords": [
+        "extra ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1sk669e/geese_tickets/"
     }
   ],
   "keywords_stats": {
@@ -127,8 +101,8 @@
       "last_match": "2026-02-12T20:50:27.168000"
     },
     "extra ticket": {
-      "count": 7,
-      "last_match": "2026-02-04T18:27:06.625225"
+      "count": 8,
+      "last_match": "2026-04-17T18:35:31.378127"
     }
   },
   "subreddit_stats": {
@@ -137,8 +111,8 @@
       "last_match": "2026-04-08T10:35:19.552625"
     },
     "glasgowmarket": {
-      "count": 16,
-      "last_match": "2026-04-06T15:25:38.464809"
+      "count": 17,
+      "last_match": "2026-04-17T18:35:31.378225"
     }
   },
   "user_stats": {
@@ -425,15 +399,19 @@
     "meranaamjeffhai": {
       "count": 1,
       "last_post": "2026-04-08T10:35:19.552629"
+    },
+    "Ok_Hunt5353": {
+      "count": 1,
+      "last_post": "2026-04-17T18:35:31.378229"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1131450,
-    "keyword_matches": 88,
+    "total_posts_checked": 1131550,
+    "keyword_matches": 89,
     "excluded_by_keywords": 676,
-    "excluded_by_user_quality": 123972,
+    "excluded_by_user_quality": 123979,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 19970
+    "excluded_by_deduplication": 19973
   },
-  "last_updated": "2026-04-17T17:32:53.545141"
+  "last_updated": "2026-04-17T18:35:33.217448"
 }
