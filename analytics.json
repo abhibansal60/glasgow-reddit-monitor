@@ -77,6 +77,19 @@
         "extra ticket"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1sk669e/geese_tickets/"
+    },
+    {
+      "timestamp": "2026-04-18T18:00:09.268888",
+      "post_id": "1sp489l",
+      "subreddit": "glasgow",
+      "title": "Giveaway: Single ticket Glasgow 4/20",
+      "author": "spoopygooch",
+      "score": 0,
+      "created_utc": 1776534268.0,
+      "matched_keywords": [
+        "giveaway"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1sp489l/giveaway_single_ticket_glasgow_420/"
     }
   ],
   "keywords_stats": {
@@ -97,8 +110,8 @@
       "last_match": "2026-04-06T15:25:38.464740"
     },
     "giveaway": {
-      "count": 3,
-      "last_match": "2026-02-12T20:50:27.168000"
+      "count": 4,
+      "last_match": "2026-04-18T18:00:09.268722"
     },
     "extra ticket": {
       "count": 8,
@@ -107,8 +120,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 71,
-      "last_match": "2026-04-08T10:35:19.552625"
+      "count": 72,
+      "last_match": "2026-04-18T18:00:09.268893"
     },
     "glasgowmarket": {
       "count": 17,
@@ -403,15 +416,19 @@
     "Ok_Hunt5353": {
       "count": 1,
       "last_post": "2026-04-17T18:35:31.378229"
+    },
+    "spoopygooch": {
+      "count": 1,
+      "last_post": "2026-04-18T18:00:09.268897"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1133750,
-    "keyword_matches": 89,
+    "total_posts_checked": 1133850,
+    "keyword_matches": 90,
     "excluded_by_keywords": 677,
-    "excluded_by_user_quality": 124161,
+    "excluded_by_user_quality": 124170,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 20058
+    "excluded_by_deduplication": 20061
   },
-  "last_updated": "2026-04-18T17:21:41.158023"
+  "last_updated": "2026-04-18T18:00:13.440974"
 }
