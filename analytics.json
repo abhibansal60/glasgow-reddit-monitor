@@ -90,6 +90,19 @@
         "giveaway"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1sp489l/giveaway_single_ticket_glasgow_420/"
+    },
+    {
+      "timestamp": "2026-04-21T13:20:50.379572",
+      "post_id": "1srl9i0",
+      "subreddit": "glasgow",
+      "title": "Gift voucher?",
+      "author": "Komorebi89",
+      "score": 1,
+      "created_utc": 1776772037.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1srl9i0/gift_voucher/"
     }
   ],
   "keywords_stats": {
@@ -102,8 +115,8 @@
       "last_match": "2026-03-28T10:29:06.102148"
     },
     "voucher": {
-      "count": 10,
-      "last_match": "2026-01-21T09:46:38.814202"
+      "count": 11,
+      "last_match": "2026-04-21T13:20:50.379337"
     },
     "spare ticket": {
       "count": 35,
@@ -120,8 +133,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 72,
-      "last_match": "2026-04-18T18:00:09.268893"
+      "count": 73,
+      "last_match": "2026-04-21T13:20:50.379578"
     },
     "glasgowmarket": {
       "count": 17,
@@ -420,15 +433,19 @@
     "spoopygooch": {
       "count": 1,
       "last_post": "2026-04-18T18:00:09.268897"
+    },
+    "Komorebi89": {
+      "count": 1,
+      "last_post": "2026-04-21T13:20:50.379582"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1139050,
-    "keyword_matches": 90,
+    "total_posts_checked": 1139150,
+    "keyword_matches": 91,
     "excluded_by_keywords": 684,
-    "excluded_by_user_quality": 124634,
+    "excluded_by_user_quality": 124642,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 20228
+    "excluded_by_deduplication": 20231
   },
-  "last_updated": "2026-04-21T11:45:43.834399"
+  "last_updated": "2026-04-21T13:20:55.443770"
 }
