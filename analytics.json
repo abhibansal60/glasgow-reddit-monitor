@@ -103,6 +103,19 @@
         "voucher"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1srl9i0/gift_voucher/"
+    },
+    {
+      "timestamp": "2026-04-26T15:56:51.405209",
+      "post_id": "1sw9zlj",
+      "subreddit": "glasgow",
+      "title": "Alex Cairnie resurfaces...",
+      "author": "LeRaven78",
+      "score": 8,
+      "created_utc": 1777215984.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1sw9zlj/alex_cairnie_resurfaces/"
     }
   ],
   "keywords_stats": {
@@ -111,8 +124,8 @@
       "last_match": "2026-04-08T10:35:19.552272"
     },
     "discount": {
-      "count": 11,
-      "last_match": "2026-03-28T10:29:06.102148"
+      "count": 12,
+      "last_match": "2026-04-26T15:56:51.404972"
     },
     "voucher": {
       "count": 11,
@@ -133,8 +146,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 73,
-      "last_match": "2026-04-21T13:20:50.379578"
+      "count": 74,
+      "last_match": "2026-04-26T15:56:51.405215"
     },
     "glasgowmarket": {
       "count": 17,
@@ -437,15 +450,19 @@
     "Komorebi89": {
       "count": 1,
       "last_post": "2026-04-21T13:20:50.379582"
+    },
+    "LeRaven78": {
+      "count": 1,
+      "last_post": "2026-04-26T15:56:51.405219"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1148450,
-    "keyword_matches": 91,
+    "total_posts_checked": 1148550,
+    "keyword_matches": 92,
     "excluded_by_keywords": 697,
-    "excluded_by_user_quality": 125325,
+    "excluded_by_user_quality": 125329,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 20481
+    "excluded_by_deduplication": 20484
   },
-  "last_updated": "2026-04-26T15:01:14.654873"
+  "last_updated": "2026-04-26T15:56:54.283596"
 }
