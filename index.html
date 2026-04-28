@@ -125,16 +125,16 @@
         <div class="header">
             <h1>🎫 Reddit Monitor Analytics</h1>
             <p>Monitoring r/glasgow & r/glasgowmarket for tickets and giveaways</p>
-            <p><small>Last updated: 2026-04-28 21:41:40</small></p>
+            <p><small>Last updated: 2026-04-28 22:38:32</small></p>
         </div>
 
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-number">9</div>
+                <div class="stat-number">8</div>
                 <div class="stat-label">Total Matches</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">1</div>
+                <div class="stat-number">2</div>
                 <div class="stat-label">Last 7 Days</div>
             </div>
             <div class="stat-card">
@@ -142,7 +142,7 @@
                 <div class="stat-label">Filter Efficiency</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">0.1</div>
+                <div class="stat-number">0.3</div>
                 <div class="stat-label">Daily Average</div>
             </div>
         </div>
@@ -171,6 +171,19 @@
 
         <div class="recent-matches">
             <h3>Recent Matches (Last 10)</h3>
+            
+            <div class="match-item">
+                <div class="match-title">
+                    <a href="https://reddit.com/r/glasgow/comments/1syfi8y/paddleboard_litter_pick/" target="_blank" style="text-decoration: none; color: inherit;">
+                        Paddleboard Litter Pick
+                    </a>
+                </div>
+                <div class="match-meta">
+                    r/glasgow • twentyminuteme • Score: 1 • 
+                    2026-04-28 22:38
+                </div>
+                <div><span class="match-keywords">giveaway</span></div>
+            </div>
             
             <div class="match-item">
                 <div class="match-title">
@@ -263,32 +276,6 @@
                 <div><span class="match-keywords">spare ticket</span></div>
             </div>
             
-            <div class="match-item">
-                <div class="match-title">
-                    <a href="https://reddit.com/r/glasgow/comments/1s64qwc/mandy_indiana/" target="_blank" style="text-decoration: none; color: inherit;">
-                        Mandy indiana
-                    </a>
-                </div>
-                <div class="match-meta">
-                    r/glasgow • Equivalent-Tone-8824 • Score: 1 • 
-                    2026-03-28 16:31
-                </div>
-                <div><span class="match-keywords">spare ticket</span></div>
-            </div>
-            
-            <div class="match-item">
-                <div class="match-title">
-                    <a href="https://reddit.com/r/glasgow/comments/1s5w9jq/shuffle_app_discount_on_eating_out_manchester/" target="_blank" style="text-decoration: none; color: inherit;">
-                        Shuffle app - discount on eating out - Manchester, Liverpool and Glasgow
-                    </a>
-                </div>
-                <div class="match-meta">
-                    r/glasgow • plantoneonmeplease • Score: 1 • 
-                    2026-03-28 10:29
-                </div>
-                <div><span class="match-keywords">discount</span></div>
-            </div>
-            
         </div>
 
         <div class="footer">
@@ -310,7 +297,7 @@
                 labels: ["03/30", "03/31", "04/01", "04/02", "04/03", "04/04", "04/05", "04/06", "04/07", "04/08", "04/09", "04/10", "04/11", "04/12", "04/13", "04/14", "04/15", "04/16", "04/17", "04/18", "04/19", "04/20", "04/21", "04/22", "04/23", "04/24", "04/25", "04/26", "04/27", "04/28"],
                 datasets: [{
                     label: 'Matches',
-                    data: [0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
+                    data: [0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1],
                     borderColor: '#667eea',
                     backgroundColor: 'rgba(102, 126, 234, 0.1)',
                     tension: 0.4,
@@ -344,7 +331,7 @@
                 labels: ["spare ticket", "free ticket", "discount", "voucher", "extra ticket", "giveaway"],
                 datasets: [{
                     label: 'Matches',
-                    data: [35, 24, 12, 11, 8, 4],
+                    data: [35, 24, 12, 11, 8, 5],
                     backgroundColor: 'rgba(102, 126, 234, 0.6)',
                     borderColor: '#667eea',
                     borderWidth: 1
@@ -376,7 +363,7 @@
             data: {
                 labels: ["r/glasgow", "r/glasgowmarket"],
                 datasets: [{
-                    data: [74, 17],
+                    data: [75, 17],
                     backgroundColor: ["#667eea", "#764ba2"],
                     borderWidth: 0
                 }]
@@ -400,7 +387,7 @@
                 labels: ["Keywords Matched", "Excluded by Keywords", "Excluded by User Quality", "Excluded by Score", "Excluded by Deduplication"],
                 datasets: [{
                     label: 'Count',
-                    data: [92, 701, 125512, 0, 20622],
+                    data: [93, 701, 125518, 0, 20625],
                     backgroundColor: [
                         'rgba(76, 175, 80, 0.6)',   // Keywords Matched - green
                         'rgba(255, 152, 0, 0.6)',   // Excluded by Keywords - orange  
