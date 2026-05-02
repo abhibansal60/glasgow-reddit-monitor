@@ -103,6 +103,19 @@
         "giveaway"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1syfi8y/paddleboard_litter_pick/"
+    },
+    {
+      "timestamp": "2026-05-02T13:47:17.478963",
+      "post_id": "1t1obcr",
+      "subreddit": "glasgow",
+      "title": "Buying a gift card for someone moving to Glasgow?",
+      "author": "Small_Piccolo3902",
+      "score": 6,
+      "created_utc": 1777724234.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1t1obcr/buying_a_gift_card_for_someone_moving_to_glasgow/"
     }
   ],
   "keywords_stats": {
@@ -115,8 +128,8 @@
       "last_match": "2026-04-26T15:56:51.404972"
     },
     "voucher": {
-      "count": 11,
-      "last_match": "2026-04-21T13:20:50.379337"
+      "count": 12,
+      "last_match": "2026-05-02T13:47:17.478699"
     },
     "spare ticket": {
       "count": 35,
@@ -133,8 +146,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 75,
-      "last_match": "2026-04-28T22:38:29.113019"
+      "count": 76,
+      "last_match": "2026-05-02T13:47:17.478971"
     },
     "glasgowmarket": {
       "count": 17,
@@ -445,15 +458,19 @@
     "twentyminuteme": {
       "count": 1,
       "last_post": "2026-04-28T22:38:29.113023"
+    },
+    "Small_Piccolo3902": {
+      "count": 1,
+      "last_post": "2026-05-02T13:47:17.478976"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1157250,
-    "keyword_matches": 93,
+    "total_posts_checked": 1157350,
+    "keyword_matches": 94,
     "excluded_by_keywords": 708,
-    "excluded_by_user_quality": 125952,
+    "excluded_by_user_quality": 125963,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 20811
+    "excluded_by_deduplication": 20815
   },
-  "last_updated": "2026-05-02T12:05:55.374725"
+  "last_updated": "2026-05-02T13:47:21.462025"
 }
