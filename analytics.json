@@ -142,6 +142,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1t3mhjv/anyone_want_to_join_me_for_6pm_show_at_st_lukes/"
+    },
+    {
+      "timestamp": "2026-05-06T06:44:19.835585",
+      "post_id": "1t546p4",
+      "subreddit": "glasgow",
+      "title": "Daily Chat - The Steamie - 06/05/26",
+      "author": "Veloglasgow",
+      "score": 2,
+      "created_utc": 1778046851.0,
+      "matched_keywords": [
+        "free entry"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1t546p4/daily_chat_the_steamie_060526/"
     }
   ],
   "keywords_stats": {
@@ -168,12 +181,16 @@
     "extra ticket": {
       "count": 8,
       "last_match": "2026-04-17T18:35:31.378127"
+    },
+    "free entry": {
+      "count": 1,
+      "last_match": "2026-05-06T06:44:19.835072"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 78,
-      "last_match": "2026-05-04T17:58:59.189960"
+      "count": 79,
+      "last_match": "2026-05-06T06:44:19.835593"
     },
     "glasgowmarket": {
       "count": 17,
@@ -370,8 +387,8 @@
       "last_post": "2026-01-02T11:38:02.036834"
     },
     "Veloglasgow": {
-      "count": 1,
-      "last_post": "2026-01-02T21:42:21.575365"
+      "count": 2,
+      "last_post": "2026-05-06T06:44:19.835598"
     },
     "shes-thunderstorms": {
       "count": 1,
@@ -499,12 +516,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1163150,
-    "keyword_matches": 96,
+    "total_posts_checked": 1163250,
+    "keyword_matches": 97,
     "excluded_by_keywords": 715,
-    "excluded_by_user_quality": 126646,
+    "excluded_by_user_quality": 126659,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 21018
+    "excluded_by_deduplication": 21021
   },
-  "last_updated": "2026-05-06T04:03:57.941674"
+  "last_updated": "2026-05-06T06:44:23.584271"
 }
