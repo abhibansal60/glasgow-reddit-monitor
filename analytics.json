@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-04-08T10:35:19.552619",
-      "post_id": "1sfomj0",
-      "subreddit": "glasgow",
-      "title": "Project Hail Mary IMAX ticket",
-      "author": "meranaamjeffhai",
-      "score": 4,
-      "created_utc": 1775642936.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1sfomj0/project_hail_mary_imax_ticket/"
-    },
-    {
       "timestamp": "2026-04-17T18:35:31.378219",
       "post_id": "1sk669e",
       "subreddit": "glasgowmarket",
@@ -142,12 +129,25 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1t5kz8x/joshua_burnside_free_ticket/"
+    },
+    {
+      "timestamp": "2026-05-10T17:49:55.589932",
+      "post_id": "1t9ddmg",
+      "subreddit": "glasgow",
+      "title": "Free ticket for Joey Valence & Brae at the Barrowlands tonight",
+      "author": "BenderRodrigezz",
+      "score": 2,
+      "created_utc": 1778434584.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1t9ddmg/free_ticket_for_joey_valence_brae_at_the/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 25,
-      "last_match": "2026-05-06T19:00:08.563108"
+      "count": 26,
+      "last_match": "2026-05-10T17:49:55.589627"
     },
     "discount": {
       "count": 13,
@@ -176,8 +176,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 80,
-      "last_match": "2026-05-06T19:00:08.563210"
+      "count": 81,
+      "last_match": "2026-05-10T17:49:55.589937"
     },
     "glasgowmarket": {
       "count": 17,
@@ -504,15 +504,19 @@
     "gd987": {
       "count": 1,
       "last_post": "2026-05-06T19:00:08.563214"
+    },
+    "BenderRodrigezz": {
+      "count": 1,
+      "last_post": "2026-05-10T17:49:55.589941"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1169900,
-    "keyword_matches": 98,
+    "total_posts_checked": 1170000,
+    "keyword_matches": 99,
     "excluded_by_keywords": 726,
-    "excluded_by_user_quality": 127372,
+    "excluded_by_user_quality": 127383,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 21191
+    "excluded_by_deduplication": 21193
   },
-  "last_updated": "2026-05-10T16:52:16.129237"
+  "last_updated": "2026-05-10T17:49:59.739916"
 }
