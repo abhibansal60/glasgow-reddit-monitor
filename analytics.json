@@ -142,6 +142,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1t9ddmg/free_ticket_for_joey_valence_brae_at_the/"
+    },
+    {
+      "timestamp": "2026-05-12T13:24:49.469519",
+      "post_id": "1tb0jeo",
+      "subreddit": "glasgow",
+      "title": "Matteo Mancuso 13/05/26",
+      "author": "sc0toma",
+      "score": 2,
+      "created_utc": 1778589896.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1tb0jeo/matteo_mancuso_130526/"
     }
   ],
   "keywords_stats": {
@@ -158,8 +171,8 @@
       "last_match": "2026-05-02T13:47:17.478699"
     },
     "spare ticket": {
-      "count": 36,
-      "last_match": "2026-05-04T17:58:59.189883"
+      "count": 37,
+      "last_match": "2026-05-12T13:24:49.469403"
     },
     "giveaway": {
       "count": 5,
@@ -176,8 +189,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 81,
-      "last_match": "2026-05-10T17:49:55.589937"
+      "count": 82,
+      "last_match": "2026-05-12T13:24:49.469524"
     },
     "glasgowmarket": {
       "count": 17,
@@ -508,15 +521,19 @@
     "BenderRodrigezz": {
       "count": 1,
       "last_post": "2026-05-10T17:49:55.589941"
+    },
+    "sc0toma": {
+      "count": 1,
+      "last_post": "2026-05-12T13:24:49.469527"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1171950,
-    "keyword_matches": 99,
+    "total_posts_checked": 1172050,
+    "keyword_matches": 100,
     "excluded_by_keywords": 730,
-    "excluded_by_user_quality": 127586,
+    "excluded_by_user_quality": 127596,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 21231
+    "excluded_by_deduplication": 21233
   },
-  "last_updated": "2026-05-12T11:33:36.966311"
+  "last_updated": "2026-05-12T13:24:53.626288"
 }
