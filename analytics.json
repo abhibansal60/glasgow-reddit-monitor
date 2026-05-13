@@ -155,6 +155,19 @@
         "spare ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1tb0jeo/matteo_mancuso_130526/"
+    },
+    {
+      "timestamp": "2026-05-13T08:16:10.453481",
+      "post_id": "1tbqbnt",
+      "subreddit": "glasgow",
+      "title": "Daily Chat & What's On - The OG Steamie - 13/05/26",
+      "author": "Veloglasgow",
+      "score": 1,
+      "created_utc": 1778650320.0,
+      "matched_keywords": [
+        "free entry"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1tbqbnt/daily_chat_whats_on_the_og_steamie_130526/"
     }
   ],
   "keywords_stats": {
@@ -183,14 +196,14 @@
       "last_match": "2026-04-17T18:35:31.378127"
     },
     "free entry": {
-      "count": 1,
-      "last_match": "2026-05-06T06:44:19.835072"
+      "count": 2,
+      "last_match": "2026-05-13T08:16:10.452551"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 82,
-      "last_match": "2026-05-12T13:24:49.469524"
+      "count": 83,
+      "last_match": "2026-05-13T08:16:10.453488"
     },
     "glasgowmarket": {
       "count": 17,
@@ -387,8 +400,8 @@
       "last_post": "2026-01-02T11:38:02.036834"
     },
     "Veloglasgow": {
-      "count": 2,
-      "last_post": "2026-05-06T06:44:19.835598"
+      "count": 3,
+      "last_post": "2026-05-13T08:16:10.453492"
     },
     "shes-thunderstorms": {
       "count": 1,
@@ -528,12 +541,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1172850,
-    "keyword_matches": 100,
+    "total_posts_checked": 1172950,
+    "keyword_matches": 101,
     "excluded_by_keywords": 732,
-    "excluded_by_user_quality": 127673,
+    "excluded_by_user_quality": 127683,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 21249
+    "excluded_by_deduplication": 21251
   },
-  "last_updated": "2026-05-13T05:29:42.773567"
+  "last_updated": "2026-05-13T08:16:13.170733"
 }
