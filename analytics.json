@@ -1,32 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-04-17T18:35:31.378219",
-      "post_id": "1sk669e",
-      "subreddit": "glasgowmarket",
-      "title": "Geese Tickets",
-      "author": "Ok_Hunt5353",
-      "score": 0,
-      "created_utc": 1776073935.0,
-      "matched_keywords": [
-        "extra ticket"
-      ],
-      "url": "https://reddit.com/r/glasgowmarket/comments/1sk669e/geese_tickets/"
-    },
-    {
-      "timestamp": "2026-04-18T18:00:09.268888",
-      "post_id": "1sp489l",
-      "subreddit": "glasgow",
-      "title": "Giveaway: Single ticket Glasgow 4/20",
-      "author": "spoopygooch",
-      "score": 0,
-      "created_utc": 1776534268.0,
-      "matched_keywords": [
-        "giveaway"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1sp489l/giveaway_single_ticket_glasgow_420/"
-    },
-    {
       "timestamp": "2026-04-21T13:20:50.379572",
       "post_id": "1srl9i0",
       "subreddit": "glasgow",
@@ -168,6 +142,19 @@
         "free entry"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1tbqbnt/daily_chat_whats_on_the_og_steamie_130526/"
+    },
+    {
+      "timestamp": "2026-05-21T08:20:47.550915",
+      "post_id": "1tjb2ls",
+      "subreddit": "glasgow",
+      "title": "Daily Chat & What's On - The OG Steamie - 21/05/26",
+      "author": "Veloglasgow",
+      "score": 3,
+      "created_utc": 1779342065.0,
+      "matched_keywords": [
+        "free entry"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1tjb2ls/daily_chat_whats_on_the_og_steamie_210526/"
     }
   ],
   "keywords_stats": {
@@ -196,14 +183,14 @@
       "last_match": "2026-04-17T18:35:31.378127"
     },
     "free entry": {
-      "count": 2,
-      "last_match": "2026-05-13T08:16:10.452551"
+      "count": 3,
+      "last_match": "2026-05-21T08:20:47.550094"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 83,
-      "last_match": "2026-05-13T08:16:10.453488"
+      "count": 84,
+      "last_match": "2026-05-21T08:20:47.550920"
     },
     "glasgowmarket": {
       "count": 17,
@@ -400,8 +387,8 @@
       "last_post": "2026-01-02T11:38:02.036834"
     },
     "Veloglasgow": {
-      "count": 3,
-      "last_post": "2026-05-13T08:16:10.453492"
+      "count": 4,
+      "last_post": "2026-05-21T08:20:47.550923"
     },
     "shes-thunderstorms": {
       "count": 1,
@@ -541,12 +528,12 @@
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1182350,
-    "keyword_matches": 101,
+    "total_posts_checked": 1182450,
+    "keyword_matches": 102,
     "excluded_by_keywords": 752,
-    "excluded_by_user_quality": 128690,
+    "excluded_by_user_quality": 128703,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 21467
+    "excluded_by_deduplication": 21469
   },
-  "last_updated": "2026-05-21T04:42:56.254411"
+  "last_updated": "2026-05-21T08:20:50.743792"
 }
