@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-04-21T13:20:50.379572",
-      "post_id": "1srl9i0",
-      "subreddit": "glasgow",
-      "title": "Gift voucher?",
-      "author": "Komorebi89",
-      "score": 1,
-      "created_utc": 1776772037.0,
-      "matched_keywords": [
-        "voucher"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1srl9i0/gift_voucher/"
-    },
-    {
       "timestamp": "2026-04-26T15:56:51.405209",
       "post_id": "1sw9zlj",
       "subreddit": "glasgow",
@@ -155,6 +142,19 @@
         "free entry"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1tjb2ls/daily_chat_whats_on_the_og_steamie_210526/"
+    },
+    {
+      "timestamp": "2026-05-22T20:41:20.572815",
+      "post_id": "1tktxea",
+      "subreddit": "glasgow",
+      "title": "Cheapest place for booze",
+      "author": "Idontlikemozzarella",
+      "score": 0,
+      "created_utc": 1779479521.0,
+      "matched_keywords": [
+        "free entry"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1tktxea/cheapest_place_for_booze/"
     }
   ],
   "keywords_stats": {
@@ -183,14 +183,14 @@
       "last_match": "2026-04-17T18:35:31.378127"
     },
     "free entry": {
-      "count": 3,
-      "last_match": "2026-05-21T08:20:47.550094"
+      "count": 4,
+      "last_match": "2026-05-22T20:41:20.572740"
     }
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 84,
-      "last_match": "2026-05-21T08:20:47.550920"
+      "count": 85,
+      "last_match": "2026-05-22T20:41:20.572822"
     },
     "glasgowmarket": {
       "count": 17,
@@ -525,15 +525,19 @@
     "sc0toma": {
       "count": 1,
       "last_post": "2026-05-12T13:24:49.469527"
+    },
+    "Idontlikemozzarella": {
+      "count": 1,
+      "last_post": "2026-05-22T20:41:20.572825"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1183850,
-    "keyword_matches": 102,
+    "total_posts_checked": 1183950,
+    "keyword_matches": 103,
     "excluded_by_keywords": 757,
-    "excluded_by_user_quality": 128855,
+    "excluded_by_user_quality": 128865,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 21513
+    "excluded_by_deduplication": 21517
   },
-  "last_updated": "2026-05-22T18:54:48.779963"
+  "last_updated": "2026-05-22T20:41:25.331048"
 }
