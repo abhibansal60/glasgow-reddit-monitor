@@ -155,12 +155,25 @@
         "free entry"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1tktxea/cheapest_place_for_booze/"
+    },
+    {
+      "timestamp": "2026-05-23T18:43:32.853192",
+      "post_id": "1tlof2r",
+      "subreddit": "glasgow",
+      "title": "Pinkpantheress",
+      "author": "nimm0n",
+      "score": 3,
+      "created_utc": 1779561400.0,
+      "matched_keywords": [
+        "free ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1tlof2r/pinkpantheress/"
     }
   ],
   "keywords_stats": {
     "free ticket": {
-      "count": 26,
-      "last_match": "2026-05-10T17:49:55.589627"
+      "count": 27,
+      "last_match": "2026-05-23T18:43:32.852865"
     },
     "discount": {
       "count": 13,
@@ -189,8 +202,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 85,
-      "last_match": "2026-05-22T20:41:20.572822"
+      "count": 86,
+      "last_match": "2026-05-23T18:43:32.853198"
     },
     "glasgowmarket": {
       "count": 17,
@@ -529,15 +542,19 @@
     "Idontlikemozzarella": {
       "count": 1,
       "last_post": "2026-05-22T20:41:20.572825"
+    },
+    "nimm0n": {
+      "count": 1,
+      "last_post": "2026-05-23T18:43:32.853202"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1185250,
-    "keyword_matches": 103,
+    "total_posts_checked": 1185350,
+    "keyword_matches": 104,
     "excluded_by_keywords": 758,
-    "excluded_by_user_quality": 129007,
+    "excluded_by_user_quality": 129018,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 21580
+    "excluded_by_deduplication": 21585
   },
-  "last_updated": "2026-05-23T17:42:52.905259"
+  "last_updated": "2026-05-23T18:43:38.259447"
 }
