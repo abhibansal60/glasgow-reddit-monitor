@@ -168,6 +168,19 @@
         "free ticket"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1tlof2r/pinkpantheress/"
+    },
+    {
+      "timestamp": "2026-05-26T10:37:00.426743",
+      "post_id": "1tnzeql",
+      "subreddit": "glasgow",
+      "title": "Potentially moving to Dunoon - thoughts?",
+      "author": "Particular-Lime1651",
+      "score": 26,
+      "created_utc": 1779779764.0,
+      "matched_keywords": [
+        "discount"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1tnzeql/potentially_moving_to_dunoon_thoughts/"
     }
   ],
   "keywords_stats": {
@@ -176,8 +189,8 @@
       "last_match": "2026-05-23T18:43:32.852865"
     },
     "discount": {
-      "count": 13,
-      "last_match": "2026-05-03T08:25:03.425794"
+      "count": 14,
+      "last_match": "2026-05-26T10:37:00.426549"
     },
     "voucher": {
       "count": 12,
@@ -202,8 +215,8 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 86,
-      "last_match": "2026-05-23T18:43:32.853198"
+      "count": 87,
+      "last_match": "2026-05-26T10:37:00.426753"
     },
     "glasgowmarket": {
       "count": 17,
@@ -546,15 +559,19 @@
     "nimm0n": {
       "count": 1,
       "last_post": "2026-05-23T18:43:32.853202"
+    },
+    "Particular-Lime1651": {
+      "count": 1,
+      "last_post": "2026-05-26T10:37:00.426758"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1188550,
-    "keyword_matches": 104,
+    "total_posts_checked": 1188650,
+    "keyword_matches": 105,
     "excluded_by_keywords": 760,
-    "excluded_by_user_quality": 129463,
+    "excluded_by_user_quality": 129479,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 21715
+    "excluded_by_deduplication": 21719
   },
-  "last_updated": "2026-05-26T06:43:52.353220"
+  "last_updated": "2026-05-26T10:37:06.195151"
 }
