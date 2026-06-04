@@ -1,71 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-04-26T15:56:51.405209",
-      "post_id": "1sw9zlj",
-      "subreddit": "glasgow",
-      "title": "Alex Cairnie resurfaces...",
-      "author": "LeRaven78",
-      "score": 8,
-      "created_utc": 1777215984.0,
-      "matched_keywords": [
-        "discount"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1sw9zlj/alex_cairnie_resurfaces/"
-    },
-    {
-      "timestamp": "2026-04-28T22:38:29.113015",
-      "post_id": "1syfi8y",
-      "subreddit": "glasgow",
-      "title": "Paddleboard Litter Pick",
-      "author": "twentyminuteme",
-      "score": 1,
-      "created_utc": 1777413176.0,
-      "matched_keywords": [
-        "giveaway"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1syfi8y/paddleboard_litter_pick/"
-    },
-    {
-      "timestamp": "2026-05-02T13:47:17.478963",
-      "post_id": "1t1obcr",
-      "subreddit": "glasgow",
-      "title": "Buying a gift card for someone moving to Glasgow?",
-      "author": "Small_Piccolo3902",
-      "score": 6,
-      "created_utc": 1777724234.0,
-      "matched_keywords": [
-        "voucher"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1t1obcr/buying_a_gift_card_for_someone_moving_to_glasgow/"
-    },
-    {
-      "timestamp": "2026-05-03T08:25:03.426063",
-      "post_id": "1t2fil7",
-      "subreddit": "glasgow",
-      "title": "Caledonian Sleeper Discount",
-      "author": "j-b-i-r-d",
-      "score": 2,
-      "created_utc": 1777796067.0,
-      "matched_keywords": [
-        "discount"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1t2fil7/caledonian_sleeper_discount/"
-    },
-    {
-      "timestamp": "2026-05-04T17:58:59.189955",
-      "post_id": "1t3mhjv",
-      "subreddit": "glasgow",
-      "title": "Anyone want to join me for 6pm show at St Luke\u2019s tonight? Spare ticket",
-      "author": "oknotuk",
-      "score": 5,
-      "created_utc": 1777911562.0,
-      "matched_keywords": [
-        "spare ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1t3mhjv/anyone_want_to_join_me_for_6pm_show_at_st_lukes/"
-    },
-    {
       "timestamp": "2026-05-06T06:44:19.835585",
       "post_id": "1t546p4",
       "subreddit": "glasgow",
@@ -181,6 +116,32 @@
         "discount"
       ],
       "url": "https://reddit.com/r/glasgow/comments/1tnzeql/potentially_moving_to_dunoon_thoughts/"
+    },
+    {
+      "timestamp": "2026-06-04T13:47:24.218246",
+      "post_id": "1twleak",
+      "subreddit": "glasgow",
+      "title": "Gig at Hampden",
+      "author": "SixShot26",
+      "score": 4,
+      "created_utc": 1780574026.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgow/comments/1twleak/gig_at_hampden/"
+    },
+    {
+      "timestamp": "2026-06-04T13:47:26.921584",
+      "post_id": "1twls99",
+      "subreddit": "glasgowmarket",
+      "title": "Anyone interested in \u00a380 voucher for participating in a study?",
+      "author": "Avodaddi",
+      "score": 2,
+      "created_utc": 1780575021.0,
+      "matched_keywords": [
+        "voucher"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1twls99/anyone_interested_in_80_voucher_for_participating/"
     }
   ],
   "keywords_stats": {
@@ -193,12 +154,12 @@
       "last_match": "2026-05-26T10:37:00.426549"
     },
     "voucher": {
-      "count": 12,
-      "last_match": "2026-05-02T13:47:17.478699"
+      "count": 13,
+      "last_match": "2026-06-04T13:47:26.921532"
     },
     "spare ticket": {
-      "count": 37,
-      "last_match": "2026-05-12T13:24:49.469403"
+      "count": 38,
+      "last_match": "2026-06-04T13:47:24.218119"
     },
     "giveaway": {
       "count": 5,
@@ -215,12 +176,12 @@
   },
   "subreddit_stats": {
     "glasgow": {
-      "count": 87,
-      "last_match": "2026-05-26T10:37:00.426753"
+      "count": 88,
+      "last_match": "2026-06-04T13:47:24.218251"
     },
     "glasgowmarket": {
-      "count": 17,
-      "last_match": "2026-04-17T18:35:31.378225"
+      "count": 18,
+      "last_match": "2026-06-04T13:47:26.921590"
     }
   },
   "user_stats": {
@@ -563,15 +524,23 @@
     "Particular-Lime1651": {
       "count": 1,
       "last_post": "2026-05-26T10:37:00.426758"
+    },
+    "SixShot26": {
+      "count": 1,
+      "last_post": "2026-06-04T13:47:24.218255"
+    },
+    "Avodaddi": {
+      "count": 1,
+      "last_post": "2026-06-04T13:47:26.921594"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1196750,
-    "keyword_matches": 105,
-    "excluded_by_keywords": 787,
-    "excluded_by_user_quality": 130564,
+    "total_posts_checked": 1196850,
+    "keyword_matches": 107,
+    "excluded_by_keywords": 788,
+    "excluded_by_user_quality": 130576,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 22154
+    "excluded_by_deduplication": 22158
   },
-  "last_updated": "2026-06-04T10:36:59.356887"
+  "last_updated": "2026-06-04T13:47:30.817344"
 }
