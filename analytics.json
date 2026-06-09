@@ -1,32 +1,6 @@
 {
   "matches": [
     {
-      "timestamp": "2026-05-06T06:44:19.835585",
-      "post_id": "1t546p4",
-      "subreddit": "glasgow",
-      "title": "Daily Chat - The Steamie - 06/05/26",
-      "author": "Veloglasgow",
-      "score": 2,
-      "created_utc": 1778046851.0,
-      "matched_keywords": [
-        "free entry"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1t546p4/daily_chat_the_steamie_060526/"
-    },
-    {
-      "timestamp": "2026-05-06T19:00:08.563205",
-      "post_id": "1t5kz8x",
-      "subreddit": "glasgow",
-      "title": "Joshua Burnside free ticket",
-      "author": "gd987",
-      "score": 2,
-      "created_utc": 1778091087.0,
-      "matched_keywords": [
-        "free ticket"
-      ],
-      "url": "https://reddit.com/r/glasgow/comments/1t5kz8x/joshua_burnside_free_ticket/"
-    },
-    {
       "timestamp": "2026-05-10T17:49:55.589932",
       "post_id": "1t9ddmg",
       "subreddit": "glasgow",
@@ -142,6 +116,19 @@
         "voucher"
       ],
       "url": "https://reddit.com/r/glasgowmarket/comments/1twls99/anyone_interested_in_80_voucher_for_participating/"
+    },
+    {
+      "timestamp": "2026-06-09T08:49:52.191505",
+      "post_id": "1u0wv2s",
+      "subreddit": "glasgowmarket",
+      "title": "chinaskis scotland vs haiti",
+      "author": "Competitive_Main_475",
+      "score": 2,
+      "created_utc": 1780985840.0,
+      "matched_keywords": [
+        "spare ticket"
+      ],
+      "url": "https://reddit.com/r/glasgowmarket/comments/1u0wv2s/chinaskis_scotland_vs_haiti/"
     }
   ],
   "keywords_stats": {
@@ -158,8 +145,8 @@
       "last_match": "2026-06-04T13:47:26.921532"
     },
     "spare ticket": {
-      "count": 38,
-      "last_match": "2026-06-04T13:47:24.218119"
+      "count": 39,
+      "last_match": "2026-06-09T08:49:52.191383"
     },
     "giveaway": {
       "count": 5,
@@ -180,8 +167,8 @@
       "last_match": "2026-06-04T13:47:24.218251"
     },
     "glasgowmarket": {
-      "count": 18,
-      "last_match": "2026-06-04T13:47:26.921590"
+      "count": 19,
+      "last_match": "2026-06-09T08:49:52.191510"
     }
   },
   "user_stats": {
@@ -532,15 +519,19 @@
     "Avodaddi": {
       "count": 1,
       "last_post": "2026-06-04T13:47:26.921594"
+    },
+    "Competitive_Main_475": {
+      "count": 1,
+      "last_post": "2026-06-09T08:49:52.191514"
     }
   },
   "filter_stats": {
-    "total_posts_checked": 1201850,
-    "keyword_matches": 107,
-    "excluded_by_keywords": 800,
-    "excluded_by_user_quality": 131382,
+    "total_posts_checked": 1201950,
+    "keyword_matches": 108,
+    "excluded_by_keywords": 801,
+    "excluded_by_user_quality": 131397,
     "excluded_by_score": 0,
-    "excluded_by_deduplication": 22306
+    "excluded_by_deduplication": 22308
   },
-  "last_updated": "2026-06-09T05:43:36.319213"
+  "last_updated": "2026-06-09T08:49:54.227739"
 }
